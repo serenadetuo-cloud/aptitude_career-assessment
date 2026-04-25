@@ -139,7 +139,7 @@ export const ResultPage: React.FC = () => {
           <div className="absolute top-40 left-[-10%] w-72 h-72 bg-purple-600/20 rounded-full blur-[100px]" />
 
           {/* Header Info */}
-          <div className="w-full max-w-2xl mx-auto flex justify-between items-center mb-12 relative z-10">
+          <div className="w-full max-w-2xl mx-auto flex justify-between items-center mb-8 relative z-10">
             <div className="text-white">
               <p className="text-[10px] font-black tracking-widest text-indigo-400 uppercase mb-1">Career Navigator</p>
               <div className="flex items-center gap-1.5 font-black text-xs text-white">
@@ -430,7 +430,7 @@ export const ResultPage: React.FC = () => {
           </div>
 
           {/* Pros */}
-          <div className="mb-12 hide-in-export">
+          <div className="mb-8 hide-in-export">
             <div className="flex items-center gap-3 mb-6 bg-white/5 py-3 px-5 rounded-2xl border border-white/10">
               <div className="w-10 h-10 rounded-2xl bg-emerald-600/20 flex items-center justify-center text-emerald-400 border border-emerald-500/30">
                 <CheckCircle2 size={20} />
@@ -458,7 +458,7 @@ export const ResultPage: React.FC = () => {
           </div>
 
           {/* Cons */}
-          <div className="mb-12 hide-in-export">
+          <div className="mb-8 hide-in-export">
             <div className="flex items-center gap-3 mb-6 bg-white/5 py-3 px-5 rounded-2xl border border-white/10">
               <div className="w-10 h-10 rounded-2xl bg-amber-600/20 flex items-center justify-center text-amber-400 border border-amber-500/30">
                 <Lightbulb size={20} />
@@ -490,7 +490,7 @@ export const ResultPage: React.FC = () => {
           </div>
 
           {/* Action Plan */}
-          <div className="mb-12 hide-in-export">
+          <div className="mb-8 hide-in-export">
             <div className="flex items-center gap-3 mb-6 bg-white/5 py-3 px-5 rounded-2xl border border-white/10">
               <div className="w-10 h-10 rounded-2xl bg-indigo-600 flex items-center justify-center text-white">
                 <Trophy size={20} />
@@ -590,7 +590,7 @@ export const ResultPage: React.FC = () => {
       <div className="px-6 py-6 max-w-2xl mx-auto">
         <button
           onClick={reset}
-          className="w-full bg-transparent border border-white/20 py-4 rounded-[24px] font-medium text-gray-400 hover:text-white hover:border-white/30 transition-all mb-4"
+          className="w-full bg-white/5 border border-white/10 py-4 rounded-[24px] font-medium text-gray-400 hover:text-white hover:bg-white/10 transition-all mb-4"
         >
           重新测评
         </button>
