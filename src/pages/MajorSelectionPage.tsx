@@ -35,7 +35,7 @@ export const MajorSelectionPage: React.FC = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="min-h-screen bg-[#0F172A] flex items-center justify-center p-4 relative overflow-hidden"
+      className="min-h-screen bg-[#0F172A] flex flex-col justify-center p-4 py-2 relative overflow-hidden"
     >
       {/* Background gradient effects */}
       <div className="absolute top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/20 rounded-full blur-3xl" />

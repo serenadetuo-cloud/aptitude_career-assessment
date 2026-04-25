@@ -341,7 +341,7 @@ export const ResultPage: React.FC = () => {
                           </div>
                         </div>
                       </div>
-                      <div className={`w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 transition-all ${isExpanded ? 'bg-indigo-600 text-white rotate-90' : ''}`}>
+                      <div className={`w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 transition-all ${isExpanded ? 'bg-indigo-600 text-white rotate-90' : ''} ${i === 0 ? 'hidden' : ''}`}>
                         <ChevronRight size={16} />
                       </div>
                     </div>
