@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 防止页面加载时闪白 */
+html {
+  background-color: #0F172A;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #0F172A;
+}
+
+/* 导出模式样式 */
+.export-mode .hide-in-export {
+  display: none !important;
+}
+
+.export-mode .show-in-export {
+  display: block !important;
+}
+
+/* 导出模式下强制展开第一个岗位 */
+.export-mode [data-job-index="0"] .job-details {
+  display: block !important;
+  height: auto !important;
+  opacity: 1 !important;
 }
