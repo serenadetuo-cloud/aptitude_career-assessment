@@ -26,3 +26,24 @@ body {
   height: auto !important;
   opacity: 1 !important;
 }
+
+/* 移动端禁用hover效果 */
+@media (hover: none) and (pointer: coarse) {
+  .group:hover {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: rgb(209, 213, 219) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .group:hover .group-hover\:border-indigo-400 {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  .group:hover .group-hover\:w-2\.5 {
+    width: 0 !important;
+  }
+  
+  .group:hover .group-hover\:h-2\.5 {
+    height: 0 !important;
+  }
+}
