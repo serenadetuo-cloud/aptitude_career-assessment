@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aptitude_career-assessment/static/css/main.6e565c62.css",
-    "main.js": "/aptitude_career-assessment/static/js/main.03972f87.js",
+    "main.css": "/aptitude_career-assessment/static/css/main.9697bebd.css",
+    "main.js": "/aptitude_career-assessment/static/js/main.afd96cbf.js",
     "static/js/453.5a01baf2.chunk.js": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js",
     "index.html": "/aptitude_career-assessment/index.html",
-    "main.6e565c62.css.map": "/aptitude_career-assessment/static/css/main.6e565c62.css.map",
-    "main.03972f87.js.map": "/aptitude_career-assessment/static/js/main.03972f87.js.map",
+    "main.9697bebd.css.map": "/aptitude_career-assessment/static/css/main.9697bebd.css.map",
+    "main.afd96cbf.js.map": "/aptitude_career-assessment/static/js/main.afd96cbf.js.map",
     "453.5a01baf2.chunk.js.map": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e565c62.css",
-    "static/js/main.03972f87.js"
+    "static/css/main.9697bebd.css",
+    "static/js/main.afd96cbf.js"
   ]
 }
