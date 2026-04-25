@@ -302,7 +302,7 @@ export const ResultPage: React.FC = () => {
         {/* Main Content */}
         <div className="relative z-10 px-6 pt-12 pb-8 max-w-2xl mx-auto">
           {/* Job Recommendations */}
-          <div className="mb-12">
+          <div className="mb-8">
             <div className="flex items-center gap-3 mb-8 bg-white/5 py-3 px-5 rounded-2xl border border-white/10">
               <div className="w-10 h-10 rounded-2xl bg-indigo-600/20 flex items-center justify-center text-indigo-400 border border-indigo-500/30">
                 <Trophy size={20} />
