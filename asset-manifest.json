@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aptitude_career-assessment/static/css/main.44638f1b.css",
+    "main.js": "/aptitude_career-assessment/static/js/main.1d1ca135.js",
+    "static/js/453.5a01baf2.chunk.js": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js",
+    "index.html": "/aptitude_career-assessment/index.html",
+    "main.44638f1b.css.map": "/aptitude_career-assessment/static/css/main.44638f1b.css.map",
+    "main.1d1ca135.js.map": "/aptitude_career-assessment/static/js/main.1d1ca135.js.map",
+    "453.5a01baf2.chunk.js.map": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44638f1b.css",
+    "static/js/main.1d1ca135.js"
+  ]
+}

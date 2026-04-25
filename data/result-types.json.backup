@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "version": "1.0",
+    "assessmentName": "行业岗位专业测评",
+    "totalTypes": 14,
+    "lastUpdated": "2026-04-25"
+  },
+  "resultTypes": [
+    {
+      "typeId": "product_alchemist",
+      "typeName": "产品炼金术师",
+      "category": "商业服务",
+      "coreTraits": [
+        "用户思维强",
+        "逻辑清晰",
+        "协调能力强"
+      ],
+      "typicalProfile": "你是那种能把用户的模糊需求变成清晰方案的人。你享受从 0 到 1 设计产品的过程，也擅长平衡用户需求、技术可行性和商业价值。",
+      "strengths": [
+        {
+          "title": "用户思维强，能洞察需求",
+          "description": "你擅长站在用户角度思考问题，能快速理解用户的真实需求和痛点。",
+          "example": "当用户说\"我想要一个更快的搜索\"，你能挖掘出背后真正的问题是\"找不到想要的内容\"，然后设计出智能推荐功能。"
+        },
+        {
+          "title": "逻辑清晰，能拆解问题",
+          "description": "你能把复杂的业务问题拆解成清晰的产品方案，让技术团队知道该做什么。",
+          "example": "面对\"提升用户留存\"这个模糊目标，你能拆解成具体的功能点：新手引导优化、核心功能提醒、个性化推荐等，每个都有明确的数据指标。"
+        },
+        {
+          "title": "协调能力强，能推动落地",
+          "description": "你善于在不同团队之间沟通协调，推动产品从想法变成现实。",
+          "example": "当技术说\"这个功能实现不了\"，运营说\"必须下周上线\"，你能找到平衡点：先做MVP版本快速验证，再根据数据决定是否投入更多资源。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "title": "容易陷入完美方案陷阱",
+          "description": "有时候会过度追求完美的产品方案，导致上线时间延迟，错过最佳窗口期。",
+          "improvements": [
+            "学会先上线再优化的思维方式",
+            "设定明确的时间节点，用MVP思维快速验证",
+            "记住：完成比完美更重要"
+          ]
+        },
+        {
+          "title": "不太擅长处理感性问题",
+          "description": "过于依赖数据和逻辑，在需要感性判断的场景（如品牌调性、情感化设计）可能不够敏感。",
+          "improvements": [
+            "多和设计师、运营同学交流，培养感性思维",
+            "关注用户的情感反馈，不只是行为数据",
+            "尝试用故事化的方式描述产品，而不只是功能列表"
+          ]
+        }
+      ],
+      "actionPlan": {
+        "shortTerm": [
+          {
+            "step": "明确目标岗位",
+            "details": "锁定产品经理、用户运营、数据分析师等岗位，研究这些岗位的具体要求和日常工作内容。"
+          },
+          {
+            "step": "补齐技能短板",
+            "details": "学习产品经理必备工具（Axure/Figma、SQL、数据分析），掌握PRD撰写、原型设计、数据分析等核心技能。"
+          },
+          {
+            "step": "积累项目经验",
+            "details": "参与1-2个实际项目（实习、校园项目、个人项目），完整经历需求分析→方案设计→落地验证的全流程。"
+          }
+        ],
+        "midTerm": [
+          {
+            "step": "准备求职材料",
+            "details": "用STAR法则描述项目经验，突出你如何发现问题、设计方案、推动落地、验证效果。准备作品集展示你的产品思维。"
+          },
+          {
+            "step": "建立行业人脉",
+            "details": "加入产品经理社群，参加行业活动，向前辈请教，了解不同公司的产品文化和工作方式。"
+          }
+        ]
+      },
+      "matchingConditions": {
+        "商业服务": {
+          "min": 65,
+          "weight": "high"
+        },
+        "科研创新": {
+          "min": 50,
+          "weight": "medium"
+        }
+      },
+      "recommendedJobs": [
+        "product_manager",
+        "user_operation",
+        "data_analyst"
+      ]
+    },
+    {
+      "typeId": "deal_hunter",
+      "typeName": "商业猎手",
+      "category": "商业服务",
+      "coreTraits": [
+        "沟通能力强",
+        "目标导向",
+        "市场敏感度高"
+      ],
+      "typicalProfile": "你是那种天生会'打猎'的人。你享受追踪客户、谈判合作、拿下订单的过程，也能从业绩达成中获得巨大成就感。",
+      "matchingConditions": {
+        "商业服务": {
+          "min": 65,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "sales_manager",
+        "bd_manager",
+        "account_manager"
+      ]
+    },
+    {
+      "typeId": "growth_hacker",
+      "typeName": "增长黑客",
+      "category": "商业服务",
+      "coreTraits": [
+        "数据敏感度高",
+        "快速迭代",
+        "创意能力强"
+      ],
+      "typicalProfile": "你是那种能让产品用户翻倍的人。你享受通过数据分析找到增长点、设计增长策略、看到数据飙升的过程。",
+      "matchingConditions": {
+        "商业服务": {
+          "min": 60,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "user_growth",
+        "content_operation",
+        "marketing_manager"
+      ]
+    },
+    {
+      "typeId": "business_solver",
+      "typeName": "商业解题家",
+      "category": "商业服务",
+      "coreTraits": [
+        "分析能力强",
+        "逻辑严密",
+        "知识面广"
+      ],
+      "typicalProfile": "你是那种能帮企业解难题的人。你享受深入分析客户的业务问题、提供专业建议、看到客户业务改善的过程。",
+      "matchingConditions": {
+        "商业服务": {
+          "min": 60,
+          "weight": "high"
+        },
+        "科研创新": {
+          "min": 55,
+          "weight": "medium"
+        }
+      },
+      "recommendedJobs": [
+        "management_consultant",
+        "strategy_analyst",
+        "business_analyst"
+      ]
+    },
+    {
+      "typeId": "tech_architect",
+      "typeName": "技术架构师",
+      "category": "科研创新",
+      "coreTraits": [
+        "技术深度",
+        "系统思维",
+        "问题解决"
+      ],
+      "typicalProfile": "你是那种能把复杂技术问题拆解清楚的人。你享受深入研究技术原理、设计系统架构、解决技术难题的过程。",
+      "matchingConditions": {
+        "科研创新": {
+          "min": 70,
+          "weight": "high"
+        },
+        "工程制造": {
+          "min": 60,
+          "weight": "medium"
+        }
+      },
+      "recommendedJobs": [
+        "backend_engineer",
+        "algorithm_engineer",
+        "ai_researcher"
+      ]
+    },
+    {
+      "typeId": "healing_guardian",
+      "typeName": "治愈守护者",
+      "category": "医疗健康",
+      "coreTraits": [
+        "同理心强",
+        "责任感强",
+        "专业严谨"
+      ],
+      "typicalProfile": "你是那种能给人带来安全感的人。你享受帮助他人康复、守护生命健康、看到患者恢复的过程。",
+      "matchingConditions": {
+        "医疗健康": {
+          "min": 65,
+          "weight": "high"
+        },
+        "公共服务": {
+          "min": 50,
+          "weight": "medium"
+        }
+      },
+      "recommendedJobs": [
+        "clinical_doctor",
+        "nurse",
+        "psychologist"
+      ]
+    },
+    {
+      "typeId": "knowledge_guide",
+      "typeName": "知识引路人",
+      "category": "教育培训",
+      "coreTraits": [
+        "表达能力强",
+        "耐心细致",
+        "善于启发"
+      ],
+      "typicalProfile": "你是那种能把复杂知识讲清楚的人。你享受传授知识、启发思考、看到学生成长的过程。",
+      "matchingConditions": {
+        "教育培训": {
+          "min": 65,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "primary_teacher",
+        "university_teacher",
+        "corporate_trainer"
+      ]
+    },
+    {
+      "typeId": "creative_artist",
+      "typeName": "创意艺术家",
+      "category": "文化艺术",
+      "coreTraits": [
+        "创意能力强",
+        "审美敏感",
+        "表达欲强"
+      ],
+      "typicalProfile": "你是那种能把想法变成作品的人。你享受创作过程、追求美的表达、看到作品被认可的过程。",
+      "matchingConditions": {
+        "文化艺术": {
+          "min": 65,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "graphic_designer",
+        "illustrator",
+        "writer"
+      ]
+    },
+    {
+      "typeId": "engineering_builder",
+      "typeName": "工程建造者",
+      "category": "工程制造",
+      "coreTraits": [
+        "动手能力强",
+        "逻辑严谨",
+        "注重实效"
+      ],
+      "typicalProfile": "你是那种能把图纸变成实物的人。你享受动手制造、解决实际问题、看到成果落地的过程。",
+      "matchingConditions": {
+        "工程制造": {
+          "min": 65,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "mechanical_engineer",
+        "hardware_engineer",
+        "architect"
+      ]
+    },
+    {
+      "typeId": "public_servant",
+      "typeName": "公共服务者",
+      "category": "公共服务",
+      "coreTraits": [
+        "责任感强",
+        "稳定性高",
+        "服务意识强"
+      ],
+      "typicalProfile": "你是那种能为社会做贡献的人。你享受服务公众、维护秩序、看到社会更美好的过程。",
+      "matchingConditions": {
+        "公共服务": {
+          "min": 65,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "civil_servant",
+        "social_worker",
+        "police_officer"
+      ]
+    },
+    {
+      "typeId": "research_explorer",
+      "typeName": "科研探索者",
+      "category": "科研创新",
+      "coreTraits": [
+        "好奇心强",
+        "专注力强",
+        "追求真理"
+      ],
+      "typicalProfile": "你是那种能探索未知的人。你享受研究问题、发现规律、推动科技进步的过程。",
+      "matchingConditions": {
+        "科研创新": {
+          "min": 70,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": [
+        "research_scientist",
+        "ai_researcher",
+        "data_scientist"
+      ]
+    },
+    {
+      "typeId": "startup_pioneer",
+      "typeName": "创业先锋",
+      "category": "自主创业",
+      "coreTraits": [
+        "冒险精神",
+        "资源整合",
+        "抗压能力强"
+      ],
+      "typicalProfile": "你是那种敢于冒险的人。你享受从 0 到 1 创造、整合资源、实现商业价值的过程。",
+      "matchingConditions": {
+        "自主创业": {
+          "min": 60,
+          "weight": "high"
+        },
+        "商业服务": {
+          "min": 55,
+          "weight": "medium"
+        }
+      },
+      "recommendedJobs": [
+        "tech_entrepreneur",
+        "content_creator",
+        "ecommerce_entrepreneur"
+      ]
+    },
+    {
+      "typeId": "versatile_generalist",
+      "typeName": "多面手通才",
+      "category": "综合型",
+      "coreTraits": [
+        "适应能力强",
+        "综合能力强",
+        "学习能力强"
+      ],
+      "typicalProfile": "你是那种什么都能做的人。你的各维度得分比较均衡，适合需要综合能力的岗位。",
+      "matchingConditions": {
+        "balanced": true
+      },
+      "recommendedJobs": [
+        "product_manager",
+        "project_manager",
+        "business_analyst"
+      ]
+    },
+    {
+      "typeId": "business_specialist",
+      "typeName": "商业精英",
+      "category": "商业服务",
+      "coreTraits": [
+        "商业嗅觉敏锐",
+        "战略思维强",
+        "结果导向"
+      ],
+      "typicalProfile": "你在商业服务领域展现出卓越的天赋，擅长洞察市场、把握机会、推动业务增长。",
+      "strengths": [
+        {
+          "title": "商业嗅觉敏锐，能洞察市场机会",
+          "description": "你对市场趋势和商业机会有着天然的敏感度，能快速识别潜在的增长点。",
+          "example": "当看到短视频平台兴起时，你能立即意识到这是品牌营销的新机会，并快速制定出针对性的投放策略，抢占先机。"
+        },
+        {
+          "title": "战略思维强，能制定清晰路径",
+          "description": "你擅长从全局视角思考问题，能将模糊的商业目标拆解成可执行的战略路径。",
+          "example": "面对公司要进入新市场的目标，你能分析竞争格局、用户需求、资源投入，制定出分阶段的市场进入策略，而不是盲目扩张。"
+        },
+        {
+          "title": "结果导向，能推动业务增长",
+          "description": "你关注最终的商业结果，善于调动资源、协调团队，确保目标达成。",
+          "example": "当季度业绩目标面临挑战时，你能快速调整策略：优化高转化渠道投放、推动销售团队聚焦大客户、协调产品团队优先支持关键功能，最终实现目标。"
+        }
+      ],
+      "weaknesses": [
+        {
+          "title": "可能过于关注短期业绩",
+          "description": "在追求业务增长的过程中，有时会过度关注短期指标，忽视长期品牌建设和用户体验。",
+          "improvements": [
+            "在制定策略时，同时设定短期和长期目标",
+            "关注用户生命周期价值（LTV），而不只是单次转化",
+            "定期回顾：这个决策对品牌长期价值的影响"
+          ]
+        },
+        {
+          "title": "在执行细节上可能不够耐心",
+          "description": "擅长战略规划，但在具体执行和细节打磨上可能缺乏耐心，容易想要快速看到结果。",
+          "improvements": [
+            "培养对执行过程的耐心，理解好结果需要时间积累",
+            "与执行力强的伙伴合作，互补短板",
+            "设定里程碑节点，在过程中获得成就感"
+          ]
+        }
+      ],
+      "actionPlan": {
+        "shortTerm": [
+          {
+            "step": "明确目标岗位",
+            "details": "锁定商业分析、战略规划、业务拓展、市场营销等岗位，研究这些岗位在不同行业（互联网、消费品、金融）的具体要求。"
+          },
+          {
+            "step": "补齐商业分析技能",
+            "details": "学习数据分析工具（Excel高级功能、SQL、Python基础），掌握商业分析框架（波特五力、SWOT、商业画布），能用数据支撑商业决策。"
+          },
+          {
+            "step": "积累商业项目经验",
+            "details": "参与1-2个实际商业项目（市场调研、竞品分析、增长策略制定），完整经历发现机会→制定策略→推动执行→验证结果的全流程。"
+          }
+        ],
+        "midTerm": [
+          {
+            "step": "建立商业知识体系",
+            "details": "系统学习商业模式、增长策略、市场营销等知识，关注行业动态和商业案例，培养商业sense。"
+          },
+          {
+            "step": "准备求职材料",
+            "details": "用数据和结果说话，展示你如何发现商业机会、制定策略、推动增长。准备商业分析案例作品集。"
+          }
+        ]
+      },
+      "matchingConditions": {
+        "商业服务": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["product_manager", "business_analyst", "sales_manager"]
+    },
+    {
+      "typeId": "medical_specialist",
+      "typeName": "医疗守护者",
+      "category": "医疗健康",
+      "coreTraits": [
+        "责任心强",
+        "专业严谨",
+        "关怀他人"
+      ],
+      "typicalProfile": "你在医疗健康领域展现出强烈的使命感，擅长用专业知识守护生命健康。",
+      "matchingConditions": {
+        "医疗健康": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["doctor", "nurse", "medical_researcher"]
+    },
+    {
+      "typeId": "education_specialist",
+      "typeName": "教育引路人",
+      "category": "教育培训",
+      "coreTraits": [
+        "耐心细致",
+        "善于启发",
+        "热爱分享"
+      ],
+      "typicalProfile": "你在教育培训领域有着天然的优势，擅长传道授业、启发他人成长。",
+      "matchingConditions": {
+        "教育培训": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["teacher", "trainer", "education_consultant"]
+    },
+    {
+      "typeId": "art_specialist",
+      "typeName": "文艺青年",
+      "category": "文化艺术",
+      "coreTraits": [
+        "审美独特",
+        "创意丰富",
+        "表达力强"
+      ],
+      "typicalProfile": "你在文化艺术领域有着卓越的天赋，擅长用创意和美感打动人心。",
+      "matchingConditions": {
+        "文化艺术": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["designer", "content_creator", "artist"]
+    },
+    {
+      "typeId": "engineering_specialist",
+      "typeName": "工程大师",
+      "category": "工程制造",
+      "coreTraits": [
+        "动手能力强",
+        "精益求精",
+        "技术扎实"
+      ],
+      "typicalProfile": "你在工程制造领域展现出强大的实力，擅长将想法变成现实、解决技术难题。",
+      "matchingConditions": {
+        "工程制造": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["mechanical_engineer", "hardware_engineer", "architect"]
+    },
+    {
+      "typeId": "public_specialist",
+      "typeName": "公益先锋",
+      "category": "公共服务",
+      "coreTraits": [
+        "使命感强",
+        "公正无私",
+        "服务意识强"
+      ],
+      "typicalProfile": "你在公共服务领域有着强烈的责任感，擅长为社会创造价值、服务大众。",
+      "matchingConditions": {
+        "公共服务": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["civil_servant", "social_worker", "ngo_worker"]
+    },
+    {
+      "typeId": "research_specialist",
+      "typeName": "科研达人",
+      "category": "科研创新",
+      "coreTraits": [
+        "探索精神强",
+        "逻辑严谨",
+        "追求真理"
+      ],
+      "typicalProfile": "你在科研创新领域展现出非凡的潜力，擅长探索未知、突破边界。",
+      "matchingConditions": {
+        "科研创新": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["research_scientist", "ai_researcher", "data_scientist"]
+    },
+    {
+      "typeId": "startup_specialist",
+      "typeName": "创业狂人",
+      "category": "自主创业",
+      "coreTraits": [
+        "冒险精神",
+        "执行力强",
+        "抗压能力强"
+      ],
+      "typicalProfile": "你在创业领域有着强烈的激情，擅长从0到1创造、敢于冒险、勇于突破。",
+      "matchingConditions": {
+        "自主创业": {
+          "min": 80,
+          "weight": "high"
+        }
+      },
+      "recommendedJobs": ["tech_entrepreneur", "content_creator", "ecommerce_entrepreneur"]
+    }
+  ]
+}

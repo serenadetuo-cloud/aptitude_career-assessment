@@ -1,0 +1,1700 @@
+{
+  "meta": {
+    "version": "1.0",
+    "assessmentName": "行业岗位专业测评",
+    "totalQuestions": 35,
+    "lastUpdated": "2026-04-25"
+  },
+  "questions": [
+    {
+      "questionId": 0,
+      "questionText": "你的专业背景是?(可多选,如果不想从事专业对口工作可跳过)",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "医学/护理",
+          "majorTag": "major_medical"
+        },
+        {
+          "optionId": "B",
+          "optionText": "计算机/软件工程",
+          "majorTag": "major_cs"
+        },
+        {
+          "optionId": "C",
+          "optionText": "工程/制造（机械、电子、建筑、土木等）",
+          "majorTag": "major_engineering"
+        },
+        {
+          "optionId": "D",
+          "optionText": "商科/管理",
+          "majorTag": "major_business"
+        },
+        {
+          "optionId": "E",
+          "optionText": "艺术/设计",
+          "majorTag": "major_art"
+        },
+        {
+          "optionId": "F",
+          "optionText": "教育/心理学",
+          "majorTag": "major_education"
+        },
+        {
+          "optionId": "G",
+          "optionText": "理工科（物理、化学、生物、数学等）",
+          "majorTag": "major_science"
+        },
+        {
+          "optionId": "H",
+          "optionText": "文科（中文、外语、新闻、历史等）",
+          "majorTag": "major_liberal_arts"
+        },
+        {
+          "optionId": "I",
+          "optionText": "不限专业/想探索更多可能性",
+          "majorTag": "major_open"
+        }
+      ]
+    },
+    {
+      "questionId": 1,
+      "questionCategory": "R - 实际型（动手偏好）",
+      "questionText": "如果有一整天自由时间，你最想做什么？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "拆个电器、修个东西、组装个模型",
+          "scoring": {
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "去做志愿者、参加公益活动",
+          "scoring": {
+            "医疗健康": 2,
+            "教育培训": 2,
+            "公共服务": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "约朋友吃饭、逛街、聊天",
+          "scoring": {
+            "商业服务": 1,
+            "自主创业": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "在家看书、学习、充电",
+          "scoring": {
+            "科研创新": 2,
+            "教育培训": 3
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "去博物馆、看展览、听音乐会",
+          "scoring": {
+            "文化艺术": 3
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "questionCategory": "I - 研究型（知识兴趣）",
+      "questionText": "你在图书馆，会被什么书吸引？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "艺术画册、设计作品集、摄影集",
+          "scoring": {
+            "文化艺术": 3
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "工程技术、机械原理、建筑设计",
+          "scoring": {
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "科技前沿、学术论文、专业教材",
+          "scoring": {
+            "科研创新": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "心理学、教育学、社会学",
+          "scoring": {
+            "教育培训": 4,
+            "医疗健康": 1,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "商业传记、创业故事、管理书籍",
+          "scoring": {
+            "商业服务": 1,
+            "自主创业": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 31,
+      "questionCategory": "专业门槛 - 学习周期",
+      "questionText": "你能接受多久的专业学习和培训周期？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "愿意读研深造2-3年，提升专业能力",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 1,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "3-4年本科就够了，想快速工作",
+          "scoring": {
+            "商业服务": 2,
+            "文化艺术": 2,
+            "自主创业": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "愿意本硕博连读7-10年，成为领域专家",
+          "scoring": {
+            "医疗健康": 5,
+            "科研创新": 2,
+            "教育培训": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "边工作边学习就行，不想全职读书",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 32,
+      "questionCategory": "大学生场景 - 实习偏好",
+      "questionText": "实习时，你更看重什么？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "薪资待遇好，有转正机会",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "能学到扎实的专业技能，即使过程枯燥",
+          "scoring": {
+            "医疗健康": 5,
+            "科研创新": 2,
+            "工程制造": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "能快速上手，有成就感，看到成果",
+          "scoring": {
+            "商业服务": 2,
+            "文化艺术": 2,
+            "自主创业": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "工作氛围好，团队友善，导师负责",
+          "scoring": {
+            "教育培训": 2,
+            "公共服务": 2,
+            "医疗健康": 1
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 33,
+      "questionCategory": "大学生场景 - 课外活动",
+      "questionText": "大学期间，你更愿意参加什么活动？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "学生会、社团管理、活动组织",
+          "scoring": {
+            "商业服务": 2,
+            "教育培训": 2,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "艺术展览、文学社团、摄影协会",
+          "scoring": {
+            "文化艺术": 4
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "志愿服务、支教活动、公益项目",
+          "scoring": {
+            "医疗健康": 4,
+            "教育培训": 5,
+            "公共服务": 5
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "学科竞赛（ACM、数学建模、机器人大赛）",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "创业比赛、商业案例大赛、营销策划",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 34,
+      "questionCategory": "大学生场景 - 毕业规划",
+      "questionText": "毕业后，你的首选规划是？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "创业/自由职业，做自己想做的事",
+          "scoring": {
+            "自主创业": 5,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "考研/读博，继续深造，做学术研究",
+          "scoring": {
+            "科研创新": 2,
+            "医疗健康": 5,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "先工作几年，再根据情况决定",
+          "scoring": {
+            "商业服务": 2,
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "考公/考编，追求稳定和保障",
+          "scoring": {
+            "公共服务": 6,
+            "教育培训": 3,
+            "医疗健康": 3
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "直接工作，积累经验，快速成长",
+          "scoring": {
+            "商业服务": 2,
+            "文化艺术": 2,
+            "工程制造": 1
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 35,
+      "questionCategory": "专业门槛 - 课程偏好",
+      "questionText": "如果让你选择一门选修课，你会选？",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "《摄影艺术》《创意写作》《设计思维》",
+          "scoring": {
+            "文化艺术": 4
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "《人体解剖学》《临床医学导论》",
+          "scoring": {
+            "医疗健康": 6
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "《心理咨询技巧》《教育学原理》",
+          "scoring": {
+            "教育培训": 4,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "《Python数据分析》《机器学习入门》",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "《商业模式与创业》《市场营销》",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 39,
+      "questionCategory": "医学专业 - 职业方向",
+      "questionText": "在医学领域,你更倾向于?",
+      "questionType": "single_choice",
+      "requiredMajors": [
+        "major_medical"
+      ],
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "医学研究,探索疾病机理和新疗法",
+          "scoring": {
+            "科研创新": 3,
+            "医疗健康": 4
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "公共卫生,预防医学和健康管理",
+          "scoring": {
+            "医疗健康": 4,
+            "公共服务": 4
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "临床一线,直接接触患者,诊断治疗",
+          "scoring": {
+            "医疗健康": 6
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "医疗器械/药物研发,用技术改善医疗",
+          "scoring": {
+            "医疗健康": 4,
+            "工程制造": 3
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 40,
+      "questionCategory": "计算机专业 - 技术方向",
+      "questionText": "在技术领域,你更感兴趣的是?",
+      "questionType": "single_choice",
+      "requiredMajors": [
+        "major_cs"
+      ],
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "产品技术,用技术解决用户问题",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "前端开发,做用户能看到的界面和交互",
+          "scoring": {
+            "商业服务": 2,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "后端架构,设计系统和处理复杂业务逻辑",
+          "scoring": {
+            "商业服务": 2,
+            "工程制造": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "算法/AI,研究机器学习和智能系统",
+          "scoring": {
+            "科研创新": 4,
+            "工程制造": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 41,
+      "questionCategory": "艺术专业 - 创作方向",
+      "questionText": "在设计/艺术领域,你更擅长?",
+      "questionType": "single_choice",
+      "requiredMajors": [
+        "major_art"
+      ],
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "交互设计,关注用户体验和产品逻辑",
+          "scoring": {
+            "文化艺术": 4,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "动画/影视,用动态影像讲故事",
+          "scoring": {
+            "文化艺术": 6
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "视觉设计,平面/UI/品牌等视觉表达",
+          "scoring": {
+            "文化艺术": 6
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "工业/产品设计,设计实体产品",
+          "scoring": {
+            "文化艺术": 4,
+            "工程制造": 3
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 42,
+      "questionCategory": "教育专业 - 教学方向",
+      "questionText": "在教育领域,你更想做?",
+      "questionType": "single_choice",
+      "requiredMajors": [
+        "major_education"
+      ],
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "教育研究,探索更好的教学方法和理论",
+          "scoring": {
+            "教育培训": 4,
+            "科研创新": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "教育管理,推动学校或机构的发展",
+          "scoring": {
+            "教育培训": 4,
+            "公共服务": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "学科教学,成为某个学科的优秀教师",
+          "scoring": {
+            "教育培训": 6
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "教育产品,用技术改善教育体验",
+          "scoring": {
+            "教育培训": 4,
+            "商业服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 43,
+      "questionCategory": "工程专业 - 工程方向",
+      "questionText": "在工程领域,你更倾向于?",
+      "questionType": "single_choice",
+      "requiredMajors": [
+        "major_engineering"
+      ],
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "项目管理,协调资源推动工程落地",
+          "scoring": {
+            "工程制造": 3,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "技术研究,探索新材料新技术",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "工艺优化,提升生产效率和质量",
+          "scoring": {
+            "工程制造": 5,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "产品研发,设计和开发新产品",
+          "scoring": {
+            "工程制造": 6
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 46,
+      "questionCategory": "能力倾向 - 信息处理",
+      "questionText": "面对大量信息时,你的处理方式是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "分类归档,建立清晰的信息库",
+          "scoring": {
+            "公共服务": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "快速筛选,抓住关键点,做出判断",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "系统梳理,建立框架,找出内在逻辑",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "可视化呈现,用图表或故事讲清楚",
+          "scoring": {
+            "文化艺术": 3,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "实践验证,通过实验或测试确认",
+          "scoring": {
+            "科研创新": 2,
+            "医疗健康": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 48,
+      "questionCategory": "行为场景 - 时间管理",
+      "questionText": "同时有多个任务时,你会如何安排?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "先做简单的,快速清掉一批任务",
+          "scoring": {
+            "工程制造": 2,
+            "医疗健康": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "分配时间块,多任务并行推进",
+          "scoring": {
+            "商业服务": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "按截止时间排序,确保都能按时完成",
+          "scoring": {
+            "商业服务": 2,
+            "公共服务": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "先做感兴趣的,保持工作热情",
+          "scoring": {
+            "文化艺术": 2,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "按重要性排序,集中精力逐个攻克",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 50,
+      "questionCategory": "能力自评",
+      "questionText": "以下技能中,你最擅长的是?(选择你最有信心的)",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "数据分析和逻辑推理",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "资源整合和项目推进",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "人际沟通和关系维护",
+          "scoring": {
+            "商业服务": 3,
+            "公共服务": 3,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "动手操作和实践能力",
+          "scoring": {
+            "工程制造": 4,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "创意表达和审美设计",
+          "scoring": {
+            "文化艺术": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 51,
+      "questionCategory": "能力短板识别",
+      "questionText": "以下哪项是你最需要提升的能力?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "抗压能力和情绪管理",
+          "scoring": {
+            "文化艺术": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "商业思维和结果导向",
+          "scoring": {
+            "科研创新": 2,
+            "公共服务": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "团队协作和沟通表达",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "创新思维和创意能力",
+          "scoring": {
+            "工程制造": 2,
+            "医疗健康": 2,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "技术深度和专业能力",
+          "scoring": {
+            "商业服务": 2,
+            "公共服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 53,
+      "questionCategory": "情境判断 - 冲突处理",
+      "questionText": "项目deadline临近,但你发现方案有重大缺陷,你会?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "加班赶工,在deadline前修复",
+          "scoring": {
+            "工程制造": 3,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "向上汇报,让领导决策",
+          "scoring": {
+            "医疗健康": 2,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "先上线,后续迭代优化",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "立即叫停项目,重新设计方案",
+          "scoring": {
+            "科研创新": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "和团队讨论,寻求折中方案",
+          "scoring": {
+            "公共服务": 3,
+            "教育培训": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 56,
+      "questionCategory": "职业锚 - 核心驱动力",
+      "questionText": "如果只能选一个,你最看重工作的?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "专业深度,成为领域专家",
+          "scoring": {
+            "科研创新": 4,
+            "医疗健康": 3
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "稳定安全,长期保障",
+          "scoring": {
+            "公共服务": 4,
+            "医疗健康": 4
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "自主自由,不受约束",
+          "scoring": {
+            "自主创业": 4,
+            "文化艺术": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "创造价值,改变世界",
+          "scoring": {
+            "自主创业": 3,
+            "科研创新": 3,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "管理权力,带领团队",
+          "scoring": {
+            "商业服务": 4,
+            "公共服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 59,
+      "questionCategory": "工作动机 - 内驱力",
+      "questionText": "什么最能让你持续投入一件事?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "团队因我的贡献而成功",
+          "scoring": {
+            "商业服务": 3,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "掌控全局,推动事情发生",
+          "scoring": {
+            "自主创业": 4,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "看到用户因我的产品而受益",
+          "scoring": {
+            "公共服务": 4,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "看到技术难题被攻克的成就感",
+          "scoring": {
+            "科研创新": 4,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "创造出美的作品被人欣赏",
+          "scoring": {
+            "文化艺术": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 60,
+      "questionCategory": "认知风格 - 思维偏好",
+      "questionText": "解决问题时,你的第一反应是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "拆解问题,找到根本原因",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "评估影响,权衡利弊",
+          "scoring": {
+            "公共服务": 2,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "借鉴类似案例,快速套用",
+          "scoring": {
+            "商业服务": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "跳出框架,寻找创新角度",
+          "scoring": {
+            "文化艺术": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "动手试试,在实践中调整",
+          "scoring": {
+            "工程制造": 3,
+            "自主创业": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 61,
+      "questionCategory": "工作节奏 - 能量管理",
+      "questionText": "你在什么状态下工作效率最高?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "稳定节奏,每天固定时间工作",
+          "scoring": {
+            "公共服务": 3,
+            "医疗健康": 4
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "边做边交流,在互动中推进",
+          "scoring": {
+            "教育培训": 3,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "短时间高强度冲刺,然后休息",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "长时间深度专注,不被打扰",
+          "scoring": {
+            "科研创新": 4,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "灵活切换,根据任务调整节奏",
+          "scoring": {
+            "教育培训": 2,
+            "商业服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 62,
+      "questionCategory": "职业场景 - 成功定义",
+      "questionText": "5年后,你希望别人如何评价你?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "\"TA帮助了很多人成长\"",
+          "scoring": {
+            "教育培训": 4,
+            "公共服务": 2,
+            "医疗健康": 3
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "\"TA的作品很有感染力\"",
+          "scoring": {
+            "文化艺术": 4
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "\"TA做的产品改变了很多人\"",
+          "scoring": {
+            "自主创业": 4,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "\"TA是靠谱的团队核心\"",
+          "scoring": {
+            "医疗健康": 2,
+            "公共服务": 2,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "\"TA是这个领域的技术专家\"",
+          "scoring": {
+            "科研创新": 4,
+            "工程制造": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 63,
+      "questionCategory": "风险偏好 - 不确定性",
+      "questionText": "面对不确定性,你的态度是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "焦虑,更喜欢清晰的路径",
+          "scoring": {
+            "公共服务": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "实用,能接受但希望有预案",
+          "scoring": {
+            "工程制造": 3,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "谨慎,需要充分评估后再行动",
+          "scoring": {
+            "医疗健康": 3,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "兴奋,喜欢探索未知领域",
+          "scoring": {
+            "科研创新": 3,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "灵活,根据情况随机应变",
+          "scoring": {
+            "文化艺术": 2,
+            "自主创业": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 64,
+      "questionCategory": "社交偏好 - 协作模式",
+      "questionText": "理想的工作协作方式是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "独立负责模块,定期同步进度",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "明确分工,各司其职",
+          "scoring": {
+            "工程制造": 2,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "完全独立,自己掌控全流程",
+          "scoring": {
+            "自主创业": 4,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "开放协作,互相启发",
+          "scoring": {
+            "文化艺术": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "紧密配合,随时沟通调整",
+          "scoring": {
+            "商业服务": 3,
+            "教育培训": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 65,
+      "questionCategory": "反馈偏好 - 成长方式",
+      "questionText": "你更希望得到什么样的反馈?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "审美和创意表达的评价",
+          "scoring": {
+            "文化艺术": 4
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "可靠性和执行力的认可",
+          "scoring": {
+            "医疗健康": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "技术深度的点评和建议",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "用户体验和商业价值的反馈",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "对他人影响力的反馈",
+          "scoring": {
+            "教育培训": 3,
+            "公共服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 66,
+      "questionCategory": "职业场景 - 困难应对",
+      "questionText": "遇到职业瓶颈时,你会?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "转换赛道,寻找新机会",
+          "scoring": {
+            "自主创业": 3,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "深入学习,突破技术边界",
+          "scoring": {
+            "科研创新": 4,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "调整心态,接受当前状态",
+          "scoring": {
+            "公共服务": 2,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "换个角度,用创意突破",
+          "scoring": {
+            "文化艺术": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "寻求导师,获得指导",
+          "scoring": {
+            "教育培训": 3,
+            "公共服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 71,
+      "questionCategory": "完美主义程度",
+      "questionText": "对于工作成果,你的标准是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "在完美和效率间找平衡",
+          "scoring": {
+            "工程制造": 2,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "符合规范和标准即可",
+          "scoring": {
+            "工程制造": 3,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "追求完美,不达标准不交付",
+          "scoring": {
+            "科研创新": 3,
+            "文化艺术": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "够用就好,快速迭代更重要",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "根据场景灵活调整标准",
+          "scoring": {
+            "公共服务": 2,
+            "教育培训": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 72,
+      "questionCategory": "变化适应",
+      "questionText": "面对工作内容或环境的突然变化,你会?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "看情况,取决于变化的性质",
+          "scoring": {
+            "公共服务": 2,
+            "医疗健康": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "焦虑,更喜欢稳定可预期",
+          "scoring": {
+            "公共服务": 3,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "兴奋,喜欢新鲜感和挑战",
+          "scoring": {
+            "自主创业": 4,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "谨慎,需要时间适应",
+          "scoring": {
+            "科研创新": 2,
+            "医疗健康": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "中立,能适应但不主动寻求",
+          "scoring": {
+            "商业服务": 2,
+            "教育培训": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 73,
+      "questionCategory": "影响力偏好",
+      "questionText": "你更希望通过什么方式产生影响?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "文化作品,影响人们的审美",
+          "scoring": {
+            "文化艺术": 4
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "商业成功,创造经济价值",
+          "scoring": {
+            "商业服务": 4,
+            "自主创业": 3
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "服务社会,改善公共福祉",
+          "scoring": {
+            "公共服务": 4,
+            "医疗健康": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "技术创新,推动行业进步",
+          "scoring": {
+            "科研创新": 4,
+            "工程制造": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "教育他人,传播知识和理念",
+          "scoring": {
+            "教育培训": 4,
+            "公共服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 74,
+      "questionCategory": "专注vs多元",
+      "questionText": "你更倾向于?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "T型发展,一专多能",
+          "scoring": {
+            "工程制造": 3,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "跨界融合,创造新可能",
+          "scoring": {
+            "文化艺术": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "深耕一个领域,成为专家",
+          "scoring": {
+            "科研创新": 4,
+            "医疗健康": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "根据需要灵活调整",
+          "scoring": {
+            "公共服务": 2,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "涉猎多个领域,保持广度",
+          "scoring": {
+            "自主创业": 3,
+            "商业服务": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 75,
+      "questionCategory": "规则态度",
+      "questionText": "对于规则和流程,你的态度是?",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "灵活变通,效率优先",
+          "scoring": {
+            "自主创业": 4,
+            "商业服务": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "挑战规则,寻求创新",
+          "scoring": {
+            "文化艺术": 3,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "严格遵守,规则保证质量",
+          "scoring": {
+            "医疗健康": 4,
+            "公共服务": 3
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "建立更好的规则和流程",
+          "scoring": {
+            "工程制造": 3,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "理解原理后选择性遵守",
+          "scoring": {
+            "科研创新": 3,
+            "工程制造": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 76,
+      "questionCategory": "自我认知 - 压力承受",
+      "questionText": "我享受在高压环境下工作,压力让我更专注",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "1 - 非常不符合",
+          "scoring": {
+            "公共服务": 2,
+            "教育培训": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "2 - 不太符合",
+          "scoring": {
+            "公共服务": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "3 - 一般",
+          "scoring": {
+            "工程制造": 1,
+            "医疗健康": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "4 - 比较符合",
+          "scoring": {
+            "商业服务": 2,
+            "自主创业": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "5 - 非常符合",
+          "scoring": {
+            "商业服务": 3,
+            "自主创业": 3
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 77,
+      "questionCategory": "自我认知 - 独立性",
+      "questionText": "我更喜欢独立工作,而不是频繁的团队协作",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "1 - 非常不符合",
+          "scoring": {
+            "公共服务": 2,
+            "教育培训": 2
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "2 - 不太符合",
+          "scoring": {
+            "商业服务": 1,
+            "教育培训": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "3 - 一般",
+          "scoring": {
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "4 - 比较符合",
+          "scoring": {
+            "科研创新": 2,
+            "文化艺术": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "5 - 非常符合",
+          "scoring": {
+            "科研创新": 3,
+            "文化艺术": 2,
+            "自主创业": 2
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 78,
+      "questionCategory": "自我认知 - 技术好奇心",
+      "questionText": "我对技术细节和原理有强烈的好奇心",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "1 - 非常不符合",
+          "scoring": {
+            "商业服务": 1,
+            "公共服务": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "2 - 不太符合",
+          "scoring": {
+            "教育培训": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "3 - 一般",
+          "scoring": {
+            "工程制造": 1,
+            "医疗健康": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "4 - 比较符合",
+          "scoring": {
+            "工程制造": 2,
+            "科研创新": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "5 - 非常符合",
+          "scoring": {
+            "工程制造": 2,
+            "科研创新": 4
+          }
+        }
+      ]
+    },
+    {
+      "questionId": 79,
+      "questionCategory": "自我认知 - 利他精神",
+      "questionText": "我愿意为了帮助他人而牺牲个人利益",
+      "questionType": "single_choice",
+      "options": [
+        {
+          "optionId": "A",
+          "optionText": "1 - 非常不符合",
+          "scoring": {
+            "自主创业": 2,
+            "商业服务": 1
+          }
+        },
+        {
+          "optionId": "B",
+          "optionText": "2 - 不太符合",
+          "scoring": {
+            "文化艺术": 1
+          }
+        },
+        {
+          "optionId": "C",
+          "optionText": "3 - 一般",
+          "scoring": {
+            "工程制造": 1
+          }
+        },
+        {
+          "optionId": "D",
+          "optionText": "4 - 比较符合",
+          "scoring": {
+            "教育培训": 2,
+            "医疗健康": 2,
+            "公共服务": 2
+          }
+        },
+        {
+          "optionId": "E",
+          "optionText": "5 - 非常符合",
+          "scoring": {
+            "教育培训": 2,
+            "医疗健康": 3,
+            "公共服务": 4
+          }
+        }
+      ]
+    }
+  ]
+}
