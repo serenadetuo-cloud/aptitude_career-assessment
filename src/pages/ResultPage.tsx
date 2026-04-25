@@ -99,18 +99,33 @@ export const ResultPage: React.FC = () => {
     reportRef.current.classList.add('export-mode');
 
     try {
-      // 等待CSS生效
-      await new Promise(resolve => setTimeout(resolve, 100));
+      // 等待CSS生效和图片加载
+      await new Promise(resolve => setTimeout(resolve, 300));
+
+      // 预加载所有图片
+      const images = reportRef.current.querySelectorAll('img');
+      await Promise.all(
+        Array.from(images).map(img => {
+          if (img.complete) return Promise.resolve();
+          return new Promise((resolve, reject) => {
+            img.onload = resolve;
+            img.onerror = () => resolve(); // 即使图片加载失败也继续
+            setTimeout(resolve, 3000); // 3秒超时
+          });
+        })
+      );
 
       const dataUrl = await toJpeg(reportRef.current, {
-        quality: 0.9,
+        quality: 0.95,
         backgroundColor: '#0F172A',
         pixelRatio: 2,
+        cacheBust: true,
+        skipFonts: false,
       });
       setPosterImage(dataUrl);
     } catch (e) {
-      console.error('生成海报失败', e);
-      alert('生成海报失败，建议直接截图保存');
+      console.error('生成海报失败:', e);
+      alert(`生成海报失败: ${e instanceof Error ? e.message : '未知错误'}\n\n建议直接截图保存`);
     } finally {
       // 移除CSS类
       if (reportRef.current) {
