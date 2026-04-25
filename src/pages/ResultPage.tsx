@@ -333,7 +333,7 @@ export const ResultPage: React.FC = () => {
                           <div className="flex items-center gap-3 mt-1.5">
                             <div className="flex gap-0.5">
                               {Array.from({ length: 5 }).map((_, s) => (
-                                <Star key={s} size={10} fill={s < 4 ? '#6366F1' : 'none'} stroke={s < 4 ? '#6366F1' : '#475569'} />
+                                <Star key={s} size={10} fill={s < Math.round(jobMatch.matchScore / 20) ? '#6366F1' : 'none'} stroke={s < Math.round(jobMatch.matchScore / 20) ? '#6366F1' : '#475569'} />
                               ))}
                             </div>
                             <span className="text-[10px] font-black text-indigo-400 tracking-wider uppercase">匹配度 {jobMatch.matchScore}%</span>
@@ -589,7 +589,7 @@ export const ResultPage: React.FC = () => {
       <div className="px-6 py-6 max-w-2xl mx-auto">
         <button
           onClick={reset}
-          className="w-full bg-white/5 border border-white/10 py-4 rounded-[24px] font-bold text-white hover:bg-white/10 transition-all mb-4"
+          className="w-full bg-transparent border border-white/20 py-4 rounded-[24px] font-medium text-gray-400 hover:text-white hover:border-white/30 transition-all mb-4"
         >
           重新测评
         </button>
