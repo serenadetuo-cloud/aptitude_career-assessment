@@ -247,7 +247,7 @@ export const ResultPage: React.FC = () => {
 
           {/* Celebrity */}
           {randomMentor && (
-            <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-indigo-600 to-purple-600 rounded-[40px] p-8 text-white relative overflow-hidden shadow-lg shadow-indigo-600/30 z-10 mb-8">
+            <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-indigo-600 to-purple-600 rounded-[40px] p-8 text-white relative overflow-hidden shadow-lg shadow-indigo-600/30 z-10 mb-6">
               <div className="absolute top-[-20%] right-[-10%] w-48 h-48 bg-white/20 rounded-full blur-3xl" />
               <div className="absolute bottom-[-10%] left-[-10%] w-32 h-32 bg-purple-500/30 rounded-full blur-2xl" />
 
