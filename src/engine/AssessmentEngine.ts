@@ -19,7 +19,7 @@ export class AssessmentEngine {
     const baseUrl = process.env.PUBLIC_URL || '';
     const [questionsRes, jobsRes, mentorsRes, resultTypesRes] = await Promise.all([
       fetch(`${baseUrl}/data/questions.json`),
-      fetch(`${baseUrl}/data/行业岗位专业测评-岗位库-完整版-generated.json`),
+      fetch(`${baseUrl}/data/jobs-database.json`),
       fetch(`${baseUrl}/data/career-mentors.json`),
       fetch(`${baseUrl}/data/result-types.json`),
     ]);
