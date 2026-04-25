@@ -573,7 +573,7 @@ export const ResultPage: React.FC = () => {
                 </div>
                 <div className="flex-shrink-0">
                   <img
-                    src={`https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin : 'https://example.com')}`}
+                    src={`https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/aptitude_career-assessment' : 'https://example.com')}`}
                     alt="测评二维码"
                     className="w-20 h-20 rounded-lg"
                     crossOrigin="anonymous"

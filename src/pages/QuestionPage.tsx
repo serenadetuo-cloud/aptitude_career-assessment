@@ -109,7 +109,7 @@ export const QuestionPage: React.FC = () => {
         </div>
 
         {/* Fixed Privacy Notice */}
-        <div className="fixed bottom-8 left-0 right-0 text-center text-xs text-gray-500 flex items-center justify-center gap-1 z-10">
+        <div className="fixed bottom-8 left-0 right-0 text-center text-xs text-gray-500 flex items-center justify-center gap-1 z-50 pointer-events-none">
           <Shield size={14} />
           隐私受保护，仅用于结果生成
         </div>
