@@ -91,7 +91,7 @@ export const QuestionPage: React.FC = () => {
                 <div className="grid grid-cols-1 gap-3">
                   {currentQuestion.options?.map((opt) => (
                     <motion.button
-                      key={opt.optionId}
+                      key={`${currentQuestion.questionId}-${opt.optionId}`}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => answerQuestion(currentQuestion.questionId, opt.optionId)}
                       className="group w-full text-left px-6 py-4 rounded-[20px] text-sm font-bold transition-all border flex justify-between items-center bg-white/5 text-gray-300 border-white/10 hover:bg-indigo-600/20 hover:text-white hover:border-indigo-500/50"

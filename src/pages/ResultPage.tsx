@@ -260,10 +260,11 @@ export const ResultPage: React.FC = () => {
                 <div>
                   <div className="flex flex-col items-center gap-4 mb-6">
                     <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/30 shrink-0 bg-white/10 shadow-xl">
-                      <div className="w-full h-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-5xl">
-                        👤
-                      </div>
-                    </div>
+                      <img 
+                        src={randomMentor.avatar} 
+                        alt={randomMentor.name} 
+                        className="w-full h-full object-cover" 
+                      />                    </div>
                     <div className="text-center">
                       <h4 className="text-2xl font-black text-white mb-2">{randomMentor.name}</h4>
                       <p className="text-base text-white/80 font-bold">{randomMentor.title}</p>
