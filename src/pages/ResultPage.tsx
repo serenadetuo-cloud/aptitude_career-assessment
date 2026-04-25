@@ -252,7 +252,7 @@ export const ResultPage: React.FC = () => {
               <div className="absolute bottom-[-10%] left-[-10%] w-32 h-32 bg-purple-500/30 rounded-full blur-2xl" />
 
               <div className="relative z-10">
-                <div className="text-center mb-10">
+                <div className="text-center mb-6">
                   <h3 className="text-3xl font-black text-white mb-2">你的职场前辈</h3>
                   <div className="text-xs text-white/50 uppercase tracking-widest">CAREER PREDECESSOR</div>
                 </div>
