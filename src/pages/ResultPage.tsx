@@ -553,7 +553,7 @@ export const ResultPage: React.FC = () => {
 
                 <div className="bg-white p-3 rounded-[24px] w-32 h-32 mx-auto mt-6">
                   <img
-                    src="/images/wechat-qr.jpg"
+                    src={`${process.env.PUBLIC_URL}/images/wechat-qr.jpg`}
                     alt="微信二维码"
                     className="w-full h-full object-cover rounded-xl"
                   />
@@ -660,7 +660,7 @@ export const ResultPage: React.FC = () => {
 
               <div className="bg-white p-4 rounded-[24px] mb-6">
                 <img
-                  src="/images/IMG_0429.JPG"
+                  src={`${process.env.PUBLIC_URL}/images/IMG_0429.JPG`}
                   alt="微信二维码"
                   className="w-full h-auto rounded-xl"
                   onError={(e) => {
