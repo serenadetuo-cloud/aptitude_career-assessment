@@ -346,7 +346,7 @@ export const ResultPage: React.FC = () => {
                     </div>
 
                     <AnimatePresence>
-                      {isExpanded && (
+                      {(isExpanded || i === 0) && (
                         <motion.div
                           initial={{ height: 0, opacity: 0 }}
                           animate={{ height: 'auto', opacity: 1 }}
