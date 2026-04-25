@@ -107,10 +107,12 @@ export const ResultPage: React.FC = () => {
       await Promise.all(
         Array.from(images).map(img => {
           if (img.complete) return Promise.resolve();
-          return new Promise((resolve, reject) => {
-            img.onload = resolve;
-            img.onerror = () => resolve(); // 即使图片加载失败也继续
-            setTimeout(resolve, 3000); // 3秒超时
+          return new Promise<void>((resolve) => {
+            const onLoad = () => resolve();
+            const onError = () => resolve();
+            img.addEventListener('load', onLoad, { once: true });
+            img.addEventListener('error', onError, { once: true });
+            setTimeout(() => resolve(), 3000);
           });
         })
       );
