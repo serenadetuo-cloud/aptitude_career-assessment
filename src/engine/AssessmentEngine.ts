@@ -376,9 +376,11 @@ export class AssessmentEngine {
     const [dimension, score] = topDimension;
     const jobNames = topJobs.map(j => j.job.jobName);
     const firstJob = topJobs[0]?.job;
+    const jobCategory = firstJob?.category || dimension;
 
-    // 根据维度和具体岗位生成针对性的优势描述
-    if (dimension === '商业服务' && jobNames.some(j => j.includes('产品') || j.includes('运营'))) {
+    // 根据维度、岗位类别和具体岗位名称生成针对性的优势描述
+    // 商业服务维度 - 产品/运营类岗位
+    if (dimension === '商业服务' && jobCategory === '商业服务' && jobNames.some(j => j.includes('产品') || j.includes('运营'))) {
       return {
         title: '产品思维强，能洞察用户需求',
         description: `你的商业服务能力得分${score}分，特别适合${jobNames[0]}这类需要理解用户和业务的岗位。`,
@@ -386,7 +388,8 @@ export class AssessmentEngine {
       };
     }
 
-    if (dimension === '商业服务' && jobNames.some(j => j.includes('销售') || j.includes('商务') || j.includes('客户'))) {
+    // 商业服务维度 - 销售/商务类岗位
+    if (dimension === '商业服务' && jobCategory === '商业服务' && jobNames.some(j => j.includes('销售') || j.includes('商务') || j.includes('客户'))) {
       return {
         title: '沟通能力强，善于建立信任',
         description: `你的商业服务能力得分${score}分，在${jobNames[0]}这类需要对外沟通的岗位上会很有优势。`,
@@ -434,7 +437,18 @@ export class AssessmentEngine {
       };
     }
 
+    // 公共服务维度 - 根据具体岗位类型细化
     if (dimension === '公共服务') {
+      // 警察/消防/公务员等体制内岗位
+      if (jobNames.some(j => j.includes('警察') || j.includes('消防') || j.includes('公务员'))) {
+        return {
+          title: '责任心强，原则性强',
+          description: `你的公共服务能力得分${score}分，适合${jobNames[0]}这类需要强烈责任感和原则性的岗位。`,
+          example: `在${jobNames[0]}工作中，你会严格遵守规章制度，公正执法。比如处理一个案件时，你会严格按照法律程序，确保每个环节都有据可查，既保护当事人权益，也维护法律权威。这种原则性和责任感是${jobNames[0]}岗位的核心要求。`
+        };
+      }
+
+      // 其他公共服务岗位
       return {
         title: '责任心强，善于协调多方利益',
         description: `你的公共服务能力得分${score}分，适合${jobNames[0]}这类需要服务意识和协调能力的岗位。`,
