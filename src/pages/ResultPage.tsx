@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useAssessmentStore } from '../store/assessmentStore';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from 'recharts';
 import { Dimension } from '../types';
-import { ChevronRight, Download, MessageCircle, Star, CheckCircle2, Lightbulb, Trophy } from 'lucide-react';
+import { ChevronRight, Download, MessageCircle, Star, CheckCircle2, Lightbulb, Trophy, Share2 } from 'lucide-react';
 import { toPng } from 'html-to-image';
 
 // @ts-ignore - Recharts type compatibility issue
@@ -625,7 +625,7 @@ export const ResultPage: React.FC = () => {
           disabled={isGenerating}
           className="flex-shrink-0 w-16 h-16 flex items-center justify-center bg-white/5 rounded-[20px] text-white hover:bg-white/10 transition-colors border border-white/10 disabled:opacity-50"
         >
-          <MessageCircle size={24} />
+          <Share2 size={24} />
         </button>
         <button
           onClick={() => setShowWechatModal(true)}
@@ -681,7 +681,7 @@ export const ResultPage: React.FC = () => {
                 }
               }}
             >
-              <MessageCircle size={18} />
+              <Share2 size={18} />
               分享给好友测试
             </button>
           </div>
