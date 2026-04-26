@@ -246,15 +246,17 @@ export class AssessmentEngine {
         totalWeight += weight;
 
         if (userScore >= req.targetScore) {
+          // 达到目标分数,给满分
           matchScore += 100 * weight;
         } else if (userScore >= req.minThreshold) {
+          // 在最低阈值和目标分数之间,线性插值
           const ratio =
             (userScore - req.minThreshold) / (req.targetScore - req.minThreshold);
           matchScore += ratio * 100 * weight;
         } else {
-          // 即使低于最低阈值，也给一些基础分数，确保能匹配到岗位
+          // 低于最低阈值,给较低的基础分(降低到15%),避免推荐不合适的岗位
           const ratio = userScore / req.minThreshold;
-          matchScore += ratio * 30 * weight;
+          matchScore += ratio * 15 * weight;
         }
       });
 
