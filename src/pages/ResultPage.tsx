@@ -150,7 +150,7 @@ export const ResultPage: React.FC = () => {
     >
       <div ref={reportRef} className="bg-gradient-to-br from-indigo-900/40 via-purple-900/20 to-[#0F172A] relative overflow-hidden">
         {/* Dark Header */}
-        <div className="relative px-6 pt-12 pb-16 flex flex-col items-center">
+        <div className="relative px-6 pt-12 pb-8 flex flex-col items-center">
           {/* Background effects */}
           <div className="absolute top-20 right-[-10%] w-72 h-72 bg-indigo-600/30 rounded-full blur-[100px]" />
           <div className="absolute top-40 left-[-10%] w-72 h-72 bg-purple-600/20 rounded-full blur-[100px]" />
