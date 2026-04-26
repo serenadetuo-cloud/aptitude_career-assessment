@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aptitude_career-assessment/static/css/main.ea6a8169.css",
-    "main.js": "/aptitude_career-assessment/static/js/main.61fbf7b1.js",
+    "main.js": "/aptitude_career-assessment/static/js/main.f9da6d9f.js",
     "static/js/453.5a01baf2.chunk.js": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js",
     "index.html": "/aptitude_career-assessment/index.html",
     "main.ea6a8169.css.map": "/aptitude_career-assessment/static/css/main.ea6a8169.css.map",
-    "main.61fbf7b1.js.map": "/aptitude_career-assessment/static/js/main.61fbf7b1.js.map",
+    "main.f9da6d9f.js.map": "/aptitude_career-assessment/static/js/main.f9da6d9f.js.map",
     "453.5a01baf2.chunk.js.map": "/aptitude_career-assessment/static/js/453.5a01baf2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea6a8169.css",
-    "static/js/main.61fbf7b1.js"
+    "static/js/main.f9da6d9f.js"
   ]
 }
