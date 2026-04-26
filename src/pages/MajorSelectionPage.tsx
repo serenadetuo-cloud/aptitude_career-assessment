@@ -48,7 +48,7 @@ export const MajorSelectionPage: React.FC = () => {
           transition={{ delay: 0.2 }}
           className="text-center mb-4 md:mb-8"
         >
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 md:px-4 md:py-2 bg-white/5 border border-white/10 rounded-full text-indigo-400 text-[9px] md:text-xs font-bold tracking-widest uppercase backdrop-blur-sm mb-2 md:mb-6">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 md:px-4 md:py-2 bg-white/5 border border-white/10 rounded-full text-indigo-400 text-[9px] md:text-xs font-bold tracking-widest uppercase mb-2 md:mb-6">
             <span className="w-1 h-1 md:w-2 md:h-2 rounded-full bg-indigo-500 animate-pulse" />
             职向力测评
           </div>
@@ -62,7 +62,7 @@ export const MajorSelectionPage: React.FC = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="bg-white/5 backdrop-blur-md rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
+          className="bg-white/5 rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
         >
           <div className="grid grid-cols-3 gap-2 md:gap-4 mb-3 md:mb-8">
             {MAJOR_OPTIONS.map((option, index) => (
