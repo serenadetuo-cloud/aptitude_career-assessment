@@ -625,7 +625,7 @@ export const ResultPage: React.FC = () => {
           disabled={isGenerating}
           className="flex-shrink-0 w-16 h-16 flex items-center justify-center bg-white/5 rounded-[20px] text-white hover:bg-white/10 transition-colors border border-white/10 disabled:opacity-50"
         >
-          <Download size={24} />
+          <MessageCircle size={24} />
         </button>
         <button
           onClick={() => setShowWechatModal(true)}
