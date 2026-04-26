@@ -52,7 +52,7 @@ export const MajorSelectionPage: React.FC = () => {
             <span className="w-1 h-1 md:w-2 md:h-2 rounded-full bg-indigo-500 animate-pulse" />
             职向力测评
           </div>
-          <h1 className="text-xl md:text-4xl font-black text-white mb-1.5 md:mb-4 tracking-tight">
+          <h1 className="text-xl md:text-4xl font-black text-white mb-2 md:mb-4 tracking-tight">
             你的专业背景是?
           </h1>
           <p className="text-gray-400 text-xs md:text-lg">可多选,也可以直接开始探索更多可能性</p>
@@ -64,7 +64,7 @@ export const MajorSelectionPage: React.FC = () => {
           transition={{ delay: 0.3 }}
           className="bg-white/5 rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
         >
-          <div className="grid grid-cols-3 gap-3 md:gap-4 mb-4 md:mb-8">
+          <div className="grid grid-cols-3 gap-4 md:gap-4 mb-5 md:mb-8">
             {MAJOR_OPTIONS.map((option, index) => (
               <motion.button
                 key={option.value}

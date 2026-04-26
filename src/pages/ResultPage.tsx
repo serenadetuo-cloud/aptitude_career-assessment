@@ -28,6 +28,18 @@ export const ResultPage: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
   const reportRef = useRef<HTMLDivElement>(null);
 
+  // 预加载二维码图片
+  React.useEffect(() => {
+    // 预加载微信二维码
+    const wechatQr = new Image();
+    wechatQr.src = `${process.env.PUBLIC_URL}/images/wechat-qr.jpg`;
+
+    // 预加载分享二维码
+    const shareQr = new Image();
+    const shareUrl = typeof window !== 'undefined' ? window.location.origin + '/aptitude_career-assessment' : '';
+    shareQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(shareUrl)}`;
+  }, []);
+
   // 随机选择1位前辈（遍历所有推荐岗位,找到第一个有有效mentor的）
   const randomMentor = useMemo(() => {
     if (!result || !result.topJobs || result.topJobs.length === 0) return null;
@@ -559,8 +571,8 @@ export const ResultPage: React.FC = () => {
             <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-[40px] p-10 text-white relative overflow-hidden hide-in-export">
               <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full blur-[50px]" />
               <div className="relative z-10">
-                <h3 className="text-2xl font-black mb-6">你可能正在纠结：</h3>
-                <div className="text-left space-y-2 mb-8 text-white/90">
+                <h3 className="text-xl font-black mb-6">你可能正在纠结：</h3>
+                <div className="text-left space-y-2 mb-8 text-white/90 text-sm">
                   {cta.concerns.map((concern: string, idx: number) => (
                     <div key={idx}>• {concern}</div>
                   ))}
@@ -581,7 +593,7 @@ export const ResultPage: React.FC = () => {
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
-                <p className="text-white/70 text-xs mt-3">扫码添加职业规划师微信</p>
+                <p className="text-white/70 text-sm mt-3">扫码添加职业规划师微信</p>
               </div>
             </div>
           )}

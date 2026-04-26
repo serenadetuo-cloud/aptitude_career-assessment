@@ -24,11 +24,11 @@ export const QuestionPage: React.FC = () => {
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
-      className="min-h-screen bg-[#0F172A] px-4 py-6 flex flex-col relative overflow-hidden"
+      className="min-h-screen bg-[#0F172A] px-4 py-6 flex flex-col relative"
     >
       {/* Background gradient effects */}
-      <div className="absolute top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-[-10%] left-[-10%] w-80 h-80 bg-purple-600/10 rounded-full blur-3xl" />
+      <div className="fixed top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="fixed bottom-[-10%] left-[-10%] w-80 h-80 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-lg mx-auto w-full z-10">
         {/* Header */}

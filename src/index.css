@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 防止页面加载时闪白和过度滚动露白 */
+/* 防止页面加载时闪白 */
 html {
   background-color: #0F172A;
-  overflow: hidden;
-  height: 100%;
 }
 
 body {
   background-color: #0F172A;
-  overflow: auto;
-  height: 100%;
   overscroll-behavior: none;
+}
+
+/* 确保所有页面容器都有足够的背景覆盖 */
+#root {
+  min-height: 100vh;
+  background-color: #0F172A;
 }
 
 /* 导出模式样式 */
