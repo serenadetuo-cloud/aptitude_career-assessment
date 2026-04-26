@@ -224,7 +224,7 @@ export const ResultPage: React.FC = () => {
 
             <div className="h-[300px] md:h-[400px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <Chart data={radarData} margin={{ top: 30, right: 80, bottom: 30, left: 80 }}>
+                <Chart data={radarData} margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
                   <PolarGrid stroke="#334155" />
                   {/* @ts-ignore */}
                   <PolarAngleAxis
