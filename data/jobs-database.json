@@ -650,7 +650,11 @@
       "industry": "商业服务",
       "category": "商业服务",
       "professionalBarrier": "medium",
-      "requiredMajors": [],
+      "requiredMajors": [
+        "cs",
+        "business",
+        "science"
+      ],
       "dimensionRequirements": {
         "科研创新": {
           "weight": 0.35,
@@ -709,7 +713,6 @@
       "whyFitTemplate": "你的{科研创新}能力极强，逻辑思维和数据分析能力突出，{商业服务}能力让你能理解业务问题而不是只会做报表，这种技术能力加上业务理解，是优秀数据分析师的标配。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "数据分析师",
             "初级数据分析师"
@@ -717,18 +720,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管数据分析师",
-            "高级数据分析师"
+            "高级数据分析师",
+            "资深数据分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "数据分析师长",
-            "数据分析师主任"
+            "数据分析专家",
+            "数据分析总监"
           ],
           "duration": "7年以上"
         }
@@ -2823,7 +2824,6 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解商业逻辑，{科研创新}能力让你能做深度行业研究和数据分析，这种商业理解加上研究能力，能让你为公司提供有价值的战略建议。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "战略分析师",
             "初级战略分析师"
@@ -2831,18 +2831,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管战略分析师",
-            "高级战略分析师"
+            "高级战略分析师",
+            "资深战略分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "战略分析师长",
-            "战略分析师主任"
+            "战略分析专家",
+            "战略总监"
           ],
           "duration": "7年以上"
         }
@@ -2972,7 +2970,6 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解业务问题，{科研创新}能力让你能用数据分析找到答案，这种业务理解加上数据能力，能让你成为业务方最信任的数据伙伴。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "商业分析师",
             "初级商业分析师"
@@ -2980,18 +2977,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管商业分析师",
-            "高级商业分析师"
+            "高级商业分析师",
+            "资深商业分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "商业分析师长",
-            "商业分析师主任"
+            "商业分析专家",
+            "商业分析总监"
           ],
           "duration": "7年以上"
         }
@@ -4899,26 +4894,23 @@
       "whyFitTemplate": "你的{医疗健康}能力让你适合药剂师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "药剂师",
-            "初级药剂师"
+            "初级药师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管药剂师",
-            "高级药剂师"
+            "主管药师",
+            "药剂科副主任"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "药剂师长",
-            "药剂师主任"
+            "副主任药师",
+            "主任药师"
           ],
           "duration": "7年以上"
         }
@@ -5049,15 +5041,13 @@
       "whyFitTemplate": "你的{医疗健康}能力让你适合临床药师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "临床药师",
-            "初级临床药师"
+            "初级药师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
             "主管临床药师",
             "高级临床药师"
@@ -5065,10 +5055,9 @@
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "临床药师长",
-            "临床药师主任"
+            "副主任药师",
+            "主任药师"
           ],
           "duration": "7年以上"
         }
@@ -5184,26 +5173,23 @@
       "whyFitTemplate": "你的{医疗健康}能力让你适合医学检验师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "医学检验师",
-            "初级医学检验师"
+            "初级检验师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管医学检验师",
-            "高级医学检验师"
+            "主管检验师",
+            "检验科副主任"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "医学检验师长",
-            "医学检验师主任"
+            "副主任检验师",
+            "主任检验师"
           ],
           "duration": "7年以上"
         }
@@ -5637,7 +5623,6 @@
       "whyFitTemplate": "你的{医疗健康}能力让你适合心理咨询师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "心理咨询师",
             "初级心理咨询师"
@@ -5645,18 +5630,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管心理咨询师",
+            "资深心理咨询师",
             "高级心理咨询师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "心理咨询师长",
-            "心理咨询师主任"
+            "督导级心理咨询师",
+            "心理咨询专家"
           ],
           "duration": "7年以上"
         }
@@ -6512,26 +6495,23 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合中小学教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "中小学教师",
-            "初级中小学教师"
+            "二级教师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干中小学教师",
-            "高级中小学教师"
+            "一级教师",
+            "高级教师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级中小学教师",
-            "教研组长"
+            "正高级教师",
+            "教研组长/年级组长"
           ],
           "duration": "7年以上"
         }
@@ -6647,26 +6627,23 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合大学教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "大学教师",
-            "初级大学教师"
+            "助教",
+            "讲师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干大学教师",
-            "高级大学教师"
+            "副教授",
+            "硕士生导师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级大学教师",
-            "教研组长"
+            "教授",
+            "博士生导师"
           ],
           "duration": "7年以上"
         }
@@ -7243,25 +7220,22 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合英语教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "英语教师",
-            "初级英语教师"
+            "二级教师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干英语教师",
-            "高级英语教师"
+            "一级教师",
+            "高级教师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级英语教师",
+            "正高级教师",
             "教研组长"
           ],
           "duration": "7年以上"
@@ -7378,26 +7352,23 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合对外汉语教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "对外汉语教师",
-            "初级对外汉语教师"
+            "初级教师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干对外汉语教师",
-            "高级对外汉语教师"
+            "中级对外汉语教师",
+            "高级教师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级对外汉语教师",
-            "教研组长"
+            "资深对外汉语教师",
+            "教学主管"
           ],
           "duration": "7年以上"
         }
@@ -7528,26 +7499,23 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合音乐教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "音乐教师",
-            "初级音乐教师"
+            "二级教师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干音乐教师",
-            "高级音乐教师"
+            "一级教师",
+            "高级教师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级音乐教师",
-            "教研组长"
+            "正高级教师",
+            "音乐教研组长"
           ],
           "duration": "7年以上"
         }
@@ -7678,26 +7646,23 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合美术教师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "美术教师",
-            "初级美术教师"
+            "二级教师"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "骨干美术教师",
-            "高级美术教师"
+            "一级教师",
+            "高级教师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "特级美术教师",
-            "教研组长"
+            "正高级教师",
+            "美术教研组长"
           ],
           "duration": "7年以上"
         }
@@ -7826,7 +7791,6 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合教育咨询师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "教育咨询师",
             "初级教育咨询师"
@@ -7834,18 +7798,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管教育咨询师",
+            "资深教育咨询师",
             "高级教育咨询师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "教育咨询师长",
-            "教育咨询师主任"
+            "首席教育咨询师",
+            "教育咨询专家"
           ],
           "duration": "7年以上"
         }
@@ -11767,7 +11729,9 @@
       "industry": "工程制造",
       "category": "工程制造",
       "professionalBarrier": "medium",
-      "requiredMajors": [],
+      "requiredMajors": [
+        "engineering"
+      ],
       "dimensionRequirements": {
         "工程制造": {
           "weight": 0.4,
@@ -14069,26 +14033,23 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合社区工作者这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级社区工作者",
-            "社区工作者"
+            "社区工作者",
+            "社区专干"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级社区工作者",
-            "资深社区工作者"
+            "社区主任助理",
+            "社区副主任"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席社区工作者",
-            "社区工作者总监"
+            "社区主任",
+            "街道办事处干部"
           ],
           "duration": "7年以上"
         }
@@ -14217,26 +14178,23 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合公益组织工作者这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级公益组织工作者",
+            "公益项目专员",
             "公益组织工作者"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级公益组织工作者",
-            "资深公益组织工作者"
+            "公益项目经理",
+            "高级项目官员"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席公益组织工作者",
-            "公益组织工作者总监"
+            "公益项目总监",
+            "机构副秘书长"
           ],
           "duration": "7年以上"
         }
