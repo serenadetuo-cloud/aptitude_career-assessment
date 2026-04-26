@@ -343,13 +343,13 @@ export const ResultPage: React.FC = () => {
                 <Trophy size={20} />
               </div>
               <h3 className="text-[22px] font-black text-white">
-                <span className="hide-in-export">TOP 3 推荐职业方向</span>
-                <span className="show-in-export hidden">最推荐的职业方向</span>
+                <span className="hide-in-export">TOP 5 推荐职业方向</span>
+                <span className="show-in-export hidden">TOP 3 推荐职业方向</span>
               </h3>
             </div>
 
             <div className="space-y-6">
-              {result.topJobs.slice(0, 3).map((jobMatch, i) => {
+              {result.topJobs.slice(0, 5).map((jobMatch, i) => {
                 const isExpanded = expandedJob === i;
                 const whyFit = engine.generateWhyFit(jobMatch.job, result.dimensionScores);
 
@@ -357,7 +357,7 @@ export const ResultPage: React.FC = () => {
                   <motion.div
                     key={jobMatch.job.jobId}
                     onClick={() => setExpandedJob(isExpanded ? null : i)}
-                    className={`bg-white/5 backdrop-blur-md rounded-[28px] border border-white/10 cursor-pointer hover:border-indigo-500/50 transition-all ${i > 0 ? 'hide-in-export' : ''}`}
+                    className={`bg-white/5 backdrop-blur-md rounded-[28px] border border-white/10 cursor-pointer hover:border-indigo-500/50 transition-all ${i > 2 ? 'hide-in-export' : ''}`}
                     data-job-index={i}
                   >
                     <div className="flex items-center justify-between p-6">
@@ -375,13 +375,13 @@ export const ResultPage: React.FC = () => {
                           </div>
                         </div>
                       </div>
-                      <div className={`w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 transition-all ${isExpanded ? 'bg-indigo-600 text-white rotate-90' : ''} ${i === 0 ? 'hidden' : ''}`}>
+                      <div className={`w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 transition-all ${isExpanded ? 'bg-indigo-600 text-white rotate-90' : ''} ${i <= 2 ? 'hidden' : ''}`}>
                         <ChevronRight size={16} />
                       </div>
                     </div>
 
                     <AnimatePresence>
-                      {(isExpanded || i === 0) && (
+                      {(isExpanded || i <= 2) && (
                         <motion.div
                           initial={{ height: 0, opacity: 0 }}
                           animate={{ height: 'auto', opacity: 1 }}
@@ -608,7 +608,7 @@ export const ResultPage: React.FC = () => {
                 </div>
                 <div className="flex-shrink-0">
                   <img
-                    src={`https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(typeof window !== 'undefined' ? window.location.origin + '/aptitude_career-assessment' : 'https://example.com')}`}
+                    src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(window.location.origin + window.location.pathname)}`}
                     alt="测评二维码"
                     className="w-20 h-20 rounded-lg"
                     crossOrigin="anonymous"
@@ -677,19 +677,40 @@ export const ResultPage: React.FC = () => {
             <button
               className="w-full px-6 py-3 bg-indigo-600 text-white rounded-full font-bold hover:bg-indigo-700 transition flex items-center justify-center gap-2"
               onClick={() => {
+                const shareUrl = window.location.origin + window.location.pathname;
+                const shareText = `我刚刚测出最适合的职业是【${result.resultType}】，你也来测测吧！`;
+
                 if (navigator.share) {
-                  navigator.share({
-                    title: '职向力测评 - 发现你的职业可能性',
-                    text: '我刚完成了职向力测评，发现了很多适合自己的职业方向！快来测测你的吧',
-                    url: window.location.href
-                  }).catch(err => {
-                    if (err.name !== 'AbortError') {
-                      console.error('分享失败:', err);
-                    }
-                  });
+                  // 微信环境下，尝试分享图片
+                  fetch(posterImage!)
+                    .then(res => res.blob())
+                    .then(blob => {
+                      const file = new File([blob], 'career-assessment.png', { type: 'image/png' });
+                      return navigator.share({
+                        title: '职向力测评 - 发现你的职业可能性',
+                        text: shareText,
+                        url: shareUrl,
+                        files: [file]
+                      });
+                    })
+                    .catch(err => {
+                      // 如果分享图片失败，降级为只分享链接
+                      if (err.name !== 'AbortError') {
+                        navigator.share({
+                          title: '职向力测评 - 发现你的职业可能性',
+                          text: shareText,
+                          url: shareUrl
+                        }).catch(e => {
+                          if (e.name !== 'AbortError') {
+                            console.error('分享失败:', e);
+                            alert('分享失败，请长按图片保存后手动分享');
+                          }
+                        });
+                      }
+                    });
                 } else {
-                  navigator.clipboard.writeText(window.location.href);
-                  alert('链接已复制到剪贴板');
+                  navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
+                  alert('分享文案和链接已复制到剪贴板');
                 }
               }}
             >

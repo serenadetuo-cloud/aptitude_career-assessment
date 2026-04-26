@@ -27,8 +27,12 @@ body {
   display: block !important;
 }
 
-/* 导出模式下强制展开第一个岗位 */
-.export-mode [data-job-index="0"] .job-details {
+/* 导出模式下强制展开前5个岗位 */
+.export-mode [data-job-index="0"] .job-details,
+.export-mode [data-job-index="1"] .job-details,
+.export-mode [data-job-index="2"] .job-details,
+.export-mode [data-job-index="3"] .job-details,
+.export-mode [data-job-index="4"] .job-details {
   display: block !important;
   height: auto !important;
   opacity: 1 !important;
