@@ -645,19 +645,46 @@ export const ResultPage: React.FC = () => {
           className="fixed inset-0 z-[100] bg-black/90 flex flex-col items-center justify-center p-6 backdrop-blur-sm"
           onClick={() => setPosterImage(null)}
         >
-          <p className="text-white font-bold mb-4 flex items-center gap-2">
-            <Download size={20} />
-            长按图片保存
-          </p>
-          <div className="relative w-full max-w-sm max-h-[75vh] overflow-y-auto rounded-xl shadow-2xl scrollbar-hide" onClick={e => e.stopPropagation()}>
-            <img src={posterImage} alt="测评海报" className="w-full h-auto rounded-xl" />
-          </div>
           <button
-            className="mt-6 px-8 py-3 bg-white/20 text-white rounded-full font-bold backdrop-blur-md hover:bg-white/30 transition"
+            className="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/20 text-white flex items-center justify-center backdrop-blur-md hover:bg-white/30 transition z-10"
             onClick={() => setPosterImage(null)}
           >
-            关闭预览
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
           </button>
+          <div className="relative w-full max-w-sm max-h-[70vh] overflow-y-auto rounded-xl shadow-2xl scrollbar-hide mb-6" onClick={e => e.stopPropagation()}>
+            <img src={posterImage} alt="测评海报" className="w-full h-auto rounded-xl" />
+          </div>
+          <div className="flex flex-col gap-3 w-full max-w-sm" onClick={e => e.stopPropagation()}>
+            <p className="text-white/80 text-sm text-center flex items-center justify-center gap-2">
+              <Download size={16} />
+              长按图片保存到相册
+            </p>
+            <button
+              className="w-full px-6 py-3 bg-indigo-600 text-white rounded-full font-bold hover:bg-indigo-700 transition flex items-center justify-center gap-2"
+              onClick={() => {
+                if (navigator.share) {
+                  navigator.share({
+                    title: '职向力测评 - 发现你的职业可能性',
+                    text: '我刚完成了职向力测评，发现了很多适合自己的职业方向！快来测测你的吧',
+                    url: window.location.href
+                  }).catch(err => {
+                    if (err.name !== 'AbortError') {
+                      console.error('分享失败:', err);
+                    }
+                  });
+                } else {
+                  navigator.clipboard.writeText(window.location.href);
+                  alert('链接已复制到剪贴板');
+                }
+              }}
+            >
+              <MessageCircle size={18} />
+              分享给好友测试
+            </button>
+          </div>
         </motion.div>
       )}
 
