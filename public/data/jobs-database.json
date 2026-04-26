@@ -8,7 +8,7 @@
   },
   "dimensions": [
     "商业服务",
-    "医疗健康",
+    "健康服务",
     "教育培训",
     "文化艺术",
     "工程制造",
@@ -100,27 +100,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "产品专员",
-            "产品经理"
-          ],
-          "duration": "0-3年"
+            "产品代表",
+            "产品专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级产品经理",
-            "资深高级经理"
-          ],
-          "duration": "3-7年"
+            "产品经理",
+            "高级产品经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "产品总监",
             "产品VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -258,27 +258,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级用户增长",
-            "用户增长"
-          ],
-          "duration": "0-3年"
+            "用户增长助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级用户增长",
-            "资深用户增长"
-          ],
-          "duration": "3-7年"
+            "用户增长",
+            "高级用户增长"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席用户增长",
-            "用户增长总监"
-          ],
-          "duration": "7年以上"
+            "资深用户增长",
+            "用户增长专家"
+          ]
         }
       },
       "salaryRange": {
@@ -409,27 +409,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "用户运营专员",
-            "用户运营"
-          ],
-          "duration": "0-3年"
+            "初级用户运营",
+            "用户运营助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "用户运营经理",
+            "用户运营",
             "高级用户运营"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "用户运营总监",
-            "COO"
-          ],
-          "duration": "7年以上"
+            "资深用户运营",
+            "用户运营专家"
+          ]
         }
       },
       "salaryRange": {
@@ -560,27 +560,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "内容运营专员",
-            "内容运营"
-          ],
-          "duration": "0-3年"
+            "初级内容运营",
+            "内容运营助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "内容运营经理",
+            "内容运营",
             "高级内容运营"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "内容运营总监",
-            "COO"
-          ],
-          "duration": "7年以上"
+            "资深内容运营",
+            "内容运营专家"
+          ]
         }
       },
       "salaryRange": {
@@ -713,25 +713,28 @@
       "whyFitTemplate": "你的{科研创新}能力极强，逻辑思维和数据分析能力突出，{商业服务}能力让你能理解业务问题而不是只会做报表，这种技术能力加上业务理解，是优秀数据分析师的标配。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "数据分析师",
-            "初级数据分析师"
-          ],
-          "duration": "0-3年"
+            "初级数据分析师",
+            "数据分析师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级数据分析师",
-            "资深数据分析师"
-          ],
-          "duration": "3-7年"
+            "数据分析师",
+            "高级数据分析师"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "数据分析专家",
-            "数据分析总监"
-          ],
-          "duration": "7年以上"
+            "资深数据分析师",
+            "数据分析师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -863,27 +866,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级UI设计师",
-            "UI设计师"
-          ],
-          "duration": "0-3年"
+            "UI设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级UI设计师",
-            "资深UI设计师"
-          ],
-          "duration": "3-7年"
+            "UI设计师",
+            "高级UI设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深UI设计师",
+            "UI设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -1015,27 +1018,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级UX设计师",
-            "UX设计师"
-          ],
-          "duration": "0-3年"
+            "UX设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级UX设计师",
-            "资深UX设计师"
-          ],
-          "duration": "3-7年"
+            "UX设计师",
+            "高级UX设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深UX设计师",
+            "UX设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -1167,27 +1170,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级前端工程师",
-            "前端工程师"
-          ],
-          "duration": "0-3年"
+            "前端工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级前端工程师",
-            "资深前端工程师"
-          ],
-          "duration": "3-7年"
+            "前端工程师",
+            "高级前端工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "前端架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深前端工程师",
+            "前端工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -1320,27 +1323,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级后端工程师",
-            "后端工程师"
-          ],
-          "duration": "0-3年"
+            "后端工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级后端工程师",
-            "资深后端工程师"
-          ],
-          "duration": "3-7年"
+            "后端工程师",
+            "高级后端工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "后端架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深后端工程师",
+            "后端工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -1471,27 +1474,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "销售专员",
-            "销售经理"
-          ],
-          "duration": "0-3年"
+            "销售代表",
+            "销售专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级销售经理",
-            "销售高级经理"
-          ],
-          "duration": "3-7年"
+            "销售经理",
+            "高级销售经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "销售总监",
             "销售VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -1623,27 +1626,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级商务拓展",
-            "商务拓展"
-          ],
-          "duration": "0-3年"
+            "商务拓展助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级商务拓展",
-            "资深商务拓展"
-          ],
-          "duration": "3-7年"
+            "商务拓展",
+            "高级商务拓展"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席商务拓展",
-            "商务拓展总监"
-          ],
-          "duration": "7年以上"
+            "资深商务拓展",
+            "商务拓展专家"
+          ]
         }
       },
       "salaryRange": {
@@ -1774,27 +1777,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "客户成功专员",
-            "客户成功经理"
-          ],
-          "duration": "0-3年"
+            "客户成功代表",
+            "客户成功专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级客户成功经理",
-            "客户成功高级经理"
-          ],
-          "duration": "3-7年"
+            "客户成功经理",
+            "高级客户成功经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "客户成功总监",
             "客户成功VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -1924,27 +1927,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "渠道专员",
-            "渠道经理"
-          ],
-          "duration": "0-3年"
+            "渠道代表",
+            "渠道专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级渠道经理",
-            "渠道高级经理"
-          ],
-          "duration": "3-7年"
+            "渠道经理",
+            "高级渠道经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "渠道总监",
             "渠道VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -2075,27 +2078,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "市场营销专员",
-            "市场营销经理"
-          ],
-          "duration": "0-3年"
+            "市场营销代表",
+            "市场营销专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级市场营销经理",
-            "市场营销高级经理"
-          ],
-          "duration": "3-7年"
+            "市场营销经理",
+            "高级市场营销经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "市场营销总监",
             "市场营销VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -2224,27 +2227,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "品牌专员",
-            "品牌经理"
-          ],
-          "duration": "0-3年"
+            "品牌代表",
+            "品牌专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级品牌经理",
-            "品牌高级经理"
-          ],
-          "duration": "3-7年"
+            "品牌经理",
+            "高级品牌经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "品牌总监",
             "品牌VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -2373,27 +2376,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "数字营销专员",
-            "初级数字营销专员"
-          ],
-          "duration": "0-3年"
+            "初级数字营销专员",
+            "数字营销专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "数字营销经理",
-            "高级数字营销经理"
-          ],
-          "duration": "3-7年"
+            "数字营销专员",
+            "高级数字营销专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "数字营销总监",
-            "数字营销VP"
-          ],
-          "duration": "7年以上"
+            "首席数字营销官"
+          ]
         }
       },
       "salaryRange": {
@@ -2524,27 +2527,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "公关专员",
-            "初级公关专员"
-          ],
-          "duration": "0-3年"
+            "初级公关专员",
+            "公关专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "公关经理",
-            "高级公关经理"
-          ],
-          "duration": "3-7年"
+            "公关专员",
+            "高级公关专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "公关总监",
-            "公关VP"
-          ],
-          "duration": "7年以上"
+            "首席公关官"
+          ]
         }
       },
       "salaryRange": {
@@ -2675,27 +2678,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "咨询顾问专员",
-            "咨询顾问经理"
-          ],
-          "duration": "0-3年"
+            "初级管理咨询顾问",
+            "管理咨询顾问助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级咨询顾问经理",
-            "咨询顾问高级经理"
-          ],
-          "duration": "3-7年"
+            "管理咨询顾问",
+            "高级管理咨询顾问"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "咨询顾问总监",
-            "咨询顾问VP"
-          ],
-          "duration": "7年以上"
+            "资深管理咨询顾问",
+            "管理咨询顾问专家"
+          ]
         }
       },
       "salaryRange": {
@@ -2824,25 +2827,28 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解商业逻辑，{科研创新}能力让你能做深度行业研究和数据分析，这种商业理解加上研究能力，能让你为公司提供有价值的战略建议。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "战略分析师",
-            "初级战略分析师"
-          ],
-          "duration": "0-3年"
+            "初级战略分析师",
+            "战略分析师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级战略分析师",
-            "资深战略分析师"
-          ],
-          "duration": "3-7年"
+            "战略分析师",
+            "高级战略分析师"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "战略分析专家",
-            "战略总监"
-          ],
-          "duration": "7年以上"
+            "资深战略分析师",
+            "战略分析师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -2970,25 +2976,28 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解业务问题，{科研创新}能力让你能用数据分析找到答案，这种业务理解加上数据能力，能让你成为业务方最信任的数据伙伴。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "商业分析师",
-            "初级商业分析师"
-          ],
-          "duration": "0-3年"
+            "初级商业分析师",
+            "商业分析师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级商业分析师",
-            "资深商业分析师"
-          ],
-          "duration": "3-7年"
+            "商业分析师",
+            "高级商业分析师"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "商业分析专家",
-            "商业分析总监"
-          ],
-          "duration": "7年以上"
+            "资深商业分析师",
+            "商业分析师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -3121,27 +3130,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "投资分析师",
-            "初级投资分析师"
-          ],
-          "duration": "0-3年"
+            "初级投资分析师",
+            "投资分析师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管投资分析师",
+            "投资分析师",
             "高级投资分析师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "投资分析师长",
-            "投资分析师主任"
-          ],
-          "duration": "7年以上"
+            "资深投资分析师",
+            "投资分析师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -3267,27 +3276,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "理财分析师",
-            "初级理财顾问"
-          ],
-          "duration": "0-3年"
+            "初级理财顾问",
+            "理财顾问助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级理财分析师",
-            "理财经理"
-          ],
-          "duration": "3-7年"
+            "理财顾问",
+            "高级理财顾问"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "理财总监",
-            "合伙人"
-          ],
-          "duration": "7年以上"
+            "资深理财顾问",
+            "理财顾问专家"
+          ]
         }
       },
       "salaryRange": {
@@ -3418,27 +3427,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "风控专员",
-            "初级风控专员"
-          ],
-          "duration": "0-3年"
+            "初级风控专员",
+            "风控专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "风控经理",
-            "高级风控经理"
-          ],
-          "duration": "3-7年"
+            "风控专员",
+            "高级风控专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "风控总监",
-            "风控VP"
-          ],
-          "duration": "7年以上"
+            "首席风险官"
+          ]
         }
       },
       "salaryRange": {
@@ -3564,27 +3573,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "人力资源专员",
-            "初级人力资源专员"
-          ],
-          "duration": "0-3年"
+            "初级人力资源专员",
+            "人力资源专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "人力资源经理",
-            "高级人力资源经理"
-          ],
-          "duration": "3-7年"
+            "人力资源专员",
+            "高级人力资源专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "人力资源总监",
-            "人力资源VP"
-          ],
-          "duration": "7年以上"
+            "首席人力资源官"
+          ]
         }
       },
       "salaryRange": {
@@ -3715,27 +3724,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "财务专员",
-            "初级财务专员"
-          ],
-          "duration": "0-3年"
+            "初级财务专员",
+            "财务专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "财务经理",
-            "高级财务经理"
-          ],
-          "duration": "3-7年"
+            "财务专员",
+            "高级财务专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "财务总监",
-            "财务VP"
-          ],
-          "duration": "7年以上"
+            "首席财务官"
+          ]
         }
       },
       "salaryRange": {
@@ -3801,14 +3810,14 @@
     {
       "jobId": "clinical_doctor",
       "jobName": "临床医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -3862,31 +3871,31 @@
           "activity": "整理病历，更新电子病历系统"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合临床医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合临床医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "临床住院医师",
-            "临床医师"
-          ],
-          "duration": "0-3年"
+            "初级临床医生",
+            "临床医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "临床主治医师",
-            "临床副主任医师"
-          ],
-          "duration": "3-7年"
+            "临床医生",
+            "高级临床医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "临床主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深临床医生",
+            "临床医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -3952,14 +3961,14 @@
     {
       "jobId": "surgeon",
       "jobName": "外科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4013,31 +4022,31 @@
           "activity": "学习新的手术技术和文献"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合外科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合外科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "外科住院医师",
-            "外科医师"
-          ],
-          "duration": "0-3年"
+            "初级外科医生",
+            "外科医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "外科主治医师",
-            "外科副主任医师"
-          ],
-          "duration": "3-7年"
+            "外科医生",
+            "高级外科医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "外科主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深外科医生",
+            "外科医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4103,14 +4112,14 @@
     {
       "jobId": "pediatrician",
       "jobName": "儿科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4164,31 +4173,31 @@
           "activity": "更新病历，准备明天的查房计划"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合儿科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合儿科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "儿科住院医师",
-            "儿科医师"
-          ],
-          "duration": "0-3年"
+            "初级儿科医生",
+            "儿科医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "儿科主治医师",
-            "儿科副主任医师"
-          ],
-          "duration": "3-7年"
+            "儿科医生",
+            "高级儿科医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "儿科主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深儿科医生",
+            "儿科医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4253,14 +4262,14 @@
     {
       "jobId": "psychiatrist",
       "jobName": "精神科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4314,31 +4323,31 @@
           "activity": "记录治疗笔记，学习最新心理治疗方法"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合精神科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合精神科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "精神科住院医师",
-            "精神科医师"
-          ],
-          "duration": "0-3年"
+            "初级精神科医生",
+            "精神科医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "精神科主治医师",
-            "精神科副主任医师"
-          ],
-          "duration": "3-7年"
+            "精神科医生",
+            "高级精神科医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "精神科主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深精神科医生",
+            "精神科医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4403,14 +4412,14 @@
     {
       "jobId": "dentist",
       "jobName": "口腔医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4464,31 +4473,31 @@
           "activity": "消毒器械，整理诊室，学习新技术"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合口腔医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合口腔医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "口腔住院医师",
-            "口腔医师"
-          ],
-          "duration": "0-3年"
+            "初级口腔医生",
+            "口腔医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "口腔主治医师",
-            "口腔副主任医师"
-          ],
-          "duration": "3-7年"
+            "口腔医生",
+            "高级口腔医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "口腔主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深口腔医生",
+            "口腔医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4553,14 +4562,14 @@
     {
       "jobId": "nurse",
       "jobName": "护士",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4614,28 +4623,31 @@
           "activity": "整理护理记录，准备交接班"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合护士这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合护士这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "护士",
-            "初级护士"
-          ],
-          "duration": "0-2年"
+            "护师"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "护师",
-            "主管护师"
-          ],
-          "duration": "3-5年"
+            "主管护师",
+            "高级护师"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "副主任护师",
             "主任护师"
-          ],
-          "duration": "6-10年+"
+          ]
         }
       },
       "salaryRange": {
@@ -4698,14 +4710,14 @@
     {
       "jobId": "nurse_manager",
       "jobName": "护士长",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -4744,28 +4756,31 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合护士长这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合护士长这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "护士长",
-            "病区护士长"
-          ],
-          "duration": "0-3年"
+            "初级护士长",
+            "护士长助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "护理部副主任",
-            "护理部主任"
-          ],
-          "duration": "4-8年"
+            "护士长",
+            "高级护士长"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "总护士长",
-            "护理部总监"
-          ],
-          "duration": "9-15年+"
+            "资深护士长",
+            "护士长专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4830,14 +4845,14 @@
     {
       "jobId": "pharmacist",
       "jobName": "药剂师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4891,31 +4906,31 @@
           "activity": "学习新药知识，更新药品信息"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合药剂师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合药剂师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "药剂师",
-            "初级药剂师"
-          ],
-          "duration": "0-3年"
+            "初级药剂师",
+            "药剂师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管药剂师",
+            "药剂师",
             "高级药剂师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "药剂师长",
-            "药剂师主任"
-          ],
-          "duration": "7年以上"
+            "资深药剂师",
+            "药剂师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -4980,14 +4995,14 @@
     {
       "jobId": "clinical_pharmacist",
       "jobName": "临床药师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5041,31 +5056,31 @@
           "activity": "记录药学监护记录，学习临床药学文献"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合临床药师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合临床药师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "临床药师",
-            "初级临床药师"
-          ],
-          "duration": "0-3年"
+            "初级临床药师",
+            "临床药师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管临床药师",
+            "临床药师",
             "高级临床药师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "临床药师长",
-            "临床药师主任"
-          ],
-          "duration": "7年以上"
+            "资深临床药师",
+            "临床药师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5130,14 +5145,14 @@
     {
       "jobId": "medical_technician",
       "jobName": "医学检验师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5176,31 +5191,31 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合医学检验师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合医学检验师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "医学检验师",
-            "初级医学检验师"
-          ],
-          "duration": "0-3年"
+            "初级医学检验师",
+            "医学检验师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管医学检验师",
+            "医学检验师",
             "高级医学检验师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "医学检验师长",
-            "医学检验师主任"
-          ],
-          "duration": "7年以上"
+            "资深医学检验师",
+            "医学检验师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5265,14 +5280,14 @@
     {
       "jobId": "radiologist",
       "jobName": "影像科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5326,31 +5341,31 @@
           "activity": "学习影像诊断新技术和病例"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合影像科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合影像科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "影像科住院医师",
-            "影像科医师"
-          ],
-          "duration": "0-3年"
+            "初级影像科医生",
+            "影像科医生助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "影像科主治医师",
-            "影像科副主任医师"
-          ],
-          "duration": "3-7年"
+            "影像科医生",
+            "高级影像科医生"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "影像科主任医师",
-            "科室主任"
-          ],
-          "duration": "7年以上"
+            "资深影像科医生",
+            "影像科医生专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5415,14 +5430,14 @@
     {
       "jobId": "rehabilitation_therapist",
       "jobName": "康复治疗师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5476,31 +5491,31 @@
           "activity": "学习新的康复技术和方法"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合康复治疗师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合康复治疗师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "康复治疗师",
-            "初级康复治疗师"
-          ],
-          "duration": "0-3年"
+            "初级康复治疗师",
+            "康复治疗师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管康复治疗师",
+            "康复治疗师",
             "高级康复治疗师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "康复治疗师长",
-            "康复治疗师主任"
-          ],
-          "duration": "7年以上"
+            "资深康复治疗师",
+            "康复治疗师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5568,14 +5583,14 @@
     {
       "jobId": "psychologist",
       "jobName": "心理咨询师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "education"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -5629,28 +5644,31 @@
           "activity": "记录咨询笔记，学习心理学新理论"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合心理咨询师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合心理咨询师这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "心理咨询师",
-            "初级心理咨询师"
-          ],
-          "duration": "0-3年"
+            "初级心理咨询师",
+            "心理咨询师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "资深心理咨询师",
+            "心理咨询师",
             "高级心理咨询师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "督导级心理咨询师",
-            "心理咨询专家"
-          ],
-          "duration": "7年以上"
+            "资深心理咨询师",
+            "心理咨询师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5718,12 +5736,12 @@
     {
       "jobId": "health_manager",
       "jobName": "健康管理师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5777,31 +5795,31 @@
           "activity": "分析健康管理效果，优化方案"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合健康管理师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合健康管理师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "健康师专员",
-            "健康师经理"
-          ],
-          "duration": "0-3年"
+            "初级健康管理师",
+            "健康管理师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级健康师经理",
-            "健康师高级经理"
-          ],
-          "duration": "3-7年"
+            "健康管理师",
+            "高级健康管理师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "健康师总监",
-            "健康师VP"
-          ],
-          "duration": "7年以上"
+            "资深健康管理师",
+            "健康管理师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -5869,12 +5887,12 @@
     {
       "jobId": "nutritionist",
       "jobName": "营养师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5928,31 +5946,31 @@
           "activity": "学习营养学新知识，研究食物成分"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合营养师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合营养师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "营养师",
-            "初级营养师"
-          ],
-          "duration": "0-3年"
+            "初级营养师",
+            "营养师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管营养师",
+            "营养师",
             "高级营养师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "营养师长",
-            "营养师主任"
-          ],
-          "duration": "7年以上"
+            "资深营养师",
+            "营养师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6020,8 +6038,8 @@
     {
       "jobId": "drug_researcher",
       "jobName": "药物研发工程师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6033,7 +6051,7 @@
           "targetScore": 88,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -6070,27 +6088,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级药物研发工程师",
-            "药物研发工程师"
-          ],
-          "duration": "0-3年"
+            "药物研发工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级药物研发工程师",
-            "资深药物研发工程师"
-          ],
-          "duration": "3-7年"
+            "药物研发工程师",
+            "高级药物研发工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "药物研发架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深药物研发工程师",
+            "药物研发工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6155,8 +6173,8 @@
     {
       "jobId": "medical_device_engineer",
       "jobName": "医疗器械工程师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "engineering"
@@ -6168,7 +6186,7 @@
           "targetScore": 82,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6220,27 +6238,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级医疗器械工程师",
-            "医疗器械工程师"
-          ],
-          "duration": "0-3年"
+            "医疗器械工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级医疗器械工程师",
-            "资深医疗器械工程师"
-          ],
-          "duration": "3-7年"
+            "医疗器械工程师",
+            "高级医疗器械工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "医疗器械架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深医疗器械工程师",
+            "医疗器械工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6305,8 +6323,8 @@
     {
       "jobId": "biotech_researcher",
       "jobName": "生物技术研究员",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6318,7 +6336,7 @@
           "targetScore": 92,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6370,27 +6388,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "生物技术研究助理",
-            "生物技术研究员"
-          ],
-          "duration": "0-3年"
+            "初级生物技术研究员",
+            "生物技术研究员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "副生物技术研究员",
+            "生物技术研究员",
             "高级生物技术研究员"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席生物技术研究员",
-            "研究所所长"
-          ],
-          "duration": "7年以上"
+            "资深生物技术研究员",
+            "生物技术研究员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6486,7 +6504,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -6505,27 +6523,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "中小学教师",
-            "初级中小学教师"
-          ],
-          "duration": "0-3年"
+            "初级中小学教师",
+            "中小学教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干中小学教师",
+            "中小学教师",
             "高级中小学教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级中小学教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深中小学教师",
+            "中小学教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6640,27 +6658,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "大学教师",
-            "初级大学教师"
-          ],
-          "duration": "0-3年"
+            "初级大学教师",
+            "大学教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干大学教师",
+            "大学教师",
             "高级大学教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级大学教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深大学教师",
+            "大学教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6790,27 +6808,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级辅导员",
-            "辅导员"
-          ],
-          "duration": "0-3年"
+            "辅导员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级辅导员",
-            "资深辅导员"
-          ],
-          "duration": "3-7年"
+            "辅导员",
+            "高级辅导员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席辅导员",
-            "辅导员总监"
-          ],
-          "duration": "7年以上"
+            "资深辅导员",
+            "辅导员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -6904,7 +6922,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -6938,27 +6956,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "职业培训师",
-            "初级职业培训师"
-          ],
-          "duration": "0-3年"
+            "初级职业培训师",
+            "职业培训师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管职业培训师",
+            "职业培训师",
             "高级职业培训师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "职业培训师长",
-            "职业培训师主任"
-          ],
-          "duration": "7年以上"
+            "资深职业培训师",
+            "职业培训师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7086,27 +7104,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "企业培训师",
-            "初级企业培训师"
-          ],
-          "duration": "0-3年"
+            "初级企业培训师",
+            "企业培训师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管企业培训师",
+            "企业培训师",
             "高级企业培训师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "企业培训师长",
-            "企业培训师主任"
-          ],
-          "duration": "7年以上"
+            "资深企业培训师",
+            "企业培训师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7236,27 +7254,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "英语教师",
-            "初级英语教师"
-          ],
-          "duration": "0-3年"
+            "初级英语教师",
+            "英语教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干英语教师",
+            "英语教师",
             "高级英语教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级英语教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深英语教师",
+            "英语教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7371,27 +7389,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "对外汉语教师",
-            "初级对外汉语教师"
-          ],
-          "duration": "0-3年"
+            "初级对外汉语教师",
+            "对外汉语教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干对外汉语教师",
+            "对外汉语教师",
             "高级对外汉语教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级对外汉语教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深对外汉语教师",
+            "对外汉语教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7487,7 +7505,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -7521,27 +7539,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "音乐教师",
-            "初级音乐教师"
-          ],
-          "duration": "0-3年"
+            "初级音乐教师",
+            "音乐教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干音乐教师",
+            "音乐教师",
             "高级音乐教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级音乐教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深音乐教师",
+            "音乐教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7671,27 +7689,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "美术教师",
-            "初级美术教师"
-          ],
-          "duration": "0-3年"
+            "初级美术教师",
+            "美术教师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "骨干美术教师",
+            "美术教师",
             "高级美术教师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "特级美术教师",
-            "教研组长"
-          ],
-          "duration": "7年以上"
+            "资深美术教师",
+            "美术教师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7818,25 +7836,28 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合教育咨询师这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "教育咨询师",
-            "初级教育咨询师"
-          ],
-          "duration": "0-3年"
+            "初级教育咨询师",
+            "教育咨询师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "资深教育咨询师",
+            "教育咨询师",
             "高级教育咨询师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席教育咨询师",
-            "教育咨询专家"
-          ],
-          "duration": "7年以上"
+            "资深教育咨询师",
+            "教育咨询师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -7965,27 +7986,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级课程设计师",
-            "课程设计师"
-          ],
-          "duration": "0-3年"
+            "课程设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级课程设计师",
-            "资深课程设计师"
-          ],
-          "duration": "3-7年"
+            "课程设计师",
+            "高级课程设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深课程设计师",
+            "课程设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -8111,27 +8132,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "教育产品专员",
-            "教育产品经理"
-          ],
-          "duration": "0-3年"
+            "教育产品代表",
+            "教育产品专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级教育产品经理",
-            "教育产品高级经理"
-          ],
-          "duration": "3-7年"
+            "教育产品经理",
+            "高级教育产品经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "教育产品总监",
             "教育产品VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -8225,7 +8246,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8259,27 +8280,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级平面设计师",
-            "平面设计师"
-          ],
-          "duration": "0-3年"
+            "平面设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级平面设计师",
-            "资深平面设计师"
-          ],
-          "duration": "3-7年"
+            "平面设计师",
+            "高级平面设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深平面设计师",
+            "平面设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -8407,27 +8428,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级工业设计师",
-            "工业设计师"
-          ],
-          "duration": "0-3年"
+            "工业设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级工业设计师",
-            "资深工业设计师"
-          ],
-          "duration": "3-7年"
+            "工业设计师",
+            "高级工业设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深工业设计师",
+            "工业设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -8526,7 +8547,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8560,27 +8581,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级服装设计师",
-            "服装设计师"
-          ],
-          "duration": "0-3年"
+            "服装设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级服装设计师",
-            "资深服装设计师"
-          ],
-          "duration": "3-7年"
+            "服装设计师",
+            "高级服装设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深服装设计师",
+            "服装设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -8711,27 +8732,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级室内设计师",
-            "室内设计师"
-          ],
-          "duration": "0-3年"
+            "室内设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级室内设计师",
-            "资深室内设计师"
-          ],
-          "duration": "3-7年"
+            "室内设计师",
+            "高级室内设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深室内设计师",
+            "室内设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -8861,25 +8882,28 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合插画师这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "插画师",
-            "初级插画师"
-          ],
-          "duration": "0-2年"
+            "初级插画师",
+            "插画师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "资深插画师",
+            "插画师",
             "高级插画师"
-          ],
-          "duration": "3-5年"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席插画师",
-            "艺术总监"
-          ],
-          "duration": "6-10年+"
+            "资深插画师",
+            "插画师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9005,25 +9029,28 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合摄影师这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "摄影师",
-            "摄影助理"
-          ],
-          "duration": "0-2年"
+            "初级摄影师",
+            "摄影师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "资深摄影师",
+            "摄影师",
             "高级摄影师"
-          ],
-          "duration": "3-5年"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席摄影师",
-            "摄影总监"
-          ],
-          "duration": "6-10年+"
+            "资深摄影师",
+            "摄影师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9154,27 +9181,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "动画师",
-            "初级动画师"
-          ],
-          "duration": "0-3年"
+            "初级动画师",
+            "动画师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管动画师",
+            "动画师",
             "高级动画师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "动画师长",
-            "动画师主任"
-          ],
-          "duration": "7年以上"
+            "资深动画师",
+            "动画师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9305,27 +9332,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "导演助理",
-            "副导演"
-          ],
-          "duration": "0-3年"
+            "初级导演",
+            "导演助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
             "导演",
-            "资深导演"
-          ],
-          "duration": "3-7年"
+            "高级导演"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "知名导演",
-            "制片人"
-          ],
-          "duration": "7年以上"
+            "资深导演",
+            "导演专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9451,27 +9478,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "视频剪辑师",
-            "初级视频剪辑师"
-          ],
-          "duration": "0-3年"
+            "初级视频剪辑师",
+            "视频剪辑师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管视频剪辑师",
+            "视频剪辑师",
             "高级视频剪辑师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "视频剪辑师长",
-            "视频剪辑师主任"
-          ],
-          "duration": "7年以上"
+            "资深视频剪辑师",
+            "视频剪辑师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9596,25 +9623,28 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合影视摄影师这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "影视摄影师",
-            "摄影助理"
-          ],
-          "duration": "0-2年"
+            "初级影视摄影师",
+            "影视摄影师助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "摄影指导",
-            "资深摄影师"
-          ],
-          "duration": "3-6年"
+            "影视摄影师",
+            "高级影视摄影师"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席摄影师",
-            "视觉总监"
-          ],
-          "duration": "7-12年+"
+            "资深影视摄影师",
+            "影视摄影师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9729,25 +9759,28 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合作家/编剧这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "编剧助理",
-            "初级编剧"
-          ],
-          "duration": "0-2年"
+            "初级作家/编剧",
+            "作家/编剧助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "编剧",
-            "资深编剧"
-          ],
-          "duration": "3-6年"
+            "作家/编剧",
+            "高级作家/编剧"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席编剧",
-            "文学策划"
-          ],
-          "duration": "7-12年+"
+            "资深作家/编剧",
+            "作家/编剧专家"
+          ]
         }
       },
       "salaryRange": {
@@ -9876,27 +9909,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级文案策划",
-            "文案策划"
-          ],
-          "duration": "0-3年"
+            "文案策划助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级文案策划",
-            "资深文案策划"
-          ],
-          "duration": "3-7年"
+            "文案策划",
+            "高级文案策划"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席文案策划",
-            "文案策划总监"
-          ],
-          "duration": "7年以上"
+            "资深文案策划",
+            "文案策划专家"
+          ]
         }
       },
       "salaryRange": {
@@ -10027,27 +10060,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "初级记者",
-            "记者"
-          ],
-          "duration": "0-3年"
+            "实习记者",
+            "助理记者"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级记者",
-            "资深记者"
-          ],
-          "duration": "3-7年"
+            "记者",
+            "高级记者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "首席记者",
-            "记者总监"
-          ],
-          "duration": "7年以上"
+            "主编"
+          ]
         }
       },
       "salaryRange": {
@@ -10178,27 +10211,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "初级编辑",
-            "编辑"
-          ],
-          "duration": "0-3年"
+            "实习编辑",
+            "助理编辑"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级编辑",
-            "资深编辑"
-          ],
-          "duration": "3-7年"
+            "编辑",
+            "高级编辑"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席编辑",
-            "编辑总监"
-          ],
-          "duration": "7年以上"
+            "主编",
+            "总编辑"
+          ]
         }
       },
       "salaryRange": {
@@ -10312,27 +10345,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "新媒体运营专员",
-            "新媒体运营"
-          ],
-          "duration": "0-3年"
+            "初级新媒体运营",
+            "新媒体运营助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "新媒体运营经理",
+            "新媒体运营",
             "高级新媒体运营"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "新媒体运营总监",
-            "COO"
-          ],
-          "duration": "7年以上"
+            "资深新媒体运营",
+            "新媒体运营专家"
+          ]
         }
       },
       "salaryRange": {
@@ -10427,7 +10460,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -10461,27 +10494,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "群众演员",
-            "配角演员"
-          ],
-          "duration": "0-3年"
+            "初级演员",
+            "演员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主要演员",
-            "实力派演员"
-          ],
-          "duration": "3-7年"
+            "演员",
+            "高级演员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "知名演员",
-            "影帝/影后"
-          ],
-          "duration": "7年以上"
+            "资深演员",
+            "演员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -10576,7 +10609,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -10610,27 +10643,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "主持人助理",
-            "实习主持人"
-          ],
-          "duration": "0-3年"
+            "初级主持人",
+            "主持人助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
             "主持人",
-            "资深主持人"
-          ],
-          "duration": "3-7年"
+            "高级主持人"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "知名主持人",
-            "首席主持人"
-          ],
-          "duration": "7年以上"
+            "资深主持人",
+            "主持人专家"
+          ]
         }
       },
       "salaryRange": {
@@ -10761,27 +10794,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级机械工程师",
-            "机械工程师"
-          ],
-          "duration": "0-3年"
+            "机械工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级机械工程师",
-            "资深机械工程师"
-          ],
-          "duration": "3-7年"
+            "机械工程师",
+            "高级机械工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "机械架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深机械工程师",
+            "机械工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -10876,7 +10909,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -10910,27 +10943,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级工艺工程师",
-            "工艺工程师"
-          ],
-          "duration": "0-3年"
+            "工艺工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级工艺工程师",
-            "资深工艺工程师"
-          ],
-          "duration": "3-7年"
+            "工艺工程师",
+            "高级工艺工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "工艺架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深工艺工程师",
+            "工艺工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11063,27 +11096,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级硬件工程师",
-            "硬件工程师"
-          ],
-          "duration": "0-3年"
+            "硬件工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级硬件工程师",
-            "资深硬件工程师"
-          ],
-          "duration": "3-7年"
+            "硬件工程师",
+            "高级硬件工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "硬件架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深硬件工程师",
+            "硬件工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11179,7 +11212,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -11213,27 +11246,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级嵌入式工程师",
-            "嵌入式工程师"
-          ],
-          "duration": "0-3年"
+            "嵌入式工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级嵌入式工程师",
-            "资深嵌入式工程师"
-          ],
-          "duration": "3-7年"
+            "嵌入式工程师",
+            "高级嵌入式工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "嵌入式架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深嵌入式工程师",
+            "嵌入式工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11332,7 +11365,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -11366,27 +11399,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级电子工程师",
-            "电子工程师"
-          ],
-          "duration": "0-3年"
+            "电子工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级电子工程师",
-            "资深电子工程师"
-          ],
-          "duration": "3-7年"
+            "电子工程师",
+            "高级电子工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "电子架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深电子工程师",
+            "电子工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11519,27 +11552,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级建筑设计师",
-            "建筑设计师"
-          ],
-          "duration": "0-3年"
+            "建筑设计师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级建筑设计师",
-            "资深建筑设计师"
-          ],
-          "duration": "3-7年"
+            "建筑设计师",
+            "高级建筑设计师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席设计师",
-            "设计总监"
-          ],
-          "duration": "7年以上"
+            "资深建筑设计师",
+            "建筑设计师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11668,27 +11701,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级结构工程师",
-            "结构工程师"
-          ],
-          "duration": "0-3年"
+            "结构工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级结构工程师",
-            "资深结构工程师"
-          ],
-          "duration": "3-7年"
+            "结构工程师",
+            "高级结构工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "结构架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深结构工程师",
+            "结构工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11818,27 +11851,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "施工专员",
-            "施工经理"
-          ],
-          "duration": "0-3年"
+            "初级施工管理",
+            "施工管理助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级施工经理",
-            "施工高级经理"
-          ],
-          "duration": "3-7年"
+            "施工管理",
+            "高级施工管理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "施工总监",
-            "施工VP"
-          ],
-          "duration": "7年以上"
+            "资深施工管理",
+            "施工管理专家"
+          ]
         }
       },
       "salaryRange": {
@@ -11971,27 +12004,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级土木工程师",
-            "土木工程师"
-          ],
-          "duration": "0-3年"
+            "土木工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级土木工程师",
-            "资深土木工程师"
-          ],
-          "duration": "3-7年"
+            "土木工程师",
+            "高级土木工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "土木架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深土木工程师",
+            "土木工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -12106,27 +12139,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级测绘工程师",
-            "测绘工程师"
-          ],
-          "duration": "0-3年"
+            "测绘工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级测绘工程师",
-            "资深测绘工程师"
-          ],
-          "duration": "3-7年"
+            "测绘工程师",
+            "高级测绘工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "测绘架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深测绘工程师",
+            "测绘工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -12257,27 +12290,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "采购专员",
-            "初级采购专员"
-          ],
-          "duration": "0-3年"
+            "初级采购专员",
+            "采购专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "采购经理",
-            "高级采购经理"
-          ],
-          "duration": "3-7年"
+            "采购专员",
+            "高级采购专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "采购总监",
-            "采购VP"
-          ],
-          "duration": "7年以上"
+            "供应链总监"
+          ]
         }
       },
       "salaryRange": {
@@ -12406,27 +12439,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "物流专员",
-            "物流经理"
-          ],
-          "duration": "0-3年"
+            "物流代表",
+            "物流专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级物流经理",
-            "物流高级经理"
-          ],
-          "duration": "3-7年"
+            "物流经理",
+            "高级物流经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "物流总监",
             "物流VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -12555,27 +12588,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "供应链分析师",
-            "初级供应链分析师"
-          ],
-          "duration": "0-3年"
+            "初级供应链分析师",
+            "供应链分析师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管供应链分析师",
+            "供应链分析师",
             "高级供应链分析师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "供应链分析师长",
-            "供应链分析师主任"
-          ],
-          "duration": "7年以上"
+            "资深供应链分析师",
+            "供应链分析师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -12672,7 +12705,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12706,27 +12739,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级质量工程师",
-            "质量工程师"
-          ],
-          "duration": "0-3年"
+            "质量工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级质量工程师",
-            "资深质量工程师"
-          ],
-          "duration": "3-7年"
+            "质量工程师",
+            "高级质量工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "质量架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深质量工程师",
+            "质量工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -12823,7 +12856,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12857,27 +12890,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "QA专员",
-            "初级QA专员"
-          ],
-          "duration": "0-3年"
+            "初级QA专员",
+            "QA专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "QA经理",
-            "高级QA经理"
-          ],
-          "duration": "3-7年"
+            "QA专员",
+            "高级QA专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "QA总监",
-            "QAVP"
-          ],
-          "duration": "7年以上"
+            "质量总监",
+            "首席质量官"
+          ]
         }
       },
       "salaryRange": {
@@ -13008,27 +13041,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "生产专员",
-            "生产经理"
-          ],
-          "duration": "0-3年"
+            "生产代表",
+            "生产专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级生产经理",
-            "生产高级经理"
-          ],
-          "duration": "3-7年"
+            "生产经理",
+            "高级生产经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "生产总监",
             "生产VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -13125,7 +13158,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -13159,27 +13192,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "精益生产专员",
-            "初级精益生产专员"
-          ],
-          "duration": "0-3年"
+            "初级精益生产专员",
+            "精益生产专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "精益生产经理",
-            "高级精益生产经理"
-          ],
-          "duration": "3-7年"
+            "精益生产专员",
+            "高级精益生产专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "精益生产总监",
-            "精益生产VP"
-          ],
-          "duration": "7年以上"
+            "运营卓越总监"
+          ]
         }
       },
       "salaryRange": {
@@ -13312,27 +13345,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级安全工程师",
-            "安全工程师"
-          ],
-          "duration": "0-3年"
+            "安全工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级安全工程师",
-            "资深安全工程师"
-          ],
-          "duration": "3-7年"
+            "安全工程师",
+            "高级安全工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "安全架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深安全工程师",
+            "安全工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -13462,25 +13495,28 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合公务员这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "科员",
-            "办事员"
-          ],
-          "duration": "0-3年"
+            "初级公务员",
+            "公务员助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "副科级",
-            "正科级"
-          ],
-          "duration": "4-8年"
+            "公务员",
+            "高级公务员"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "副处级",
-            "正处级"
-          ],
-          "duration": "9-15年+"
+            "资深公务员",
+            "公务员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -13583,7 +13619,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -13617,27 +13653,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "政策研究助理",
-            "政策研究员"
-          ],
-          "duration": "0-3年"
+            "初级政策研究员",
+            "政策研究员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "副政策研究员",
+            "政策研究员",
             "高级政策研究员"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席政策研究员",
-            "研究所所长"
-          ],
-          "duration": "7年以上"
+            "资深政策研究员",
+            "政策研究员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -13765,27 +13801,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级事业单位工作人员",
-            "事业单位工作人员"
-          ],
-          "duration": "0-3年"
+            "事业单位工作人员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级事业单位工作人员",
-            "资深事业单位工作人员"
-          ],
-          "duration": "3-7年"
+            "事业单位工作人员",
+            "高级事业单位工作人员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席事业单位工作人员",
-            "事业单位工作人员总监"
-          ],
-          "duration": "7年以上"
+            "资深事业单位工作人员",
+            "事业单位工作人员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -13913,27 +13949,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级社工",
-            "社工"
-          ],
-          "duration": "0-3年"
+            "社工助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级社工",
-            "资深社工"
-          ],
-          "duration": "3-7年"
+            "社工",
+            "高级社工"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席社工",
-            "社工总监"
-          ],
-          "duration": "7年以上"
+            "资深社工",
+            "社工专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14061,27 +14097,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级社区工作者",
-            "社区工作者"
-          ],
-          "duration": "0-3年"
+            "社区工作者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级社区工作者",
-            "资深社区工作者"
-          ],
-          "duration": "3-7年"
+            "社区工作者",
+            "高级社区工作者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席社区工作者",
-            "社区工作者总监"
-          ],
-          "duration": "7年以上"
+            "资深社区工作者",
+            "社区工作者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14209,27 +14245,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级公益组织工作者",
-            "公益组织工作者"
-          ],
-          "duration": "0-3年"
+            "公益组织工作者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级公益组织工作者",
-            "资深公益组织工作者"
-          ],
-          "duration": "3-7年"
+            "公益组织工作者",
+            "高级公益组织工作者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席公益组织工作者",
-            "公益组织工作者总监"
-          ],
-          "duration": "7年以上"
+            "资深公益组织工作者",
+            "公益组织工作者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14356,25 +14392,28 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合警察这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "警员",
-            "四级警长"
-          ],
-          "duration": "0-3年"
+            "初级警察",
+            "警察助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "三级警长",
-            "二级警长"
-          ],
-          "duration": "4-8年"
+            "警察",
+            "高级警察"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "一级警长",
-            "三级警督"
-          ],
-          "duration": "9-15年+"
+            "资深警察",
+            "警察专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14468,7 +14507,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -14501,25 +14540,28 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合消防员这个岗位。",
       "careerPath": {
         "junior": {
+          "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "消防员",
-            "四级消防士"
-          ],
-          "duration": "0-3年"
+            "初级消防员",
+            "消防员助理"
+          ]
         },
         "mid": {
+          "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "三级消防士",
-            "二级消防士"
-          ],
-          "duration": "4-8年"
+            "消防员",
+            "高级消防员"
+          ]
         },
         "senior": {
+          "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "一级消防士",
-            "消防指挥员"
-          ],
-          "duration": "9-15年+"
+            "资深消防员",
+            "消防员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14613,7 +14655,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -14647,27 +14689,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "应急专员专员",
-            "应急专员经理"
-          ],
-          "duration": "0-3年"
+            "初级应急管理专员",
+            "应急管理专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级应急专员经理",
-            "应急专员高级经理"
-          ],
-          "duration": "3-7年"
+            "应急管理专员",
+            "高级应急管理专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "应急专员总监",
-            "应急专员VP"
-          ],
-          "duration": "7年以上"
+            "应急管理总监",
+            "首席安全官"
+          ]
         }
       },
       "salaryRange": {
@@ -14797,27 +14839,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "城市规划师",
-            "初级城市规划师"
-          ],
-          "duration": "0-3年"
+            "初级城市规划师",
+            "城市规划师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管城市规划师",
+            "城市规划师",
             "高级城市规划师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "城市规划师长",
-            "城市规划师主任"
-          ],
-          "duration": "7年以上"
+            "资深城市规划师",
+            "城市规划师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -14945,27 +14987,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "环保专员",
-            "初级环保专员"
-          ],
-          "duration": "0-3年"
+            "初级环保专员",
+            "环保专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "环保经理",
-            "高级环保经理"
-          ],
-          "duration": "3-7年"
+            "环保专员",
+            "高级环保专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "环保总监",
-            "环保VP"
-          ],
-          "duration": "7年以上"
+            "首席可持续发展官"
+          ]
         }
       },
       "salaryRange": {
@@ -15095,27 +15137,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "交通规划师",
-            "初级交通规划师"
-          ],
-          "duration": "0-3年"
+            "初级交通规划师",
+            "交通规划师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "主管交通规划师",
+            "交通规划师",
             "高级交通规划师"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "交通规划师长",
-            "交通规划师主任"
-          ],
-          "duration": "7年以上"
+            "资深交通规划师",
+            "交通规划师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15230,27 +15272,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级科研人员",
-            "科研人员"
-          ],
-          "duration": "0-3年"
+            "科研人员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级科研人员",
-            "资深科研人员"
-          ],
-          "duration": "3-7年"
+            "科研人员",
+            "高级科研人员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席科研人员",
-            "科研人员总监"
-          ],
-          "duration": "7年以上"
+            "资深科研人员",
+            "科研人员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15379,27 +15421,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "物理研究助理",
-            "物理研究员"
-          ],
-          "duration": "0-3年"
+            "初级物理研究员",
+            "物理研究员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "副物理研究员",
+            "物理研究员",
             "高级物理研究员"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席物理研究员",
-            "研究所所长"
-          ],
-          "duration": "7年以上"
+            "资深物理研究员",
+            "物理研究员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15495,7 +15537,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -15529,27 +15571,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "AI研究助理",
-            "AI研究员"
-          ],
-          "duration": "0-3年"
+            "初级AI研究员",
+            "AI研究员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "副AI研究员",
+            "AI研究员",
             "高级AI研究员"
-          ],
-          "duration": "3-7年"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席AI研究员",
-            "研究所所长"
-          ],
-          "duration": "7年以上"
+            "资深AI研究员",
+            "AI研究员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15680,27 +15722,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级算法工程师",
-            "算法工程师"
-          ],
-          "duration": "0-3年"
+            "算法工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级算法工程师",
-            "资深算法工程师"
-          ],
-          "duration": "3-7年"
+            "算法工程师",
+            "高级算法工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "算法架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深算法工程师",
+            "算法工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15830,27 +15872,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级数据科学家",
-            "数据科学家"
-          ],
-          "duration": "0-3年"
+            "数据科学家助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级数据科学家",
-            "资深数据科学家"
-          ],
-          "duration": "3-7年"
+            "数据科学家",
+            "高级数据科学家"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席数据科学家",
-            "数据科学家总监"
-          ],
-          "duration": "7年以上"
+            "资深数据科学家",
+            "数据科学家专家"
+          ]
         }
       },
       "salaryRange": {
@@ -15981,27 +16023,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级研发工程师",
-            "研发工程师"
-          ],
-          "duration": "0-3年"
+            "研发工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级研发工程师",
-            "资深研发工程师"
-          ],
-          "duration": "3-7年"
+            "研发工程师",
+            "高级研发工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "研发架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深研发工程师",
+            "研发工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -16134,27 +16176,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级材料工程师",
-            "材料工程师"
-          ],
-          "duration": "0-3年"
+            "材料工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级材料工程师",
-            "资深材料工程师"
-          ],
-          "duration": "3-7年"
+            "材料工程师",
+            "高级材料工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "材料架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深材料工程师",
+            "材料工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -16269,27 +16311,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级新能源工程师",
-            "新能源工程师"
-          ],
-          "duration": "0-3年"
+            "新能源工程师助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级新能源工程师",
-            "资深新能源工程师"
-          ],
-          "duration": "3-7年"
+            "新能源工程师",
+            "高级新能源工程师"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "新能源架构师",
-            "技术总监"
-          ],
-          "duration": "7年以上"
+            "资深新能源工程师",
+            "新能源工程师专家"
+          ]
         }
       },
       "salaryRange": {
@@ -16422,27 +16464,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
             "初级实验室技术员",
-            "实验室技术员"
-          ],
-          "duration": "0-3年"
+            "实验室技术员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级实验室技术员",
-            "资深实验室技术员"
-          ],
-          "duration": "3-7年"
+            "实验室技术员",
+            "高级实验室技术员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "首席实验室技术员",
-            "实验室技术员总监"
-          ],
-          "duration": "7年以上"
+            "资深实验室技术员",
+            "实验室技术员专家"
+          ]
         }
       },
       "salaryRange": {
@@ -16558,27 +16600,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "科研项目专员",
-            "科研项目经理"
-          ],
-          "duration": "0-3年"
+            "科研项目代表",
+            "科研项目专员"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "高级科研项目经理",
-            "科研项目高级经理"
-          ],
-          "duration": "3-7年"
+            "科研项目经理",
+            "高级科研项目经理"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "科研项目总监",
             "科研项目VP"
-          ],
-          "duration": "7年以上"
+          ]
         }
       },
       "salaryRange": {
@@ -16709,27 +16751,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "技术转化专员",
-            "初级技术转化专员"
-          ],
-          "duration": "0-3年"
+            "初级技术转化专员",
+            "技术转化专员助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "技术转化经理",
-            "高级技术转化经理"
-          ],
-          "duration": "3-7年"
+            "技术转化专员",
+            "高级技术转化专员"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
             "技术转化总监",
-            "技术转化VP"
-          ],
-          "duration": "7年以上"
+            "首席技术转化官"
+          ]
         }
       },
       "salaryRange": {
@@ -16860,27 +16902,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "科技创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级科技创业者",
+            "科技创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "科技创业者",
+            "高级科技创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深科技创业者",
+            "科技创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -16977,7 +17019,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -16996,27 +17038,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "SaaS创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级SaaS创业者",
+            "SaaS创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "SaaS创业者",
+            "高级SaaS创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深SaaS创业者",
+            "SaaS创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -17132,27 +17174,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "餐饮创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级餐饮创业者",
+            "餐饮创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "餐饮创业者",
+            "高级餐饮创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深餐饮创业者",
+            "餐饮创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -17283,27 +17325,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "零售创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级零售创业者",
+            "零售创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "零售创业者",
+            "高级零售创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深零售创业者",
+            "零售创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -17419,27 +17461,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "自媒体创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级自媒体创业者",
+            "自媒体创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "自媒体创业者",
+            "高级自媒体创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深自媒体创业者",
+            "自媒体创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -17569,27 +17611,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "知识付费创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级知识付费创业者",
+            "知识付费创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "知识付费创业者",
+            "高级知识付费创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深知识付费创业者",
+            "知识付费创业者专家"
+          ]
         }
       },
       "salaryRange": {
@@ -17720,27 +17762,27 @@
       "careerPath": {
         "junior": {
           "title": "初级",
+          "duration": "0-3年",
           "positions": [
-            "电商创业者",
-            "初创团队"
-          ],
-          "duration": "0-3年"
+            "初级电商创业者",
+            "电商创业者助理"
+          ]
         },
         "mid": {
           "title": "中级",
+          "duration": "3-7年",
           "positions": [
-            "成长期创业者",
-            "连续创业者"
-          ],
-          "duration": "3-7年"
+            "电商创业者",
+            "高级电商创业者"
+          ]
         },
         "senior": {
           "title": "高级",
+          "duration": "7年以上",
           "positions": [
-            "成功创业者",
-            "天使投资人"
-          ],
-          "duration": "7年以上"
+            "资深电商创业者",
+            "电商创业者专家"
+          ]
         }
       },
       "salaryRange": {
