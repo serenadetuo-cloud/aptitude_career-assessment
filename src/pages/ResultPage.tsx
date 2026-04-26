@@ -11,7 +11,7 @@ const Chart = RadarChart as any;
 
 const DIMENSION_LABELS: Record<Dimension, string> = {
   商业服务: '商业服务',
-  医疗健康: '医疗健康',
+  健康服务: '健康服务',
   教育培训: '教育培训',
   文化艺术: '文化艺术',
   工程制造: '工程制造',

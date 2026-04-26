@@ -13,7 +13,7 @@ export type MajorTag =
 // 行业维度
 export type Dimension =
   | '商业服务'
-  | '医疗健康'
+  | '健康服务'
   | '教育培训'
   | '文化艺术'
   | '工程制造'

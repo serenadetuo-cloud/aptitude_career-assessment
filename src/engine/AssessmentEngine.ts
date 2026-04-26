@@ -44,7 +44,7 @@ export class AssessmentEngine {
   calculateScores(answers: UserAnswer[], userMajors: MajorTag[] = []): DimensionScores {
     const generalScores: DimensionScores = {
       商业服务: 0,
-      医疗健康: 0,
+      健康服务: 0,
       教育培训: 0,
       文化艺术: 0,
       工程制造: 0,
@@ -55,7 +55,7 @@ export class AssessmentEngine {
 
     const majorScores: DimensionScores = {
       商业服务: 0,
-      医疗健康: 0,
+      健康服务: 0,
       教育培训: 0,
       文化艺术: 0,
       工程制造: 0,
@@ -143,9 +143,9 @@ export class AssessmentEngine {
     userMajors.forEach((major) => {
       switch (major) {
         case 'major_medical':
-          // 医学专业：强化医疗健康维度
-          if (scores['医疗健康'] > 30) {
-            weightedScores['医疗健康'] = Math.min(100, Math.round(scores['医疗健康'] * 1.5));
+          // 医学专业：强化健康服务维度
+          if (scores['健康服务'] > 30) {
+            weightedScores['健康服务'] = Math.min(100, Math.round(scores['健康服务'] * 1.5));
           }
           break;
 
@@ -402,10 +402,10 @@ export class AssessmentEngine {
       };
     }
 
-    if (dimension === '医疗健康') {
+    if (dimension === '健康服务') {
       return {
         title: '专业严谨，注重循证',
-        description: `你的医疗健康能力得分${score}分，展现出${jobNames[0]}岗位所需的专业素养和严谨态度。`,
+        description: `你的健康服务能力得分${score}分，展现出${jobNames[0]}岗位所需的专业素养和严谨态度。`,
         example: `在临床或健康管理工作中，你不会凭感觉做判断。比如遇到一个症状，你会系统地问诊：什么时候开始的？有什么诱因？伴随症状是什么？然后结合检查结果和文献证据，给出诊断和治疗方案。这种循证思维确保每个决策都有依据，最大程度保障患者安全。`
       };
     }
@@ -527,9 +527,9 @@ export class AssessmentEngine {
         `分析3-5个${jobName}领域的成功案例,拆解他们的商业模式和增长策略`,
         `尝试做一个小的商业项目(哪怕是校园创业),实践从0到1的完整流程`
       ],
-      '医疗健康': [
+      '健康服务': [
         `系统学习医学基础知识,可以通过Coursera等平台学习相关课程`,
-        `关注医疗健康领域的前沿进展,阅读权威医学期刊和行业报告`,
+        `关注健康服务领域的前沿进展,阅读权威医学期刊和行业报告`,
         `寻找医院或健康管理机构的实习机会,了解真实的临床或健康管理场景`
       ],
       '教育培训': [
