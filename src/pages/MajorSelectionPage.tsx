@@ -35,7 +35,7 @@ export const MajorSelectionPage: React.FC = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="min-h-screen bg-[#0F172A] flex flex-col justify-center p-4 py-2 relative overflow-hidden"
+      className="min-h-screen bg-[#0F172A] flex flex-col justify-between p-4 py-8 relative overflow-hidden"
     >
       {/* Background gradient effects */}
       <div className="absolute top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/20 rounded-full blur-3xl" />
@@ -106,7 +106,7 @@ export const MajorSelectionPage: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="text-center text-[10px] md:text-xs text-gray-500 mt-3 md:mt-6"
+          className="text-center text-xs md:text-sm text-gray-500 mt-3 md:mt-6"
         >
           已有 12,482 位同学完成测评，好评率 98%
         </motion.p>
