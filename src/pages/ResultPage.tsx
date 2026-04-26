@@ -158,13 +158,13 @@ export const ResultPage: React.FC = () => {
           {/* Header Info */}
           <div className="w-full max-w-2xl mx-auto flex justify-between items-center mb-8 relative z-10">
             <div className="text-white">
-              <p className="text-[10px] font-black tracking-widest text-indigo-400 uppercase mb-1">Career Navigator</p>
+              <p className="text-xs font-black tracking-widest text-indigo-400 uppercase mb-1">Career Navigator</p>
               <div className="flex items-center gap-1.5 font-black text-xs text-white">
                 <span className="w-2.5 h-2.5 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_8px_rgba(99,102,241,0.8)]" />
                 深层评估完成
               </div>
             </div>
-            <div className="text-white/30 text-[10px] font-mono text-right">
+            <div className="text-white/30 text-xs font-mono text-right">
               #2026_REPORT<br />
               IDX: {Math.random().toString(36).substring(7).toUpperCase()}
             </div>
@@ -218,7 +218,7 @@ export const ResultPage: React.FC = () => {
           {/* Radar Chart */}
           <div className="w-full max-w-2xl mx-auto bg-white/5 backdrop-blur-md rounded-[40px] p-8 border border-white/10 mb-8 relative z-10">
             <div className="text-center mb-6">
-              <h3 className="font-black text-[11px] text-gray-400 uppercase tracking-[0.2em] mb-3">核心潜力维度分布</h3>
+              <h3 className="font-black text-xs text-gray-400 uppercase tracking-[0.2em] mb-3">核心潜力维度分布</h3>
               <div className="h-1.5 w-12 bg-indigo-500 mx-auto rounded-full" />
             </div>
 
@@ -352,14 +352,14 @@ export const ResultPage: React.FC = () => {
                       <div className="flex items-center gap-5">
                         <div className="text-xs font-black text-gray-600">0{i + 1}</div>
                         <div>
-                          <div className="font-black text-[17px] text-white">{jobMatch.job.jobName}</div>
+                          <div className="font-black text-base text-white">{jobMatch.job.jobName}</div>
                           <div className="flex items-center gap-3 mt-1.5">
                             <div className="flex gap-0.5">
                               {Array.from({ length: 5 }).map((_, s) => (
                                 <Star key={s} size={10} fill={s < Math.round(jobMatch.matchScore / 20) ? '#6366F1' : 'none'} stroke={s < Math.round(jobMatch.matchScore / 20) ? '#6366F1' : '#475569'} />
                               ))}
                             </div>
-                            <span className="text-[10px] font-black text-indigo-400 tracking-wider uppercase">匹配度 {jobMatch.matchScore}%</span>
+                            <span className="text-xs font-black text-indigo-400 tracking-wider uppercase">匹配度 {jobMatch.matchScore}%</span>
                           </div>
                         </div>
                       </div>
@@ -377,7 +377,7 @@ export const ResultPage: React.FC = () => {
                           className="overflow-hidden job-details"
                         >
                           <div className="px-6 pb-6 space-y-4">
-                            <div className="text-[13.5px] text-gray-300 leading-relaxed">
+                            <div className="text-sm text-gray-300 leading-relaxed">
                               <span className="font-black text-white block mb-1.5">岗位速写</span>
                               {jobMatch.job.jobDescription}
                             </div>
@@ -386,14 +386,14 @@ export const ResultPage: React.FC = () => {
                              !jobMatch.job.typicalDay.some((activity: any) =>
                                typeof activity === 'string' && activity.includes('查看工作安排，处理优先事项')
                              ) && (
-                              <div className="text-[13.5px] text-indigo-300 leading-relaxed bg-indigo-600/10 p-5 rounded-[20px] border border-indigo-500/20">
+                              <div className="text-sm text-indigo-300 leading-relaxed bg-indigo-600/10 p-5 rounded-[20px] border border-indigo-500/20">
                                 <span className="font-black text-indigo-400 block mb-1.5">典型的一天</span>
                                 {jobMatch.job.typicalDay.map((activity, idx) => (
                                   <div key={idx} className="text-xs mb-1">• {activity.time} {activity.activity}</div>
                                 ))}
                               </div>
                             )}
-                            <div className="text-[13.5px] text-purple-300 leading-relaxed bg-purple-600/10 p-5 rounded-[20px] border border-purple-500/20">
+                            <div className="text-sm text-purple-300 leading-relaxed bg-purple-600/10 p-5 rounded-[20px] border border-purple-500/20">
                               <span className="font-black text-purple-400 block mb-1.5">为什么适合你</span>
                               {whyFit}
                             </div>
@@ -462,18 +462,18 @@ export const ResultPage: React.FC = () => {
             <div className="space-y-4">
               {strengths.length > 0 ? strengths.map((strength: any, i: number) => (
                 <div key={i} className="bg-emerald-600/10 rounded-[28px] p-6 border border-emerald-500/20">
-                  <div className="font-black text-white mb-1.5 text-[15px]">优势 {i + 1}：{strength.title}</div>
-                  <div className="text-[13px] text-gray-300 leading-relaxed mb-3">{strength.description}</div>
+                  <div className="font-black text-white mb-1.5 text-base">优势 {i + 1}：{strength.title}</div>
+                  <div className="text-sm text-gray-300 leading-relaxed mb-3">{strength.description}</div>
                   {strength.example && (
                     <>
-                      <div className="text-[10px] font-black text-emerald-400 uppercase tracking-wider mb-2">场景举例</div>
-                      <div className="text-[12px] text-gray-400 leading-relaxed">{strength.example}</div>
+                      <div className="text-xs font-black text-emerald-400 uppercase tracking-wider mb-2">场景举例</div>
+                      <div className="text-sm text-gray-400 leading-relaxed">{strength.example}</div>
                     </>
                   )}
                 </div>
               )) : (
                 <div className="bg-emerald-600/10 rounded-[28px] p-6 border border-emerald-500/20">
-                  <div className="text-[13px] text-emerald-300/80 leading-relaxed">根据你的测评结果，我们正在为你生成个性化的职业优势分析...</div>
+                  <div className="text-sm text-emerald-300/80 leading-relaxed">根据你的测评结果，我们正在为你生成个性化的职业优势分析...</div>
                 </div>
               )}
             </div>
@@ -490,12 +490,12 @@ export const ResultPage: React.FC = () => {
             <div className="space-y-4">
               {weaknesses.length > 0 ? weaknesses.map((weakness: any, i: number) => (
                 <div key={i} className="bg-white/5 rounded-[28px] p-6 border border-white/10">
-                  <div className="font-black text-amber-400 mb-2 text-[15px]">短板 {i + 1}：{weakness.title}</div>
-                  <div className="text-[13px] text-gray-300 leading-relaxed mb-4">{weakness.description}</div>
+                  <div className="font-black text-amber-400 mb-2 text-base">短板 {i + 1}：{weakness.title}</div>
+                  <div className="text-sm text-gray-300 leading-relaxed mb-4">{weakness.description}</div>
                   {weakness.improvements && weakness.improvements.length > 0 && (
                     <>
-                      <div className="text-[10px] font-black text-amber-400 uppercase tracking-wider mb-2">如何改进</div>
-                      <div className="text-[12px] text-gray-400">
+                      <div className="text-xs font-black text-amber-400 uppercase tracking-wider mb-2">如何改进</div>
+                      <div className="text-sm text-gray-400">
                         {weakness.improvements.map((improvement: string, idx: number) => (
                           <div key={idx}>• {improvement}</div>
                         ))}
@@ -505,7 +505,7 @@ export const ResultPage: React.FC = () => {
                 </div>
               )) : (
                 <div className="bg-white/5 rounded-[28px] p-6 border border-white/10">
-                  <div className="text-[13px] text-gray-300 leading-relaxed">根据你的测评结果，我们正在为你生成个性化的短板分析...</div>
+                  <div className="text-sm text-gray-300 leading-relaxed">根据你的测评结果，我们正在为你生成个性化的短板分析...</div>
                 </div>
               )}
             </div>
