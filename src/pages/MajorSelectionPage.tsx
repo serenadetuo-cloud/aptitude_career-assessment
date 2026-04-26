@@ -35,11 +35,11 @@ export const MajorSelectionPage: React.FC = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="min-h-screen bg-[#0F172A] flex flex-col justify-center p-4 py-8 relative overflow-hidden"
+      className="min-h-screen bg-[#0F172A] flex flex-col justify-center p-4 py-2 relative overflow-hidden"
     >
       {/* Background gradient effects */}
-      <div className="absolute top-0 right-0 w-80 h-80 bg-indigo-600/20 rounded-full blur-[80px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-600/20 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-80 h-80 bg-purple-600/20 rounded-full blur-3xl" />
 
       <div className="z-10 max-w-2xl w-full mx-auto">
         <motion.div
@@ -62,7 +62,7 @@ export const MajorSelectionPage: React.FC = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="bg-white/5 rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
+          className="bg-white/5 backdrop-blur-md rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
         >
           <div className="grid grid-cols-3 gap-2 md:gap-4 mb-3 md:mb-8">
             {MAJOR_OPTIONS.map((option, index) => (
@@ -106,7 +106,7 @@ export const MajorSelectionPage: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="text-center text-xs md:text-sm text-gray-500 mt-3 md:mt-6"
+          className="text-center text-[10px] md:text-xs text-gray-500 mt-3 md:mt-6"
         >
           已有 12,482 位同学完成测评，好评率 98%
         </motion.p>
