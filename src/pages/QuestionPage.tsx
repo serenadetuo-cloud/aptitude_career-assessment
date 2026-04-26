@@ -24,7 +24,7 @@ export const QuestionPage: React.FC = () => {
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
-      className="min-h-screen bg-[#0F172A] p-4 pt-10 flex flex-col relative overflow-hidden"
+      className="min-h-screen bg-[#0F172A] px-4 py-6 flex flex-col relative overflow-hidden"
     >
       {/* Background gradient effects */}
       <div className="absolute top-[-10%] right-[-10%] w-80 h-80 bg-indigo-600/10 rounded-full blur-3xl" />
@@ -32,7 +32,7 @@ export const QuestionPage: React.FC = () => {
 
       <div className="max-w-lg mx-auto w-full z-10">
         {/* Header */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <div className="flex items-center justify-between mb-4">
             <button
               onClick={handlePrevious}
@@ -62,16 +62,16 @@ export const QuestionPage: React.FC = () => {
         </div>
 
         {/* Question Card */}
-        <div className="flex-1 flex flex-col justify-center pb-24">
+        <div className="flex-1 flex flex-col justify-center pb-20">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentQuestion.questionId}
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="bg-white/5 backdrop-blur-md rounded-[32px] p-8 border border-white/10 shadow-2xl"
+              className="bg-white/5 backdrop-blur-md rounded-[32px] p-6 border border-white/10 shadow-2xl"
             >
-              <div className="flex items-start gap-4 mb-8">
+              <div className="flex items-start gap-4 mb-6">
                 <span className="flex-shrink-0 w-8 h-8 rounded-xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-xs font-black border border-indigo-500/30">
                   {currentQuestionIndex + 1}
                 </span>
