@@ -4,7 +4,7 @@ import { useAssessmentStore } from '../store/assessmentStore';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from 'recharts';
 import { Dimension } from '../types';
 import { ChevronRight, Download, MessageCircle, Star, CheckCircle2, Lightbulb, Trophy } from 'lucide-react';
-import { toJpeg } from 'html-to-image';
+import { toPng } from 'html-to-image';
 
 // @ts-ignore - Recharts type compatibility issue
 const Chart = RadarChart as any;
@@ -117,12 +117,21 @@ export const ResultPage: React.FC = () => {
         })
       );
 
-      const dataUrl = await toJpeg(reportRef.current, {
-        quality: 0.95,
+      const dataUrl = await toPng(reportRef.current, {
         backgroundColor: '#0F172A',
         pixelRatio: 2,
-        cacheBust: true,
+        cacheBust: false,
         skipFonts: false,
+        filter: (node) => {
+          // 跳过外部图片以避免跨域问题
+          if (node.tagName === 'IMG') {
+            const img = node as HTMLImageElement;
+            if (img.src && img.src.startsWith('http') && !img.src.includes(window.location.hostname)) {
+              return false;
+            }
+          }
+          return true;
+        },
       });
       setPosterImage(dataUrl);
     } catch (e) {

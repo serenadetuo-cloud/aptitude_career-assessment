@@ -75,8 +75,8 @@ export const MajorSelectionPage: React.FC = () => {
                 onClick={() => toggleMajor(option.value)}
                 className={`p-2 md:p-6 rounded-[12px] md:rounded-[24px] border-2 transition-all ${
                   selected.includes(option.value)
-                    ? 'border-indigo-500 bg-indigo-500/30 shadow-lg shadow-indigo-500/20'
-                    : 'border-white/10 bg-white/5'
+                    ? 'border-indigo-400 bg-indigo-500/40 shadow-lg shadow-indigo-500/30 scale-[1.02]'
+                    : 'border-white/10 bg-white/5 hover:border-white/20'
                 }`}
               >
                 <div className="text-xl md:text-4xl mb-0.5 md:mb-2">{option.icon}</div>
