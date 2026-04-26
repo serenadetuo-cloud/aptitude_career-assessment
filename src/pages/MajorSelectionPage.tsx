@@ -64,7 +64,7 @@ export const MajorSelectionPage: React.FC = () => {
           transition={{ delay: 0.3 }}
           className="bg-white/5 rounded-[20px] md:rounded-[32px] p-3 md:p-8 border border-white/10 shadow-2xl"
         >
-          <div className="grid grid-cols-3 gap-2 md:gap-4 mb-3 md:mb-8">
+          <div className="grid grid-cols-3 gap-3 md:gap-4 mb-4 md:mb-8">
             {MAJOR_OPTIONS.map((option, index) => (
               <motion.button
                 key={option.value}
@@ -96,7 +96,7 @@ export const MajorSelectionPage: React.FC = () => {
             {selected.length > 0 ? `开始测评 (已选 ${selected.length} 项)` : '探索更多可能性,直接开始'}
           </motion.button>
           {selected.length === 0 && (
-            <p className="text-center text-[9px] md:text-xs text-gray-500 mt-1.5 md:mt-3">
+            <p className="text-center text-[11px] md:text-xs text-gray-500 mt-2 md:mt-3">
               适合专业不在列表/不想从事对口专业的同学
             </p>
           )}
@@ -106,7 +106,7 @@ export const MajorSelectionPage: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="text-center text-[10px] md:text-xs text-gray-500 mt-3 md:mt-6"
+          className="text-center text-[11px] md:text-sm text-gray-500 mt-4 md:mt-6"
         >
           已有 12,482 位同学完成测评，好评率 98%
         </motion.p>
