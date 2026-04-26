@@ -7,6 +7,7 @@ import { LikertScaleQuestion } from '../components/LikertScaleQuestion';
 export const QuestionPage: React.FC = () => {
   const { questions, currentQuestionIndex, answerQuestion, setCurrentQuestionIndex } = useAssessmentStore();
   const currentQuestion = questions[currentQuestionIndex];
+  const [selectedOption, setSelectedOption] = React.useState<string | null>(null);
 
   if (!currentQuestion) return null;
 
@@ -89,19 +90,36 @@ export const QuestionPage: React.FC = () => {
                 />
               ) : (
                 <div className="grid grid-cols-1 gap-3">
-                  {currentQuestion.options?.map((opt) => (
-                    <motion.button
-                      key={`${currentQuestion.questionId}-${opt.optionId}`}
-                      whileTap={{ scale: 0.98 }}
-                      onClick={() => answerQuestion(currentQuestion.questionId, opt.optionId)}
-                      className="group w-full text-left px-6 py-4 rounded-[20px] text-sm font-bold transition-all border flex justify-between items-center bg-white/5 text-gray-300 border-white/10 hover:bg-indigo-600/20 hover:text-white hover:border-indigo-500/50"
-                    >
-                      <span>{opt.optionText}</span>
-                      <div className="w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all border-white/20 group-hover:border-indigo-400">
-                        <div className="w-0 h-0 group-hover:w-2.5 group-hover:h-2.5 bg-indigo-400 rounded-full transition-all" />
-                      </div>
-                    </motion.button>
-                  ))}
+                  {currentQuestion.options?.map((opt) => {
+                    const isSelected = selectedOption === opt.optionId;
+                    return (
+                      <motion.button
+                        key={`${currentQuestion.questionId}-${opt.optionId}`}
+                        whileTap={{ scale: 0.98 }}
+                        onClick={() => {
+                          setSelectedOption(opt.optionId);
+                          setTimeout(() => {
+                            answerQuestion(currentQuestion.questionId, opt.optionId);
+                            setSelectedOption(null);
+                          }, 200);
+                        }}
+                        className={`group w-full text-left px-6 py-4 rounded-[20px] text-sm font-bold transition-all border flex justify-between items-center ${
+                          isSelected
+                            ? 'bg-indigo-600/30 text-white border-indigo-500'
+                            : 'bg-white/5 text-gray-300 border-white/10 hover:bg-indigo-600/20 hover:text-white hover:border-indigo-500/50'
+                        }`}
+                      >
+                        <span>{opt.optionText}</span>
+                        <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${
+                          isSelected ? 'border-indigo-400' : 'border-white/20 group-hover:border-indigo-400'
+                        }`}>
+                          <div className={`rounded-full transition-all ${
+                            isSelected ? 'w-2.5 h-2.5 bg-indigo-400' : 'w-0 h-0 group-hover:w-2.5 group-hover:h-2.5 bg-indigo-400'
+                          }`} />
+                        </div>
+                      </motion.button>
+                    );
+                  })}
                 </div>
               )}
             </motion.div>
