@@ -98,46 +98,37 @@ export const ResultPage: React.FC = () => {
     // 添加导出模式的CSS类
     reportRef.current.classList.add('export-mode');
 
-    try {
-      // 等待CSS生效和图片加载
-      await new Promise(resolve => setTimeout(resolve, 300));
+    // 临时移除外部图片的src
+    const images = reportRef.current.querySelectorAll('img');
+    const originalSrcs: Map<HTMLImageElement, string> = new Map();
 
-      // 预加载所有图片
-      const images = reportRef.current.querySelectorAll('img');
-      await Promise.all(
-        Array.from(images).map(img => {
-          if (img.complete) return Promise.resolve();
-          return new Promise<void>((resolve) => {
-            const onLoad = () => resolve();
-            const onError = () => resolve();
-            img.addEventListener('load', onLoad, { once: true });
-            img.addEventListener('error', onError, { once: true });
-            setTimeout(() => resolve(), 3000);
-          });
-        })
-      );
+    images.forEach(img => {
+      if (img.src && img.src.startsWith('http') && !img.src.includes(window.location.hostname)) {
+        originalSrcs.set(img, img.src);
+        img.removeAttribute('src');
+        img.style.display = 'none';
+      }
+    });
+
+    try {
+      // 等待CSS生效
+      await new Promise(resolve => setTimeout(resolve, 300));
 
       const dataUrl = await toPng(reportRef.current, {
         backgroundColor: '#0F172A',
         pixelRatio: 2,
-        cacheBust: false,
-        skipFonts: false,
-        filter: (node) => {
-          // 跳过外部图片以避免跨域问题
-          if (node.tagName === 'IMG') {
-            const img = node as HTMLImageElement;
-            if (img.src && img.src.startsWith('http') && !img.src.includes(window.location.hostname)) {
-              return false;
-            }
-          }
-          return true;
-        },
       });
       setPosterImage(dataUrl);
     } catch (e) {
       console.error('生成海报失败:', e);
       alert(`生成海报失败: ${e instanceof Error ? e.message : '未知错误'}\n\n建议直接截图保存`);
     } finally {
+      // 恢复外部图片
+      originalSrcs.forEach((src, img) => {
+        img.src = src;
+        img.style.display = '';
+      });
+
       // 移除CSS类
       if (reportRef.current) {
         reportRef.current.classList.remove('export-mode');
