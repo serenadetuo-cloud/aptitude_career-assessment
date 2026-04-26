@@ -8,7 +8,7 @@
   },
   "dimensions": [
     "商业服务",
-    "健康服务",
+    "医疗健康",
     "教育培训",
     "文化艺术",
     "工程制造",
@@ -110,7 +110,7 @@
           "title": "中级",
           "positions": [
             "高级产品经理",
-            "产品高级经理"
+            "资深高级经理"
           ],
           "duration": "3-7年"
         },
@@ -3806,14 +3806,14 @@
     {
       "jobId": "clinical_doctor",
       "jobName": "临床医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -3867,7 +3867,7 @@
           "activity": "整理病历，更新电子病历系统"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合临床医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合临床医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -3957,14 +3957,14 @@
     {
       "jobId": "surgeon",
       "jobName": "外科医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4018,7 +4018,7 @@
           "activity": "学习新的手术技术和文献"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合外科医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合外科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4108,14 +4108,14 @@
     {
       "jobId": "pediatrician",
       "jobName": "儿科医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4169,7 +4169,7 @@
           "activity": "更新病历，准备明天的查房计划"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合儿科医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合儿科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4258,14 +4258,14 @@
     {
       "jobId": "psychiatrist",
       "jobName": "精神科医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4319,7 +4319,7 @@
           "activity": "记录治疗笔记，学习最新心理治疗方法"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合精神科医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合精神科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4408,14 +4408,14 @@
     {
       "jobId": "dentist",
       "jobName": "口腔医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4469,7 +4469,7 @@
           "activity": "消毒器械，整理诊室，学习新技术"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合口腔医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合口腔医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4558,14 +4558,14 @@
     {
       "jobId": "nurse",
       "jobName": "护士",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4619,31 +4619,28 @@
           "activity": "整理护理记录，准备交接班"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合护士这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合护士这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级护士",
-            "护士"
+            "护士",
+            "初级护士"
           ],
-          "duration": "0-3年"
+          "duration": "0-2年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级护士",
-            "资深护士"
+            "护师",
+            "主管护师"
           ],
-          "duration": "3-7年"
+          "duration": "3-5年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席护士",
-            "护士总监"
+            "副主任护师",
+            "主任护师"
           ],
-          "duration": "7年以上"
+          "duration": "6-10年+"
         }
       },
       "salaryRange": {
@@ -4706,14 +4703,14 @@
     {
       "jobId": "nurse_manager",
       "jobName": "护士长",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -4752,31 +4749,28 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合护士长这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合护士长这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级护士长",
-            "护士长"
+            "护士长",
+            "病区护士长"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级护士长",
-            "资深护士长"
+            "护理部副主任",
+            "护理部主任"
           ],
-          "duration": "3-7年"
+          "duration": "4-8年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席护士长",
-            "护士长总监"
+            "总护士长",
+            "护理部总监"
           ],
-          "duration": "7年以上"
+          "duration": "9-15年+"
         }
       },
       "salaryRange": {
@@ -4841,14 +4835,14 @@
     {
       "jobId": "pharmacist",
       "jobName": "药剂师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4902,7 +4896,7 @@
           "activity": "学习新药知识，更新药品信息"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合药剂师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合药剂师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4991,14 +4985,14 @@
     {
       "jobId": "clinical_pharmacist",
       "jobName": "临床药师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5052,7 +5046,7 @@
           "activity": "记录药学监护记录，学习临床药学文献"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合临床药师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合临床药师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5141,14 +5135,14 @@
     {
       "jobId": "medical_technician",
       "jobName": "医学检验师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5187,7 +5181,7 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合医学检验师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合医学检验师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5276,14 +5270,14 @@
     {
       "jobId": "radiologist",
       "jobName": "影像科医生",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5337,7 +5331,7 @@
           "activity": "学习影像诊断新技术和病例"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合影像科医生这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合影像科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5426,14 +5420,14 @@
     {
       "jobId": "rehabilitation_therapist",
       "jobName": "康复治疗师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "medium",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5487,7 +5481,7 @@
           "activity": "学习新的康复技术和方法"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合康复治疗师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合康复治疗师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5579,14 +5573,14 @@
     {
       "jobId": "psychologist",
       "jobName": "心理咨询师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "education"
       ],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -5640,7 +5634,7 @@
           "activity": "记录咨询笔记，学习心理学新理论"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合心理咨询师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合心理咨询师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5732,12 +5726,12 @@
     {
       "jobId": "health_manager",
       "jobName": "健康管理师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5791,7 +5785,7 @@
           "activity": "分析健康管理效果，优化方案"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合健康管理师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合健康管理师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5883,12 +5877,12 @@
     {
       "jobId": "nutritionist",
       "jobName": "营养师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5942,7 +5936,7 @@
           "activity": "学习营养学新知识，研究食物成分"
         }
       ],
-      "whyFitTemplate": "你的{健康服务}能力让你适合营养师这个岗位。",
+      "whyFitTemplate": "你的{医疗健康}能力让你适合营养师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -6034,8 +6028,8 @@
     {
       "jobId": "drug_researcher",
       "jobName": "药物研发工程师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6047,7 +6041,7 @@
           "targetScore": 88,
           "importance": "critical"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -6169,8 +6163,8 @@
     {
       "jobId": "medical_device_engineer",
       "jobName": "医疗器械工程师",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "engineering"
@@ -6182,7 +6176,7 @@
           "targetScore": 82,
           "importance": "critical"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6319,8 +6313,8 @@
     {
       "jobId": "biotech_researcher",
       "jobName": "生物技术研究员",
-      "industry": "健康服务",
-      "category": "健康服务",
+      "industry": "医疗健康",
+      "category": "医疗健康",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6332,7 +6326,7 @@
           "targetScore": 92,
           "importance": "critical"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6500,7 +6494,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -6918,7 +6912,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -7501,7 +7495,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8242,7 +8236,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8543,7 +8537,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8878,28 +8872,25 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合插画师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "插画师",
             "初级插画师"
           ],
-          "duration": "0-3年"
+          "duration": "0-2年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管插画师",
+            "资深插画师",
             "高级插画师"
           ],
-          "duration": "3-7年"
+          "duration": "3-5年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "插画师长",
-            "插画师主任"
+            "首席插画师",
+            "艺术总监"
           ],
-          "duration": "7年以上"
+          "duration": "6-10年+"
         }
       },
       "salaryRange": {
@@ -9025,28 +9016,25 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合摄影师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "摄影师",
-            "初级摄影师"
+            "摄影助理"
           ],
-          "duration": "0-3年"
+          "duration": "0-2年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管摄影师",
+            "资深摄影师",
             "高级摄影师"
           ],
-          "duration": "3-7年"
+          "duration": "3-5年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "摄影师长",
-            "摄影师主任"
+            "首席摄影师",
+            "摄影总监"
           ],
-          "duration": "7年以上"
+          "duration": "6-10年+"
         }
       },
       "salaryRange": {
@@ -9619,28 +9607,25 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合影视摄影师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "影视摄影师",
-            "初级影视摄影师"
+            "摄影助理"
           ],
-          "duration": "0-3年"
+          "duration": "0-2年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管影视摄影师",
-            "高级影视摄影师"
+            "摄影指导",
+            "资深摄影师"
           ],
-          "duration": "3-7年"
+          "duration": "3-6年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "影视摄影师长",
-            "影视摄影师主任"
+            "首席摄影师",
+            "视觉总监"
           ],
-          "duration": "7年以上"
+          "duration": "7-12年+"
         }
       },
       "salaryRange": {
@@ -9755,28 +9740,25 @@
       "whyFitTemplate": "你的{文化艺术}能力让你适合作家/编剧这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级作家/编剧",
-            "作家/编剧"
+            "编剧助理",
+            "初级编剧"
           ],
-          "duration": "0-3年"
+          "duration": "0-2年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级作家/编剧",
-            "资深作家/编剧"
+            "编剧",
+            "资深编剧"
           ],
-          "duration": "3-7年"
+          "duration": "3-6年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席作家/编剧",
-            "作家/编剧总监"
+            "首席编剧",
+            "文学策划"
           ],
-          "duration": "7年以上"
+          "duration": "7-12年+"
         }
       },
       "salaryRange": {
@@ -10456,7 +10438,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -10605,7 +10587,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -10905,7 +10887,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -11208,7 +11190,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -11361,7 +11343,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12699,7 +12681,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12850,7 +12832,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -13152,7 +13134,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -13489,28 +13471,25 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合公务员这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级公务员",
-            "公务员"
+            "科员",
+            "办事员"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级公务员",
-            "资深公务员"
+            "副科级",
+            "正科级"
           ],
-          "duration": "3-7年"
+          "duration": "4-8年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席公务员",
-            "公务员总监"
+            "副处级",
+            "正处级"
           ],
-          "duration": "7年以上"
+          "duration": "9-15年+"
         }
       },
       "salaryRange": {
@@ -13613,7 +13592,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -14386,28 +14365,25 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合警察这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级警察",
-            "警察"
+            "警员",
+            "四级警长"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级警察",
-            "资深警察"
+            "三级警长",
+            "二级警长"
           ],
-          "duration": "3-7年"
+          "duration": "4-8年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席警察",
-            "警察总监"
+            "一级警长",
+            "三级警督"
           ],
-          "duration": "7年以上"
+          "duration": "9-15年+"
         }
       },
       "salaryRange": {
@@ -14501,7 +14477,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -14534,28 +14510,25 @@
       "whyFitTemplate": "你的{公共服务}能力让你适合消防员这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
-            "初级消防员",
-            "消防员"
+            "消防员",
+            "四级消防士"
           ],
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "高级消防员",
-            "资深消防员"
+            "三级消防士",
+            "二级消防士"
           ],
-          "duration": "3-7年"
+          "duration": "4-8年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "首席消防员",
-            "消防员总监"
+            "一级消防士",
+            "消防指挥员"
           ],
-          "duration": "7年以上"
+          "duration": "9-15年+"
         }
       },
       "salaryRange": {
@@ -14649,7 +14622,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -15531,7 +15504,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -17013,7 +16986,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "健康服务": {
+        "医疗健康": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
