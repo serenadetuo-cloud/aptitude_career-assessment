@@ -8,7 +8,7 @@
   },
   "dimensions": [
     "商业服务",
-    "医疗健康",
+    "健康服务",
     "教育培训",
     "文化艺术",
     "工程制造",
@@ -3810,14 +3810,14 @@
     {
       "jobId": "clinical_doctor",
       "jobName": "临床医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -3871,7 +3871,7 @@
           "activity": "整理病历，更新电子病历系统"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合临床医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合临床医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -3961,14 +3961,14 @@
     {
       "jobId": "surgeon",
       "jobName": "外科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4022,7 +4022,7 @@
           "activity": "学习新的手术技术和文献"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合外科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合外科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4112,14 +4112,14 @@
     {
       "jobId": "pediatrician",
       "jobName": "儿科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4173,7 +4173,7 @@
           "activity": "更新病历，准备明天的查房计划"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合儿科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合儿科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4262,14 +4262,14 @@
     {
       "jobId": "psychiatrist",
       "jobName": "精神科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4323,7 +4323,7 @@
           "activity": "记录治疗笔记，学习最新心理治疗方法"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合精神科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合精神科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4412,14 +4412,14 @@
     {
       "jobId": "dentist",
       "jobName": "口腔医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.5,
           "minThreshold": 85,
           "targetScore": 95,
@@ -4473,7 +4473,7 @@
           "activity": "消毒器械，整理诊室，学习新技术"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合口腔医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合口腔医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4562,14 +4562,14 @@
     {
       "jobId": "nurse",
       "jobName": "护士",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4623,7 +4623,7 @@
           "activity": "整理护理记录，准备交接班"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合护士这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合护士这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4710,14 +4710,14 @@
     {
       "jobId": "nurse_manager",
       "jobName": "护士长",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -4756,7 +4756,7 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合护士长这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合护士长这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4845,14 +4845,14 @@
     {
       "jobId": "pharmacist",
       "jobName": "药剂师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -4906,7 +4906,7 @@
           "activity": "学习新药知识，更新药品信息"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合药剂师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合药剂师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -4995,14 +4995,14 @@
     {
       "jobId": "clinical_pharmacist",
       "jobName": "临床药师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5056,7 +5056,7 @@
           "activity": "记录药学监护记录，学习临床药学文献"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合临床药师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合临床药师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5145,14 +5145,14 @@
     {
       "jobId": "medical_technician",
       "jobName": "医学检验师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5191,7 +5191,7 @@
         "16:00-17:00 总结复盘，规划下一步",
         "17:00-18:00 学习提升，保持专业能力"
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合医学检验师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合医学检验师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5280,14 +5280,14 @@
     {
       "jobId": "radiologist",
       "jobName": "影像科医生",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.45,
           "minThreshold": 80,
           "targetScore": 90,
@@ -5341,7 +5341,7 @@
           "activity": "学习影像诊断新技术和病例"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合影像科医生这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合影像科医生这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5430,14 +5430,14 @@
     {
       "jobId": "rehabilitation_therapist",
       "jobName": "康复治疗师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [
         "medical"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5491,7 +5491,7 @@
           "activity": "学习新的康复技术和方法"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合康复治疗师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合康复治疗师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5583,14 +5583,14 @@
     {
       "jobId": "psychologist",
       "jobName": "心理咨询师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "education"
       ],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -5644,7 +5644,7 @@
           "activity": "记录咨询笔记，学习心理学新理论"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合心理咨询师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合心理咨询师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5736,12 +5736,12 @@
     {
       "jobId": "health_manager",
       "jobName": "健康管理师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5795,7 +5795,7 @@
           "activity": "分析健康管理效果，优化方案"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合健康管理师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合健康管理师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -5887,12 +5887,12 @@
     {
       "jobId": "nutritionist",
       "jobName": "营养师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "medium",
       "requiredMajors": [],
       "dimensionRequirements": {
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.4,
           "minThreshold": 75,
           "targetScore": 85,
@@ -5946,7 +5946,7 @@
           "activity": "学习营养学新知识，研究食物成分"
         }
       ],
-      "whyFitTemplate": "你的{医疗健康}能力让你适合营养师这个岗位。",
+      "whyFitTemplate": "你的{健康服务}能力让你适合营养师这个岗位。",
       "careerPath": {
         "junior": {
           "title": "初级",
@@ -6038,8 +6038,8 @@
     {
       "jobId": "drug_researcher",
       "jobName": "药物研发工程师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6051,7 +6051,7 @@
           "targetScore": 88,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.35,
           "minThreshold": 70,
           "targetScore": 82,
@@ -6173,8 +6173,8 @@
     {
       "jobId": "medical_device_engineer",
       "jobName": "医疗器械工程师",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "engineering"
@@ -6186,7 +6186,7 @@
           "targetScore": 82,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6323,8 +6323,8 @@
     {
       "jobId": "biotech_researcher",
       "jobName": "生物技术研究员",
-      "industry": "医疗健康",
-      "category": "医疗健康",
+      "industry": "健康服务",
+      "category": "健康服务",
       "professionalBarrier": "high",
       "requiredMajors": [
         "science"
@@ -6336,7 +6336,7 @@
           "targetScore": 92,
           "importance": "critical"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.3,
           "minThreshold": 65,
           "targetScore": 78,
@@ -6504,7 +6504,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -6922,7 +6922,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -7505,7 +7505,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8246,7 +8246,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -8547,7 +8547,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -10460,7 +10460,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -10609,7 +10609,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -10909,7 +10909,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -11212,7 +11212,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -11365,7 +11365,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12705,7 +12705,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -12856,7 +12856,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -13158,7 +13158,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -13619,7 +13619,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -14507,7 +14507,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.1,
           "minThreshold": 30,
           "targetScore": 45,
@@ -14655,7 +14655,7 @@
           "targetScore": 60,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -15537,7 +15537,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
@@ -17019,7 +17019,7 @@
           "targetScore": 50,
           "importance": "medium"
         },
-        "医疗健康": {
+        "健康服务": {
           "weight": 0.15,
           "minThreshold": 45,
           "targetScore": 60,
