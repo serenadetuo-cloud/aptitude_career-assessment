@@ -650,7 +650,11 @@
       "industry": "商业服务",
       "category": "商业服务",
       "professionalBarrier": "medium",
-      "requiredMajors": [],
+      "requiredMajors": [
+        "cs",
+        "business",
+        "science"
+      ],
       "dimensionRequirements": {
         "科研创新": {
           "weight": 0.35,
@@ -709,7 +713,6 @@
       "whyFitTemplate": "你的{科研创新}能力极强，逻辑思维和数据分析能力突出，{商业服务}能力让你能理解业务问题而不是只会做报表，这种技术能力加上业务理解，是优秀数据分析师的标配。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "数据分析师",
             "初级数据分析师"
@@ -717,18 +720,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管数据分析师",
-            "高级数据分析师"
+            "高级数据分析师",
+            "资深数据分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "数据分析师长",
-            "数据分析师主任"
+            "数据分析专家",
+            "数据分析总监"
           ],
           "duration": "7年以上"
         }
@@ -2823,7 +2824,6 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解商业逻辑，{科研创新}能力让你能做深度行业研究和数据分析，这种商业理解加上研究能力，能让你为公司提供有价值的战略建议。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "战略分析师",
             "初级战略分析师"
@@ -2831,18 +2831,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管战略分析师",
-            "高级战略分析师"
+            "高级战略分析师",
+            "资深战略分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "战略分析师长",
-            "战略分析师主任"
+            "战略分析专家",
+            "战略总监"
           ],
           "duration": "7年以上"
         }
@@ -2972,7 +2970,6 @@
       "whyFitTemplate": "你的{商业服务}能力让你能理解业务问题，{科研创新}能力让你能用数据分析找到答案，这种业务理解加上数据能力，能让你成为业务方最信任的数据伙伴。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "商业分析师",
             "初级商业分析师"
@@ -2980,18 +2977,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管商业分析师",
-            "高级商业分析师"
+            "高级商业分析师",
+            "资深商业分析师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "商业分析师长",
-            "商业分析师主任"
+            "商业分析专家",
+            "商业分析总监"
           ],
           "duration": "7年以上"
         }
@@ -5637,7 +5632,6 @@
       "whyFitTemplate": "你的{医疗健康}能力让你适合心理咨询师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "心理咨询师",
             "初级心理咨询师"
@@ -5645,18 +5639,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管心理咨询师",
+            "资深心理咨询师",
             "高级心理咨询师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "心理咨询师长",
-            "心理咨询师主任"
+            "督导级心理咨询师",
+            "心理咨询专家"
           ],
           "duration": "7年以上"
         }
@@ -7826,7 +7818,6 @@
       "whyFitTemplate": "你的{教育培训}能力让你适合教育咨询师这个岗位。",
       "careerPath": {
         "junior": {
-          "title": "初级",
           "positions": [
             "教育咨询师",
             "初级教育咨询师"
@@ -7834,18 +7825,16 @@
           "duration": "0-3年"
         },
         "mid": {
-          "title": "中级",
           "positions": [
-            "主管教育咨询师",
+            "资深教育咨询师",
             "高级教育咨询师"
           ],
           "duration": "3-7年"
         },
         "senior": {
-          "title": "高级",
           "positions": [
-            "教育咨询师长",
-            "教育咨询师主任"
+            "首席教育咨询师",
+            "教育咨询专家"
           ],
           "duration": "7年以上"
         }
@@ -11767,7 +11756,9 @@
       "industry": "工程制造",
       "category": "工程制造",
       "professionalBarrier": "medium",
-      "requiredMajors": [],
+      "requiredMajors": [
+        "engineering"
+      ],
       "dimensionRequirements": {
         "工程制造": {
           "weight": 0.4,

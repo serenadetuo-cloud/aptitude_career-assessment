@@ -223,8 +223,9 @@ export class AssessmentEngine {
     };
 
     this.jobs.forEach((job) => {
-      // 检查专业门槛
-      if (job.professionalBarrier === 'high' && job.requiredMajors.length > 0) {
+      // 检查专业门槛 - medium和high都需要检查
+      if ((job.professionalBarrier === 'high' || job.professionalBarrier === 'medium') &&
+          job.requiredMajors.length > 0) {
         // 将岗位的requiredMajors转换为标准格式
         const normalizedJobMajors = job.requiredMajors.map(m => majorMapping[m] || m);
         const hasRequiredMajor = normalizedJobMajors.some((major) =>
@@ -380,6 +381,34 @@ export class AssessmentEngine {
     const firstJob = topJobs[0]?.job;
     const jobCategory = firstJob?.category || dimension;
 
+    // 优先根据岗位类型判断,避免维度错配导致的描述不匹配
+    // 体制内岗位(警察/消防/公务员)
+    if (jobNames.some(j => j.includes('警察') || j.includes('消防') || j.includes('公务员'))) {
+      return {
+        title: '责任心强，原则性强',
+        description: `你的${dimension}能力得分${score}分，适合${jobNames[0]}这类需要强烈责任感和原则性的岗位。`,
+        example: `在${jobNames[0]}工作中，你会严格遵守规章制度，公正执法。比如处理一个案件时，你会严格按照法律程序，确保每个环节都有据可查，既保护当事人权益，也维护法律权威。这种原则性和责任感是${jobNames[0]}岗位的核心要求。`
+      };
+    }
+
+    // 医疗健康岗位
+    if (jobNames.some(j => j.includes('医生') || j.includes('护士') || j.includes('药剂') || j.includes('医师'))) {
+      return {
+        title: '专业严谨，注重循证',
+        description: `你的${dimension}能力得分${score}分，展现出${jobNames[0]}岗位所需的专业素养和严谨态度。`,
+        example: `在临床工作中，你不会凭感觉做判断。比如遇到一个症状，你会系统地问诊：什么时候开始的？有什么诱因？伴随症状是什么？然后结合检查结果和文献证据，给出诊断和治疗方案。这种循证思维确保每个决策都有依据，最大程度保障患者安全。`
+      };
+    }
+
+    // 教师岗位
+    if (jobNames.some(j => j.includes('教师') || j.includes('教育'))) {
+      return {
+        title: '善于引导和启发，而不是灌输',
+        description: `你的${dimension}能力得分${score}分，非常适合${jobNames[0]}这类需要传递知识和培养能力的岗位。`,
+        example: `在教学中，你不会照本宣科。比如讲一个复杂概念时，你会先问学生"你们觉得这个是什么意思？"通过提问引导他们思考，再用生活中的例子类比，最后总结核心要点。这种苏格拉底式的教学法让学生真正理解知识，而不是死记硬背。`
+      };
+    }
+
     // 根据维度、岗位类别和具体岗位名称生成针对性的优势描述
     // 商业服务维度 - 产品/运营类岗位
     if (dimension === '商业服务' && jobCategory === '商业服务' && jobNames.some(j => j.includes('产品') || j.includes('运营'))) {
@@ -439,18 +468,8 @@ export class AssessmentEngine {
       };
     }
 
-    // 公共服务维度 - 根据具体岗位类型细化
+    // 公共服务维度 - 其他公共服务岗位(体制内岗位已在前面处理)
     if (dimension === '公共服务') {
-      // 警察/消防/公务员等体制内岗位
-      if (jobNames.some(j => j.includes('警察') || j.includes('消防') || j.includes('公务员'))) {
-        return {
-          title: '责任心强，原则性强',
-          description: `你的公共服务能力得分${score}分，适合${jobNames[0]}这类需要强烈责任感和原则性的岗位。`,
-          example: `在${jobNames[0]}工作中，你会严格遵守规章制度，公正执法。比如处理一个案件时，你会严格按照法律程序，确保每个环节都有据可查，既保护当事人权益，也维护法律权威。这种原则性和责任感是${jobNames[0]}岗位的核心要求。`
-        };
-      }
-
-      // 其他公共服务岗位
       return {
         title: '责任心强，善于协调多方利益',
         description: `你的公共服务能力得分${score}分，适合${jobNames[0]}这类需要服务意识和协调能力的岗位。`,

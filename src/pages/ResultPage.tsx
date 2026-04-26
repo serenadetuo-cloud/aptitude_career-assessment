@@ -357,8 +357,7 @@ export const ResultPage: React.FC = () => {
                 <Trophy size={20} />
               </div>
               <h3 className="text-[22px] font-black text-white">
-                <span className="hide-in-export">TOP 5 推荐职业方向</span>
-                <span className="show-in-export hidden">TOP 3 推荐职业方向</span>
+                <span>TOP 3 推荐职业方向</span>
               </h3>
             </div>
 
