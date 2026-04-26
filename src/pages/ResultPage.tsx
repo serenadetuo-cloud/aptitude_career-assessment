@@ -150,7 +150,7 @@ export const ResultPage: React.FC = () => {
     >
       <div ref={reportRef} className="bg-gradient-to-br from-indigo-900/40 via-purple-900/20 to-[#0F172A] relative overflow-hidden">
         {/* Dark Header */}
-        <div className="relative px-6 pt-12 pb-8 flex flex-col items-center">
+        <div className="relative px-6 pt-12 pb-6 flex flex-col items-center">
           {/* Background effects */}
           <div className="absolute top-20 right-[-10%] w-72 h-72 bg-indigo-600/30 rounded-full blur-[100px]" />
           <div className="absolute top-40 left-[-10%] w-72 h-72 bg-purple-600/20 rounded-full blur-[100px]" />
@@ -224,7 +224,7 @@ export const ResultPage: React.FC = () => {
 
             <div className="h-[300px] md:h-[400px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <Chart data={radarData} margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
+                <Chart data={radarData} margin={{ top: 30, right: 80, bottom: 30, left: 80 }}>
                   <PolarGrid stroke="#334155" />
                   {/* @ts-ignore */}
                   <PolarAngleAxis
