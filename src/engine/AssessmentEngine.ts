@@ -143,50 +143,50 @@ export class AssessmentEngine {
     userMajors.forEach((major) => {
       switch (major) {
         case 'major_medical':
-          // 医学专业：强化健康服务维度
-          if (scores['健康服务'] > 30) {
-            weightedScores['健康服务'] = Math.min(100, Math.round(scores['健康服务'] * 1.5));
+          // 医学专业：轻微提升健康服务维度,但不强制
+          if (scores['健康服务'] > 50) {
+            weightedScores['健康服务'] = Math.min(100, Math.round(scores['健康服务'] * 1.15));
           }
           break;
 
         case 'major_cs':
-          // 计算机专业：强化科研创新维度
-          if (scores['科研创新'] > 40) {
-            weightedScores['科研创新'] = Math.min(100, Math.round(scores['科研创新'] * 1.3));
+          // 计算机专业：轻微提升科研创新维度
+          if (scores['科研创新'] > 50) {
+            weightedScores['科研创新'] = Math.min(100, Math.round(scores['科研创新'] * 1.15));
           }
           break;
 
         case 'major_engineering':
-          // 工程专业：强化工程制造维度
-          if (scores['工程制造'] > 35) {
-            weightedScores['工程制造'] = Math.min(100, Math.round(scores['工程制造'] * 1.4));
+          // 工程专业：轻微提升工程制造维度
+          if (scores['工程制造'] > 50) {
+            weightedScores['工程制造'] = Math.min(100, Math.round(scores['工程制造'] * 1.15));
           }
           break;
 
         case 'major_business':
-          // 商科专业：强化商业服务维度
-          if (scores['商业服务'] > 45) {
-            weightedScores['商业服务'] = Math.min(100, Math.round(scores['商业服务'] * 1.2));
+          // 商科专业：轻微提升商业服务维度
+          if (scores['商业服务'] > 50) {
+            weightedScores['商业服务'] = Math.min(100, Math.round(scores['商业服务'] * 1.15));
           }
           break;
 
         case 'major_art':
-          // 艺术专业：强化文化艺术维度
-          if (scores['文化艺术'] > 40) {
-            weightedScores['文化艺术'] = Math.min(100, Math.round(scores['文化艺术'] * 1.4));
+          // 艺术专业：轻微提升文化艺术维度
+          if (scores['文化艺术'] > 50) {
+            weightedScores['文化艺术'] = Math.min(100, Math.round(scores['文化艺术'] * 1.15));
           }
           break;
 
         case 'major_education':
-          // 教育专业：强化教育培训维度
-          if (scores['教育培训'] > 35) {
-            weightedScores['教育培训'] = Math.min(100, Math.round(scores['教育培训'] * 1.4));
+          // 教育专业：轻微提升教育培训维度
+          if (scores['教育培训'] > 50) {
+            weightedScores['教育培训'] = Math.min(100, Math.round(scores['教育培训'] * 1.15));
           }
           break;
 
         case 'major_science':
-          // 理工科专业：强化科研创新维度
-          if (scores['科研创新'] > 40) {
+          // 理工科专业：轻微提升科研创新维度
+          if (scores['科研创新'] > 50) {
             weightedScores['科研创新'] = Math.min(100, Math.round(scores['科研创新'] * 1.3));
           }
           break;
@@ -363,23 +363,19 @@ export class AssessmentEngine {
     const topDimension = sortedDimensions[0];
     const secondDimension = sortedDimensions[1];
 
-    const jobNames = topJobs.map(j => j.job.jobName).join('、');
-    const primaryCategory = topJobs[0]?.job.category || topDimension[0];
-
     // 根据最高分维度和推荐岗位生成第一个优势
-    const firstStrength = this.generateJobSpecificStrength(topDimension, topJobs, scores);
+    const firstStrength = this.generateJobSpecificStrength(topDimension, topJobs);
 
     // 根据第二高分维度生成第二个优势
-    const secondStrength = this.generateSecondaryStrength(secondDimension, topJobs, scores);
+    const secondStrength = this.generateSecondaryStrength(secondDimension, topJobs);
 
     return [firstStrength, secondStrength];
   }
 
-  private generateJobSpecificStrength(topDimension: [string, number], topJobs: JobMatch[], scores: DimensionScores): any {
+  private generateJobSpecificStrength(topDimension: [string, number], topJobs: JobMatch[]): any {
     const [dimension, score] = topDimension;
     const jobNames = topJobs.map(j => j.job.jobName);
-    const firstJob = topJobs[0]?.job;
-    const jobCategory = firstJob?.category || dimension;
+    const primaryCategory = topJobs[0]?.job?.category || dimension;
 
     // 优先根据岗位类型判断,避免维度错配导致的描述不匹配
     // 体制内岗位(警察/消防/公务员)
@@ -391,7 +387,7 @@ export class AssessmentEngine {
       };
     }
 
-    // 医疗健康岗位
+    // 健康服务岗位
     if (jobNames.some(j => j.includes('医生') || j.includes('护士') || j.includes('药剂') || j.includes('医师'))) {
       return {
         title: '专业严谨，注重循证',
@@ -410,22 +406,48 @@ export class AssessmentEngine {
     }
 
     // 根据维度、岗位类别和具体岗位名称生成针对性的优势描述
-    // 商业服务维度 - 产品/运营类岗位
-    if (dimension === '商业服务' && jobCategory === '商业服务' && jobNames.some(j => j.includes('产品') || j.includes('运营'))) {
-      return {
-        title: '产品思维强，能洞察用户需求',
-        description: `你的商业服务能力得分${score}分，特别适合${jobNames[0]}这类需要理解用户和业务的岗位。`,
-        example: `在做${jobNames[0]}相关工作时，你不会只关注表面需求。比如用户说"我想要一个搜索功能"，你会追问：为什么需要搜索？要找什么？现在怎么找的？通过深挖真实场景，你能设计出真正解决问题的方案，而不是堆砌功能。`
-      };
+    // 商业服务维度 - 产品/运营类岗位(增加多样化变体)
+    if (dimension === '商业服务' && primaryCategory === '商业服务' && jobNames.some(j => j.includes('产品') || j.includes('运营'))) {
+      const variants = [
+        {
+          title: '产品思维强，能洞察用户需求',
+          description: `你的商业服务能力得分${score}分，特别适合${jobNames[0]}这类需要理解用户和业务的岗位。`,
+          example: `在做${jobNames[0]}相关工作时，你不会只关注表面需求。比如用户说"我想要一个搜索功能"，你会追问：为什么需要搜索？要找什么？现在怎么找的？通过深挖真实场景，你能设计出真正解决问题的方案，而不是堆砌功能。`
+        },
+        {
+          title: '数据敏感度高，善于用数据驱动决策',
+          description: `你的商业服务能力得分${score}分，在${jobNames[0]}这类需要量化分析的岗位上会很有优势。`,
+          example: `在做${jobNames[0]}相关工作时，你不会凭直觉拍脑袋。比如要优化一个功能，你会先看数据：用户在哪个环节流失？停留时长多少？转化率如何？然后提出假设、设计AB测试、分析结果，用数据验证每个决策。这种严谨的方法论能大幅降低试错成本。`
+        },
+        {
+          title: '全局观强，能平衡多方诉求',
+          description: `你的商业服务能力得分${score}分，特别适合${jobNames[0]}这类需要协调资源的岗位。`,
+          example: `在做${jobNames[0]}相关工作时，你不会只站在自己角度思考。比如推进一个项目，你会同时考虑：用户要什么？技术能实现吗？商业价值在哪？老板关注什么指标？然后找到各方都能接受的平衡点，推动项目落地。`
+        }
+      ];
+      return variants[Math.floor(score) % variants.length];
     }
 
-    // 商业服务维度 - 销售/商务类岗位
-    if (dimension === '商业服务' && jobCategory === '商业服务' && jobNames.some(j => j.includes('销售') || j.includes('商务') || j.includes('客户'))) {
-      return {
-        title: '沟通能力强，善于建立信任',
-        description: `你的商业服务能力得分${score}分，在${jobNames[0]}这类需要对外沟通的岗位上会很有优势。`,
-        example: `在和客户沟通时，你不会急于推销产品，而是先建立信任。比如初次见面，你会花时间了解对方的业务痛点、决策流程、预算情况，找到双方的共同利益点，再提出针对性的解决方案。这种"先理解，再建议"的方式让客户觉得你是在帮他解决问题，而不是单纯卖东西。`
-      };
+    // 商业服务维度 - 销售/商务类岗位(增加多样化变体)
+    if (dimension === '商业服务' && primaryCategory === '商业服务' && jobNames.some(j => j.includes('销售') || j.includes('商务') || j.includes('客户'))) {
+      const variants = [
+        {
+          title: '沟通能力强，善于建立信任',
+          description: `你的商业服务能力得分${score}分，在${jobNames[0]}这类需要对外沟通的岗位上会很有优势。`,
+          example: `在和客户沟通时，你不会急于推销产品，而是先建立信任。比如初次见面，你会花时间了解对方的业务痛点、决策流程、预算情况，找到双方的共同利益点，再提出针对性的解决方案。这种"先理解，再建议"的方式让客户觉得你是在帮他解决问题，而不是单纯卖东西。`
+        },
+        {
+          title: '抗压能力强，目标导向明确',
+          description: `你的商业服务能力得分${score}分，非常适合${jobNames[0]}这类需要持续突破的岗位。`,
+          example: `在做${jobNames[0]}相关工作时，你不会因为几次拒绝就放弃。比如一个客户说"暂时不需要"，你会分析：是真的不需要，还是时机不对？预算不够还是决策链太长？然后调整策略，持续跟进。这种韧性让你能在高压环境下持续出业绩。`
+        },
+        {
+          title: '同理心强，能快速建立rapport',
+          description: `你的商业服务能力得分${score}分，在${jobNames[0]}这类需要人际互动的岗位上会很出彩。`,
+          example: `在和客户交流时，你能快速捕捉对方的情绪和关注点。比如客户说话犹豫，你会察觉到他可能有顾虑，主动问"您是不是担心XX？"这种敏锐的洞察力让客户觉得被理解，更愿意敞开心扉，加速成交。`
+        }
+      ];
+      return variants[Math.floor(score) % variants.length];
     }
 
     if (dimension === '教育培训') {
@@ -485,7 +507,7 @@ export class AssessmentEngine {
     };
   }
 
-  private generateSecondaryStrength(secondDimension: [string, number], topJobs: JobMatch[], scores: DimensionScores): any {
+  private generateSecondaryStrength(secondDimension: [string, number], topJobs: JobMatch[]): any {
     const [dimension, score] = secondDimension;
     const jobNames = topJobs.map(j => j.job.jobName).join('、');
 
@@ -498,9 +520,8 @@ export class AssessmentEngine {
   }
 
   generateDynamicWeaknesses(scores: DimensionScores, topJobs: JobMatch[]): any[] {
-    const sortedDimensions = Object.entries(scores).sort(([, a], [, b]) => b - a);
     const jobNames = topJobs.map(j => j.job.jobName);
-    const firstJob = topJobs[0]?.job;
+    void jobNames;
 
     const weaknesses = [];
 
@@ -516,18 +537,96 @@ export class AssessmentEngine {
       });
     }
 
-    // 第二个短板:实战经验
-    weaknesses.push({
-      title: `${jobNames[0]}领域的实战经验较少`,
-      description: `虽然你的能力测评结果不错,但可能还缺少${jobNames[0]}岗位所需的实际项目经验和行业理解。`,
-      improvements: [
-        `寻找${jobNames[0]}相关的实习机会,即使是短期实习也能快速积累经验`,
-        `做1-2个${jobNames[0]}相关的个人项目,完整走一遍工作流程,形成可展示的作品`,
-        `关注${jobNames[0]}领域的优秀案例,分析他们是如何解决问题的,学习实战思路`
-      ]
-    });
+    // 第二个短板:根据岗位特点个性化生成
+    const secondWeakness = this.generateSecondWeakness(jobNames[0]);
+    if (secondWeakness) {
+      weaknesses.push(secondWeakness);
+    }
 
     return weaknesses;
+  }
+
+  private generateSecondWeakness(jobName: string): any | null {
+    // 体制内/考试类岗位 - 短板是考试准备
+    const examBasedJobs = ['公务员', '警察', '消防员', '医生', '护士', '教师'];
+    if (examBasedJobs.some(j => jobName.includes(j))) {
+      return {
+        title: `应试能力和备考经验不足`,
+        description: `${jobName}岗位需要通过严格的考试选拔,但你可能还没有系统的备考经验和应试技巧。`,
+        improvements: [
+          `了解考试大纲和题型,购买官方教材和历年真题,制定3-6个月的备考计划`,
+          `加入备考社群或报班,获取最新考试资讯和高效学习方法`,
+          `每天至少投入3-4小时备考,做题+总结错题+模拟考试,形成应试节奏`
+        ]
+      };
+    }
+
+    // 学术研究类岗位 - 短板是科研训练
+    const researchJobs = ['科研人员', '研究员', '算法研究', '数据科学家'];
+    if (researchJobs.some(j => jobName.includes(j))) {
+      return {
+        title: `科研方法论和论文写作经验不足`,
+        description: `${jobName}岗位需要扎实的科研训练,但你可能还缺少系统的研究方法和学术写作能力。`,
+        improvements: [
+          `阅读该领域的顶级论文,学习研究者如何提出问题、设计实验、分析结果`,
+          `尝试复现一篇论文的实验,或参与导师/实验室的科研项目,体验完整的研究流程`,
+          `学习学术写作规范,练习撰写文献综述和研究报告`
+        ]
+      };
+    }
+
+    // 创意/艺术类岗位 - 短板是作品集
+    const creativeJobs = ['设计师', '插画师', '摄影师', '视频制作', '编剧', '导演', '演员', '音乐人'];
+    if (creativeJobs.some(j => jobName.includes(j))) {
+      return {
+        title: `作品集数量和质量需要提升`,
+        description: `${jobName}岗位主要看作品说话,但你可能还没有足够多、足够好的作品来展示你的能力和风格。`,
+        improvements: [
+          `确定你的创作方向和风格定位,专注一个细分领域持续输出`,
+          `每周完成1-2个作品,在小红书、B站等平台持续发布,积累粉丝和曝光`,
+          `主动向行业前辈请教,获得反馈并快速迭代,提升作品质量`
+        ]
+      };
+    }
+
+    // 技术/工程类岗位 - 短板是项目经验
+    const techJobs = ['工程师', '开发', '程序员', '架构师', '技术'];
+    if (techJobs.some(j => jobName.includes(j))) {
+      return {
+        title: `缺少完整的项目开发经验`,
+        description: `${jobName}岗位需要实际的项目经验,但你可能还没有独立完成过完整的开发项目。`,
+        improvements: [
+          `做1-2个个人项目:从需求分析到设计、开发、测试、部署,走完全流程`,
+          `参与开源项目或实习,学习团队协作、代码规范、版本管理等工程实践`,
+          `在GitHub上展示你的代码,写好README和技术文档,形成可展示的作品集`
+        ]
+      };
+    }
+
+    // 商业/管理类岗位 - 短板是商业sense
+    const businessJobs = ['产品', '运营', '市场', '销售', '商务', '管理', '咨询'];
+    if (businessJobs.some(j => jobName.includes(j))) {
+      return {
+        title: `商业敏感度和行业理解不够深入`,
+        description: `${jobName}岗位需要对商业逻辑和行业动态有敏锐的洞察,但你可能还缺少这方面的积累。`,
+        improvements: [
+          `关注${jobName}领域的行业报告、案例分析、大厂动态,建立商业sense`,
+          `分析3-5个成功产品/公司,拆解他们的商业模式、增长策略、竞争优势`,
+          `尝试做一个小项目(哪怕是校园创业),实践从0到1的完整商业流程`
+        ]
+      };
+    }
+
+    // 默认:实战经验(适用于其他岗位)
+    return {
+      title: `${jobName}领域的实战经验较少`,
+      description: `虽然你的能力测评结果不错,但可能还缺少${jobName}岗位所需的实际项目经验和行业理解。`,
+      improvements: [
+        `寻找${jobName}相关的实习机会,即使是短期实习也能快速积累经验`,
+        `做1-2个${jobName}相关的个人项目,完整走一遍工作流程,形成可展示的作品`,
+        `关注${jobName}领域的优秀案例,分析他们是如何解决问题的,学习实战思路`
+      ]
+    };
   }
 
   private analyzeJobDimensionGaps(topJobs: JobMatch[], scores: DimensionScores): Array<{dimension: string, targetScore: number, userScore: number, gap: number}> {
@@ -558,44 +657,44 @@ export class AssessmentEngine {
   private generateSpecificImprovements(dimension: string, jobName: string): string[] {
     const improvementMap: Record<string, string[]> = {
       '商业服务': [
-        `学习商业分析方法:阅读《精益创业》《增长黑客》等书籍,理解商业逻辑`,
         `分析3-5个${jobName}领域的成功案例,拆解他们的商业模式和增长策略`,
-        `尝试做一个小的商业项目(哪怕是校园创业),实践从0到1的完整流程`
+        `关注行业报告和大厂动态(36氪、人人都是产品经理),建立商业sense`,
+        `尝试做一个校园小项目:比如帮社团做活动策划、帮小店做线上推广,实践商业思维`
       ],
       '健康服务': [
-        `系统学习医学基础知识,可以通过Coursera等平台学习相关课程`,
-        `关注健康服务领域的前沿进展,阅读权威医学期刊和行业报告`,
-        `寻找医院或健康管理机构的实习机会,了解真实的临床或健康管理场景`
+        `通过B站、知乎、丁香园等平台学习医学基础知识和临床思维`,
+        `关注健康服务领域的前沿进展,阅读科普文章和行业报告`,
+        `争取医院见习机会(跟诊、观摩),或参与健康科普、义诊等志愿活动`
       ],
       '教育培训': [
-        `学习教育学和心理学基础理论,理解学习的本质和教学方法`,
-        `尝试做家教或线上辅导,实践"如何把知识讲清楚"`,
-        `观摩优秀教师的课堂,学习他们如何设计教学环节、引导学生思考`
+        `通过B站、知乎学习教育心理学基础(如何激发学习动机、如何设计教学环节)`,
+        `尝试做家教或线上辅导,实践"如何把知识讲清楚",积累教学经验`,
+        `观摩优秀教师的公开课(B站、学而思等平台),学习他们的教学设计和互动技巧`
       ],
       '文化艺术': [
-        `系统学习设计/艺术基础理论:色彩、构图、排版、视觉心理学`,
-        `每天做创意练习,比如"用3种方式表达同一个主题",训练创意思维`,
-        `建立作品集,持续输出作品并寻求反馈,在实践中提升审美和表达能力`
+        `通过B站、优设网学习设计基础:色彩、构图、排版、视觉心理学`,
+        `每天做小练习:临摹优秀作品、用不同风格表达同一主题,训练创意思维`,
+        `在小红书、站酷等平台发布作品,获取反馈并快速迭代`
       ],
       '工程制造': [
-        `学习${jobName}相关的核心技术和工具,通过实际项目掌握而不是只看教程`,
-        `参加技术社区或开源项目,学习工程师如何协作、如何写高质量代码`,
-        `做一个完整的工程项目:从需求分析到设计、开发、测试、部署,走完全流程`
+        `通过GitHub、技术博客学习${jobName}的核心技术,边学边做小项目`,
+        `参与开源项目或技术社区(如掘金、V2EX),学习工程实践和代码规范`,
+        `做1-2个完整项目:从需求到上线,形成可展示的作品集`
       ],
       '科研创新': [
-        `深入学习${jobName}领域的理论基础,不要浅尝辄止,要能推导公式、理解原理`,
-        `阅读该领域的顶级论文,学习研究者如何提出问题、设计实验、分析结果`,
-        `尝试复现一篇论文的实验,或者做一个小的研究项目,体验完整的科研流程`
+        `通过Coursera、B站系统学习${jobName}领域的理论基础,理解核心原理`,
+        `阅读该领域的经典论文和综述,学习研究者的思维方式`,
+        `尝试复现一篇论文的实验,或参与导师/实验室的科研项目`
       ],
       '公共服务': [
-        `了解公共政策和社会治理的基本理论,理解公共服务的特殊性`,
-        `参与志愿服务或公益项目,体验如何服务不同群体、协调多方利益`,
-        `关注社会热点问题,思考"如果我是决策者,会如何平衡效率、公平和可持续性"`
+        `通过公开课、书籍了解公共政策和社会治理的基本逻辑`,
+        `参与志愿服务或公益项目(社区服务、支教、环保活动),积累实践经验`,
+        `关注社会热点,思考不同群体的诉求和解决方案`
       ],
       '自主创业': [
-        `学习创业方法论:精益创业、商业模式画布、MVP验证`,
-        `尝试做一个小项目:从想法到产品到推广,体验创业的完整流程`,
-        `多和创业者交流,了解他们遇到的真实挑战和解决方案`
+        `通过播客、公众号学习创业方法论(精益创业、商业模式画布、MVP验证)`,
+        `尝试做一个校园小项目:摆摊、代购、活动策划,体验从0到1的过程`,
+        `多和创业者交流(校友、学长学姐),了解真实的挑战和经验`
       ]
     };
 
@@ -604,6 +703,47 @@ export class AssessmentEngine {
       `寻找${dimension}相关的实践机会,在实战中提升能力`,
       `向${dimension}领域的优秀从业者学习,了解行业最佳实践`
     ];
+  }
+
+  private getRealisticJobSearchTimeline(jobName: string): string {
+    // 医疗岗位 - 需要考证+规培,周期很长
+    const medicalJobs = ['临床医生', '外科医生', '儿科医生', '精神科医生', '口腔医生', '护士', '护士长'];
+    if (medicalJobs.some(j => jobName.includes(j))) {
+      return '目标:6-12个月内通过资格考试并找到规培/实习岗位(医疗岗位周期较长,需要耐心)';
+    }
+
+    // 教师/公务员 - 需要考试,有固定招考周期
+    const examJobs = ['教师', '公务员', '警察', '消防员'];
+    if (examJobs.some(j => jobName.includes(j))) {
+      return '目标:关注每年的招考公告(通常3-6月、9-11月),提前3-6个月备考';
+    }
+
+    // 金融/咨询 - 竞争激烈,周期较长
+    const competitiveJobs = ['投资', '咨询', '券商', '基金', '四大'];
+    if (competitiveJobs.some(j => jobName.includes(j))) {
+      return '目标:4-6个月内拿到offer(这些岗位竞争激烈,需要充分准备)';
+    }
+
+    // 创意/自由职业 - 看作品集,不是传统求职
+    const creativeJobs = ['设计师', '插画师', '摄影师', '视频制作', '自由撰稿人'];
+    if (creativeJobs.some(j => jobName.includes(j))) {
+      return '目标:3-6个月内接到第一批付费项目(创意类岗位看作品,不是传统投简历)';
+    }
+
+    // 技术岗位 - 相对标准化,周期适中
+    const techJobs = ['工程师', '开发', '程序员', '算法'];
+    if (techJobs.some(j => jobName.includes(j))) {
+      return '目标:2-3个月内拿到实习offer(技术岗位相对标准化,准备充分可以较快拿到机会)';
+    }
+
+    // 商业岗位 - 周期适中
+    const businessJobs = ['产品', '运营', '市场', '销售'];
+    if (businessJobs.some(j => jobName.includes(j))) {
+      return '目标:2-4个月内拿到实习offer(商业岗位看综合能力,需要一定时间积累)';
+    }
+
+    // 默认:3个月
+    return '目标:3个月内拿到实习offer';
   }
 
   generateDynamicActionPlan(scores: DimensionScores, topJobs: JobMatch[]): any {
@@ -771,7 +911,7 @@ export class AssessmentEngine {
         },
         {
           step: '开始投递并持续优化',
-          details: `投递策略:\n- 第一周:投递5-10家公司,测试简历和面试表现\n- 根据反馈优化:如果简历通过率低,改简历;如果面试挂了,复盘问题\n- 优先投递有实习转正机会的岗位,争取留用\n\n时间规划:\n- 目标:3个月内拿到实习offer\n- 如果1个月没有面试机会,说明简历或投递策略有问题,及时调整`
+          details: `投递策略:\n- 第一周:投递5-10家公司,测试简历和面试表现\n- 根据反馈优化:如果简历通过率低,改简历;如果面试挂了,复盘问题\n- 优先投递有实习转正机会的岗位,争取留用\n\n时间规划:\n- ${this.getRealisticJobSearchTimeline(jobNames[0])}\n- 如果超过预期时间还没有面试机会,说明简历或投递策略有问题,及时调整`
         }
       ]
     };
