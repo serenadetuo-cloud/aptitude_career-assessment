@@ -28,7 +28,7 @@ export const ResultPage: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
   const reportRef = useRef<HTMLDivElement>(null);
 
-  // 预加载二维码图片
+  // 预加载二维码图片和配置微信分享
   React.useEffect(() => {
     // 预加载微信二维码
     const wechatQr = new Image();
@@ -36,9 +36,26 @@ export const ResultPage: React.FC = () => {
 
     // 预加载分享二维码
     const shareQr = new Image();
-    const shareUrl = typeof window !== 'undefined' ? window.location.origin + '/aptitude_career-assessment' : '';
-    shareQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(shareUrl)}`;
-  }, []);
+    const shareUrl = typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '';
+    shareQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(shareUrl)}`;
+
+    // 配置微信分享(需要后端支持微信JS-SDK签名)
+    if (result && typeof window !== 'undefined' && (window as any).wx) {
+      const shareData = {
+        title: '职向力测评 - 发现你的职业可能性',
+        desc: `我刚刚测出最适合的职业是【${result.resultType}】，你也来测测吧！`,
+        link: window.location.href,
+        imgUrl: `${window.location.origin}${process.env.PUBLIC_URL}/logo192.png`
+      };
+
+      (window as any).wx.ready(() => {
+        // 分享给朋友
+        (window as any).wx.updateAppMessageShareData(shareData);
+        // 分享到朋友圈
+        (window as any).wx.updateTimelineShareData(shareData);
+      });
+    }
+  }, [result]);
 
   // 随机选择1位前辈（遍历所有推荐岗位,找到第一个有有效mentor的）
   const randomMentor = useMemo(() => {
@@ -149,9 +166,6 @@ export const ResultPage: React.FC = () => {
     }
   };
 
-  // 第一个推荐岗位
-  const topJob = result.topJobs[0];
-  const whyFitTop = topJob ? engine.generateWhyFit(topJob.job, result.dimensionScores) : '';
 
   return (
     <motion.div
@@ -234,9 +248,9 @@ export const ResultPage: React.FC = () => {
               <div className="h-1.5 w-12 bg-indigo-500 mx-auto rounded-full" />
             </div>
 
-            <div className="h-[300px] md:h-[400px] w-full">
+            <div className="h-[350px] md:h-[450px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <Chart data={radarData} margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
+                <Chart data={radarData} margin={{ top: 30, right: 70, bottom: 30, left: 70 }}>
                   <PolarGrid stroke="#334155" />
                   {/* @ts-ignore */}
                   <PolarAngleAxis
