@@ -13,10 +13,13 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    initialize().catch(err => {
-      console.error('初始化失败:', err);
-      alert('数据加载失败，请刷新页面重试');
-    });
+    console.log('App initializing...');
+    initialize()
+      .then(() => console.log('App initialized successfully'))
+      .catch(err => {
+        console.error('初始化失败:', err);
+        alert('数据加载失败，请刷新页面重试\n错误: ' + err.message);
+      });
   }, [initialize]);
 
   // Auto-navigate based on currentStep
